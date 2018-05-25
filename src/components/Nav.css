@@ -1,0 +1,11 @@
+.c24Logo{
+    float: left;
+    height: 6rem;
+}
+.rightSideNav{
+    float: right;
+}
+.navList {
+    display: inline-block;
+    margin: 1rem;
+}
