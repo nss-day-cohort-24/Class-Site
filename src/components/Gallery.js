@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 // import { Link } from 'react-router';
 import './Home.css';
-// import pink from './images/pink_swatch.jpg';
-// import green from './images/green_swatch.jpg';
-// import purple from './images/purple_swatch.jpg';
-// import yellow from './images/yellow_swatch.jpg';
+import pink from './images/pink_swatch.jpg';
+import green from './images/green_swatch.jpg';
+import purple from './images/purple_swatch.jpg';
+import yellow from './images/yellow_swatch.jpg';
 import amber from '../class-pics/amber';
 import arthur from '../class-pics/arthur';
 import ben from '../class-pics/ben';
