@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+
+
+body{
+    background-color: #fff1f0;
+    padding: 2em;
+}
+
+.heading {
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    font-family: 'Noto Sans', Helvetica, Arial, sans-serif;
+    font-size: 34px;
+}
