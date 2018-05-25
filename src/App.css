@@ -1,0 +1,72 @@
+/*
+
+-----COLORS-----
+
+Lightest Pink: #FFF1F0
+Normal Pink: #FFDFDC
+Dark Pink: FFBFBB
+Darkst Pink: #DD847F
+Black: #141414
+
+------FONT------
+
+Heading {
+    font-family: Noto-Sans
+    font-weight: 400;
+    font-size: 34px;
+    letter-spacing: .425em;
+}
+
+Name Heading {
+    font-family: Roboto
+    font-weight: 400;
+    font-size: 45px;
+    letter-spacing: .1em;
+    line-height: 50;
+}
+
+Sub-Heading {
+    font-family: Noto Sans
+    font-weight: 400;
+    font-size: 25px;
+    letter-spacing: .425em;
+}
+
+Nav Links {
+    font-family: Roboto
+    font-weight: 400;
+    font-size: 25px;
+    letter-spacing: .5em;
+}
+
+About Body {
+    font-family: Noto Sans
+    font-weight: 400;
+    font-size: 22px;
+    letter-spacing: .059em;
+}
+
+Tech Body {
+    font-family: Noto Sans
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: .024em;
+}
+
+-----BUTTON-----
+Action Button {
+    height: 90px;
+    width: 319px;
+    font-family: Roboto
+    font-size: 34;
+    font-weight: 400;
+    letter-spacing: .1em;
+    border: none;
+    text-transform: uppercase;
+}
+
+*/
+
+body{
+    background-color: #FFF1F0
+}
