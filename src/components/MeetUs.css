@@ -1,0 +1,43 @@
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.flex-item {
+    height: 130px;
+    margin: 1rem;
+  }
+  
+  
+
+.arrow {
+    /* margin-bottom: 2rem; */
+    padding-bottom: 3rem;
+    padding-left: .5rem;
+    margin: 3rem;
+    width: 8%;
+    position: relative;
+    -webkit-animation-name: down;  /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 3s;  /* Safari 4.0 - 8.0 */    
+    -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-fill-mode: backwards; /* Safari 4.0 - 8.0 */
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-name: down;
+    animation-duration: 2s;    
+    animation-delay: 3s;
+    animation-fill-mode: backwards;
+  }
+  
+  /* Safari 4.0 - 8.0 */
+@-webkit-keyframes down {
+    to {top: 0px;}
+    from {top: 50px;}
+  }
+  
+  @keyframes down {
+    from {top: 0px;}
+    to {top: 50px;}
+  }
