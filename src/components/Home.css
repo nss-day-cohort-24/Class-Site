@@ -27,7 +27,7 @@ main {
 
 h1 {
   font-size: 34px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   color: #141414;
   font-variant: small-caps;
   letter-spacing: 10px;
@@ -52,3 +52,7 @@ h1 {
   letter-spacing: 5px;
 }
 
+.unicorn {
+  width: 450px;
+  margin: 2rem;
+}
