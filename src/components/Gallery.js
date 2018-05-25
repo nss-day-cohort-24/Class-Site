@@ -5,17 +5,23 @@ import pink from './images/pink_swatch.jpg';
 import green from './images/green_swatch.jpg';
 import purple from './images/purple_swatch.jpg';
 import yellow from './images/yellow_swatch.jpg';
-// import amber from '../class-pics/amber';
-// import arthur from '../class-pics/arthur';
-// import ben from '../class-pics/ben';
-// import dan from '../class-pics/dan';
-// import dylan from '../class-pics/dylan';
-// import jeremy from '../class-pics/jeremy';
-// import jesie from '../class-pics/jesie';
-// import kelsey from '../class-pics/kelsey';
-// import laura from '../class-pics/laura';
-// import lindsay from '../class-pics/lindsay';
-// import mark from '../class-pics/mark';
+import amber from '../class-pics/amber.png';
+import arthur from '../class-pics/arthur.png';
+import ben from '../class-pics/ben.png';
+import dan from '../class-pics/dan.png';
+import dylan from '../class-pics/dylan.png';
+import jeremy from '../class-pics/jeremy.png';
+import jesie from '../class-pics/jesie.png';
+import kelsey from '../class-pics/kelsey.png';
+import laura from '../class-pics/laura.png';
+import lindsay from '../class-pics/lindsay.png';
+import marc from '../class-pics/mark.png';
+import meg from '../class-pics/meg.png';
+import melissa from '../class-pics/melissa.png';
+import million from '../class-pics/million.png';
+import phonetip from '../class-pics/phonthip.png';
+import ryan from '../class-pics/ryan.png';
+import sam from '../class-pics/sam.png';
 
 
 class Gallery extends Component {
