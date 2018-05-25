@@ -13,11 +13,11 @@ class Nav extends Component {
        <img src={C24Logo} alt="C24 Class Logo" className="c24Logo"/>
        <ul className="rightSideNav">
 
-          <li className="navList active">About </li>
-          <li className="navList">Meet </li>
-          <li className="navList">Tech </li>
-          <li className="navList">Meet </li>
-          <li className="navList">Case </li>
+          <li className="navList active">ABOUT </li>
+          <li className="navList">MEET </li>
+          <li className="navList">TECH </li>
+          <li className="navList">WORK </li>
+          <li className="navList">CASE </li>
           </ul>
       </Navbar>
     );

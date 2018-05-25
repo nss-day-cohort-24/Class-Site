@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans|Roboto');
 
 .d-flex{
     height: 100px;
@@ -6,17 +6,20 @@
 .c24Logo{
     float: left;
     height: 6rem;
+    margin: 1em;
 }
 .rightSideNav{
     float: right;
 }
 .navList {
     display: inline-block;
-    margin:0rem 3.2rem;
-    margin-top: 2.1rem;
-  font-size: 1.5rem;
+    margin:0rem 2rem;
+    margin-top: 2rem;
   color: #FFBFBB;
   font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    letter-spacing: .5em;
 
 }
 .active{
