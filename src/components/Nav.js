@@ -11,13 +11,14 @@ class Nav extends Component {
     return (
       <Navbar className="d-flex justify-content-between navBar">
        <img src={C24Logo} alt="C24 Class Logo" className="c24Logo"/>
-       <div className="rightSideNav">
+       <ul className="rightSideNav">
 
-          <li className="navList">About </li>
+          <li className="navList active">About </li>
           <li className="navList">Meet </li>
           <li className="navList">Tech </li>
+          <li className="navList">Meet </li>
           <li className="navList">Case </li>
-          </div>
+          </ul>
       </Navbar>
     );
   }
