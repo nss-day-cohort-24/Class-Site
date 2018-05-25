@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import '.././App.css';
 import './Nav.css';
 
-import C24Logo from  '.././images/C24Logo.png';
+import C24Logo from  '.././images/nss24-logo.svg';
 import { Navbar } from 'reactstrap';
 
 class Nav extends Component {
