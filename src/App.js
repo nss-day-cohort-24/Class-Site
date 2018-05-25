@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import './App.css';
 import HomeBody from './components/Home';
 import MeetUs from './components/MeetUs';
