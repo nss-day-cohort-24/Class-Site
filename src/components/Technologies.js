@@ -3,25 +3,36 @@ import './Technologies.css';
 
 class Technologies extends Component{
 
-getTech () {
-    fetch({
-            url: "./src/tech.json"
-        }).done(tech)
-            .fail(function (error) {
-            console.log("error", error);
-            });
-        
-        function tech(tech) {
-            console.log('did we make');
-            // data.forEach(function (item) {
-            //     `<div class="col-sm-3 technologies">
-            //     <center><a href="${item.link}" target="_blank"><img class="techs" src="${item.image}" alt="${item.name}" data-toggle="tooltip" data-placement="top" title="${item.name}"></a><br>
-            //     </center>
-            //     </div>`;
-            // });
-        };
-}
+    this.state = {
+        techLoaded: false
+    
+    }
 
+    componentDidMount = () => {
+        console.log("did mount");
+        this.getTech();
+    }
+
+
+getTech = () => {{
+    url: "./src/tech.json"
+}
+    .then(
+        (result) => {
+            this.setState({
+                techLoaded: true,
+                techResult: result
+            });
+            console.log("Checking Tech fetch results: ", this.techResult);
+        },
+        (error) => {
+            this.setState({
+                techLoaded: true,
+                error: true
+            });
+            console.log("ERROR fetching tech.json");
+        });
+}
     render(){
         return(
             <div>
