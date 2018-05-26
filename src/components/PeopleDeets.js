@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './PeopleDeetz.css';
+import './PeopleDeets.css';
 import email from './social/envelope.png';
 import github from './social/github.png';
 import linkedin from './social/linkedin-in.png';
