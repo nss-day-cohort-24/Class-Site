@@ -9,7 +9,7 @@ class Technologies extends Component{
     }
 
     componentDidMount = () => {
-        console.log("did mount");
+        console.log("tech did mount");
         this.getTech();
     }
 
@@ -20,7 +20,7 @@ getTech = () => {
         (data) => {
                 this.setState({
                 techLoaded: true,
-                techResult: data.results;
+                techResult: data
             });
             console.log("Checking Tech fetch results: ", this.state.techResult);
         },
@@ -45,18 +45,16 @@ getTech = () => {
         )} else if(!techLoaded) {
             return( 
                 <div>Loading...</div>
-        // )} else if(techLoaded){
-        // let techState = this.state.techResult;
-        // console.log('techState, result', techState, techResult)
-        // let techData = techResult.map((data,index) => (
-        //     <div id={index}>
-        //         <img width={200} height={200} src={data.image} alt={data.name} />
-        //     </div>
-        //     ))
-            )}else if(techLoaded){
+        )} else if(techLoaded){
+        let techState = this.state.techResult;
+        console.log('techState, result', techState, techResult)
+        let techData = techResult.map((data,index) => (
+            <div id={index}>
+                <img width={200} height={200} src={data.image} alt={data.name} />
+            </div>
+            ))
             return(
-            // <div>{techData}</div>
-            <div>returning</div>
+            <div>{techData}</div>
         )}
     }
 }
