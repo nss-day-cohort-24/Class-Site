@@ -1,0 +1,80 @@
+{
+    {
+    "tech": [
+      {
+        "name": "Javascript",
+        "image": "./img/techs/javascript.png",
+        "link": "https://www.javascript.com/"
+      },
+      {
+        "name": "jQuery",
+        "image": "./img/techs/jquery.png",
+        "link": "https://jquery.com/"
+      },
+      {
+        "name": "Git",
+        "image": "./img/techs/git.png",
+        "link": "https://git-scm.com"
+      },
+      {
+        "name": "Github",
+        "image": "./img/techs/github.png",
+        "link": "https://github.com/"
+      },
+      {
+        "name": "Grunt",
+        "image": "./img/techs/grunt.png",
+        "link": "https://gruntjs.com/"
+      },
+      {
+        "name": "HTML5",
+        "image": "./img/techs/html5.png",
+        "link": "https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5"
+      },
+      {
+        "name": "CSS3",
+        "image": "./img/techs/css3.png",
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3"
+      },
+      {
+        "name": "Sass",
+        "image": "./img/techs/sass.png",
+        "link": "https://sass-lang.com/"
+      },
+      {
+        "name": "Bootstrap",
+        "image": "./img/techs/bootstrap.png",
+        "link": "https://getbootstrap.com/"
+      },
+      {
+        "name": "Browserify",
+        "image": "./img/techs/browserify.png",
+        "link": "http://browserify.org/"
+      },
+      {
+        "name": "Firebase",
+        "image": "./img/techs/firebase.png",
+        "link": "https://firebase.google.com"
+      },
+      {
+        "name": "Materialize",
+        "image": "./img/techs/materialize.png",
+        "link": "http://materializecss.com/"
+      },
+      {
+        "name": "NPM",
+        "image": "./img/techs/npm.png",
+        "link": "https://www.npmjs.com/"
+      },
+      {
+        "name": "Visual Studio Code",
+        "image": "./img/techs/vsc.png",
+        "link": "https://code.visualstudio.com/"
+      },
+      {
+        "name": "ES lint",
+        "image": "./img/techs/eslint.png",
+        "link": "https://eslint.org/"
+      }
+    ]
+  }

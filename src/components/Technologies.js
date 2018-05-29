@@ -3,7 +3,7 @@ import './Technologies.css';
 
 class Technologies extends Component{
 
-    this.state = {
+    state = {
         techLoaded: false
     
     }
@@ -14,16 +14,15 @@ class Technologies extends Component{
     }
 
 
-getTech = () => {{
-    url: "./src/tech.json"
-}
+getTech = () => {
+    fetch("../src/tech.json")
     .then(
         (result) => {
-            this.setState({
+                this.setState({
                 techLoaded: true,
                 techResult: result
             });
-            console.log("Checking Tech fetch results: ", this.techResult);
+            console.log("Checking Tech fetch results: ", this.state.techResult);
         },
         (error) => {
             this.setState({
@@ -33,13 +32,34 @@ getTech = () => {{
             console.log("ERROR fetching tech.json");
         });
 }
+
+
     render(){
-        return(
-            <div>
-                <h2 className="heading text-center">Technologies Used</h2>
-            </div>
-        );
+        let {error, techLoaded, techResult} = this.state;
+
+        if(error) {
+            return (
+                <div>
+                    <div> Error: Technologies failed to load. Please refresh the page and try again.</div>
+                </div>
+        )} else if(!techLoaded) {
+            return( 
+                <div>Loading...</div>
+        // )} else if(techLoaded){
+        // let techState = this.state.techResult;
+        // console.log('techState, result', techState, techResult)
+        // let techData = techResult.map((data,index) => (
+        //     <div id={index}>
+        //         <img width={200} height={200} src={data.image} alt={data.name} />
+        //     </div>
+        //     ))
+            )}else if(techLoaded){
+            return(
+            // <div>{techData}</div>
+            <div>returning</div>
+        )}
     }
 }
+
 
 export default Technologies;
