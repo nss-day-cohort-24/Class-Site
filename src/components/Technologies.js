@@ -1,54 +1,32 @@
 import React, { Component } from 'react';
 import './Technologies.css';
+import data from './../tech.json';
 
 class Technologies extends Component{
 
     state = {
-        techLoaded: false
-    
-    }
+        techLoaded: false,
+        techInfo: data
+    };
 
     componentDidMount = () => {
         console.log("tech did mount");
-        this.getTech();
+        this.setState({
+            techLoaded: true
+        })
+        // console.log('techInfo', this.state.techInfo);
     }
 
 
-getTech = () => {
-    fetch("../src/tech.json")
-    .then(
-        (result) => {
-                this.setState({
-                techLoaded: true,
-                techResult: result
-            });
-            console.log("Checking Tech fetch results: ", this.state.techResult);
-        },
-        (error) => {
-            this.setState({
-                techLoaded: true,
-                error: true
-            });
-            console.log("ERROR fetching tech.json");
-        });
-}
-
-
     render(){
-        let {error, techLoaded, techResult} = this.state;
+        let {techLoaded, techInfo} = this.state;
 
-        if(error) {
-            return (
-                <div>
-                    <div> Error: Technologies failed to load. Please refresh the page and try again.</div>
-                </div>
-        )} else if(!techLoaded) {
+        if(!techLoaded) {
             return( 
                 <div>Loading...</div>
         )} else if(techLoaded){
-        let techState = this.state.techResult;
-        console.log('techState, result', techState, techResult)
-        let techData = techResult.map((data,index) => (
+            console.log('line 28', techInfo)
+        let techData = techInfo.tech.map((data,index) => (
             <div id={index}>
                 <img width={200} height={200} src={data.image} alt={data.name} />
             </div>
