@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.black {
+    color: #141414;
+}
+
+/* PeepDeetz */
+
+.picturediv {
+    margin-right: -10%;
+}
+
+.classpicture {
+    height: 60vh;
+}
+
+.peopledeetzbackground {
+    background-color: #FFDFDC;
+}
+
+.peopledeetzpage {
+    justify-content: center;
+    flex-direction: row;
+}
+
+.socialdiv {
+    margin-left: -3%;
+    margin-top: 22%;
+
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    color: #EED0CD;
+}
+
+.aboutdiv {
+    margin-left: -20%;
+    width: 25%;
+    border: 3px solid #FFBFBB;
+    min-width: 400px;
+}
+
+.class-h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+}
+
+.class-h3,
+.class-p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+/* phone */
+@media only screen and (max-width: 600px) {
+ .peopledeetzpage {
+     flex-direction: column;
+     min-width: 100vw;
+ }
+ 
+ .socialdiv {
+     flex-direction: row;
+     justify-content: center;
+     margin: 3%;
+     
+ }
+
+.aboutdiv {
+    border-top: 3px solid #FFBFBB;
+    border-bottom: 3px solid #FFBFBB;    
+    width: 100%;
+    margin: 0;
+}
+
+.classpicture {
+    width: 75%;
+    height: 75%;
+}
+
+ .picturediv {
+     margin: 0;
+     justify-content: center;
+     width: 100%;
+     margin-bottom: 0;
+ }
+
+ .icon {
+     transform: rotate(270deg);
+ }
+    
+}
+/* ipad portrait */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { 
+    
+.peopledeetzpage {
+     flex-direction: column;
+     justify-content: center;
+ }
+
+.aboutdiv {
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.classpicture {
+    width: 75%;
+    height: 75%;
+    margin: 0 auto 0 auto;
+}
+
+ .picturediv {
+     margin: auto;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+    }
+
+.socialdiv {
+    flex-direction: row;
+    justify-content: center;
+    margin: 3%;
+ }
+
+ .icon {
+     transform: rotate(270deg);
+ }
+    
+ }

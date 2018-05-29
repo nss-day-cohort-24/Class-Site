@@ -17,10 +17,10 @@ class Technologies extends Component{
 getTech = () => {
     fetch("../src/tech.json")
     .then(
-        (result) => {
+        (data) => {
                 this.setState({
                 techLoaded: true,
-                techResult: result
+                techResult: data.results;
             });
             console.log("Checking Tech fetch results: ", this.state.techResult);
         },
