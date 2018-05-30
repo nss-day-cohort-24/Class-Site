@@ -60,5 +60,6 @@ h1 {
 
 #gallery {
   height:80vh;
-  background-color: #DD847F;
+  background-color: #FFBFBB;
+  white-space: normal;
 }
