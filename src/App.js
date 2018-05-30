@@ -5,6 +5,8 @@ import HomeBody from './components/Home';
 import MeetUs from './components/MeetUs';
 import Nav from './components/Nav.js';
 import Technologies from './components/Technologies';
+import PeopleDeets from './components/PeopleDeets';
+import WyfyProj from './components/wyfyProj';
 
 class App extends Component {
   render() {
@@ -14,6 +16,7 @@ class App extends Component {
         <HomeBody />
         <MeetUs />
         <Technologies />
+        <WyfyProj />
       </div>
     );
   }
