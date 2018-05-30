@@ -1,34 +1,46 @@
 import React, { Component } from 'react';
 import './Technologies.css';
+import data from './../tech.json';
 
 class Technologies extends Component{
 
-getTech () {
-    fetch({
-            url: "./src/tech.json"
-        }).done(tech)
-            .fail(function (error) {
-            console.log("error", error);
-            });
-        
-        function tech(tech) {
-            console.log('did we make');
-            // data.forEach(function (item) {
-            //     `<div class="col-sm-3 technologies">
-            //     <center><a href="${item.link}" target="_blank"><img class="techs" src="${item.image}" alt="${item.name}" data-toggle="tooltip" data-placement="top" title="${item.name}"></a><br>
-            //     </center>
-            //     </div>`;
-            // });
-        };
-}
+    state = {
+        techLoaded: false,
+        techInfo: data
+    };
+
+    componentDidMount = () => {
+        console.log("tech did mount");
+        this.setState({
+            techLoaded: true
+        })
+        // console.log('techInfo', this.state.techInfo);
+    }
+
 
     render(){
-        return(
-            <div>
-                <h2 className="heading text-center">Technologies Used</h2>
-            </div>
-        );
+        let {techLoaded, techInfo} = this.state;
+
+        if(!techLoaded) {
+            return( 
+                <div>Loading...</div>
+        )} else if(techLoaded){
+            console.log('line 28', techInfo)
+        let techData = techInfo.tech.map((data,index) => (
+                <div className="col-sm-2 mx-auto my-3" id={index}>
+                    <img className="img-fluid" src={data.image} alt={data.name} />
+                </div>
+            ))
+            return(
+                <div>
+                    <div className="heading">Technologies</div>
+                    <div className="container-fluid row">
+                        {techData}
+                    </div>
+                </div>
+        )}
     }
 }
+
 
 export default Technologies;
