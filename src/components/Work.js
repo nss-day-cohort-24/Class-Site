@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import "../../node_modules/bootstrap/dist/css/bootstrap.css";
 import "./Work.css";
 import Filler from "./images/gray_swatch.jpg";
+import doLogo from "./images/doLogo.png";
+import wyfyLogo from "./images/wyfyLogo.png";
+import crimeCheckerLogo from "./images/crimeCheckerLogo.png";
 
 class Work extends Component {
     render(){
@@ -15,15 +18,15 @@ class Work extends Component {
 
                     <div className="row justify-content-center pb-5">
                         <div className="col-4-sm">
-                            <img src={Filler} alt="Filler" height="276" width="286"/>
+                            <img src={doLogo} alt="Filler" height="276" width="286"/>
                             <div className="head2 text-center">DO.</div>
                         </div>
                         <div className="col-4-sm text-center mx-3">
-                            <img src={Filler} alt="Filler" height="276" width="286"/>
+                            <img src={wyfyLogo} alt="Filler" height="276" width="286"/>
                             <div className="head2 text-center">WYFY</div>
                         </div>
                         <div className="col-4-sm text-center">
-                            <img src={Filler} alt="Filler" height="276" width="286"/>
+                            <img src={crimeCheckerLogo} alt="Filler" height="276" width="286"/>
                             <div className="head2 text-center">CRIME CHECKER</div>                        
                         </div>
                     </div>
