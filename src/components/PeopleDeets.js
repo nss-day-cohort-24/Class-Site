@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './PeopleDeetz.css';
+import './PeopleDeets.css';
 import email from './social/envelope.png';
 import github from './social/github.png';
 import linkedin from './social/linkedin-in.png';
@@ -12,7 +12,7 @@ class PeopleDeetz extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            imgSrc: lindsay
+            imgSrc: this.props.location.state.pic
         };
         this.funny = this.funny.bind(this);
         this.stopfunny = this.stopfunny.bind(this);
@@ -20,17 +20,18 @@ class PeopleDeetz extends Component {
 
     funny() {
         this.setState({
-            imgSrc: lindsaysilly
+            imgSrc: this.props.location.state.silly
         });
     }
 
     stopfunny() {
         this.setState({
-            imgSrc: lindsay
+            imgSrc: this.props.location.state.pic
         });
     }
 
     render() {
+        let data = this.props.location.state;
         return (
             <div className="peopledeetzbackground d-flex peopledeetzpage">
                 <div className="picturediv">
