@@ -56,3 +56,9 @@ h1 {
   width: 450px;
   margin: 2rem;
 }
+
+
+#gallery {
+  height:80vh;
+  background-color: #DD847F;
+}

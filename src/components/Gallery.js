@@ -16,6 +16,7 @@ import kelsey from '../class-pics/kelsey.png';
 import laura from '../class-pics/laura.png';
 import lindsay from '../class-pics/lindsay.png';
 import marc from '../class-pics/mark.png';
+import mike from '../class-pics/mike.png';
 import meg from '../class-pics/meg.png';
 import melissa from '../class-pics/melissa.png';
 import million from '../class-pics/million.png';
@@ -23,19 +24,21 @@ import phonetip from '../class-pics/phonthip.png';
 import ryan from '../class-pics/ryan.png';
 import sam from '../class-pics/sam.png';
 
-
-class Gallery extends Component {
-    render() {
+let Gallery = () => {
+    let classList = [amber, arthur, ben, dan, dylan, jeremy, jesie, kelsey, laura, lindsay, marc, mike, meg, melissa, million, phonetip, ryan, sam];
+    console.log(classList);
+    let gallery = classList.map((item, index) =>
+        <div key={index} className="p-2" style={{width: 10 + 'rem', height: 12 + 'rem'}}>
+            <img className="img-thumbnail" alt="" src={item}/>
+        </div>
+    )
         return(
-            <center><div className="flex-container">
-                <img className="flex-item" alt=" " src={pink}/>
-                <img className="flex-item" alt=" " src={green}/> 
-                <img className="flex-item" alt=" " src={purple}/> 
-                <img className="flex-item" alt=" " src={yellow}/>
-                <img className="flex-item" alt=" " src={pink}/>
-            </div></center>
+            <div id="gallery">
+                <div className="mt-5 pt-5 d-flex flex-row flex-wrap container justify-content-around">
+                    {gallery}
+                </div>
+            </div>
         )
-    }
 }
 
 export default Gallery;
