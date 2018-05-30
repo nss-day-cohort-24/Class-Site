@@ -8,14 +8,13 @@ import MeetUsMap from './MeetUs_Map';
 function MeetUs() {
     return(
 
-        <div>
+        <div className="meetUs">
             <img src={arrow} className="arrow" alt="arrow animation"/>
             <br />
             <MeetUsMap />
             <MeetUsMap />
             <MeetUsMap />
             <MeetUsMap />
-
         </div>
 
     )
