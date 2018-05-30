@@ -27,12 +27,17 @@ class Technologies extends Component{
         )} else if(techLoaded){
             console.log('line 28', techInfo)
         let techData = techInfo.tech.map((data,index) => (
-            <div id={index}>
-                <img width={200} height={200} src={data.image} alt={data.name} />
-            </div>
+                <div className="col-sm-2 mx-auto my-3" id={index}>
+                    <img className="img-fluid" src={data.image} alt={data.name} />
+                </div>
             ))
             return(
-            <div>{techData}</div>
+                <div>
+                    <div className="heading">Technologies</div>
+                    <div className="container-fluid row">
+                        {techData}
+                    </div>
+                </div>
         )}
     }
 }
