@@ -2,9 +2,10 @@ import React, { Component } from 'react';
 // import logo from './logo.svg';
 import '.././App.css';
 import './Nav.css';
-import { NavLink } from 'react-router-dom'
 import C24Logo from  '.././images/nss24-logo.svg';
 import { Navbar } from 'reactstrap';
+import { NavHashLink as NavLink } from 'react-router-hash-link';
+
 
 class Nav extends Component {
   render() {
@@ -14,8 +15,8 @@ class Nav extends Component {
        
        <ul className="rightSideNav">
           <li className="navList"><NavLink to='/About'> ABOUT </NavLink></li>
-          <li className="navList"><a href="#Meet">MEET</a> </li>
-          <li className="navList"><NavLink to='/Tech'>TECH</NavLink> </li>
+          <li className="navList"><NavLink to='/#Meet'>MEET</NavLink> </li>
+          <li className="navList"><NavLink to='/#Tech'>TECH</NavLink> </li>
           <li className="navList"><NavLink to='/Work'>WORK</NavLink> </li>
           </ul>
       </Navbar>
