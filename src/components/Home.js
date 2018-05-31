@@ -5,6 +5,7 @@ import Unicorn from '../images/unicorn.svg';
 import MeetUs from './MeetUs';
 import Technologies from './Technologies';
 import About from './About';
+import GroupPhoto from './GroupPhoto';
 
 
 function HomeBody() {
@@ -22,6 +23,7 @@ function HomeBody() {
         <About />
         <MeetUs />
         <Technologies />
+        <GroupPhoto />
         </div>
     )
 }
