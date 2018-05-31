@@ -53,27 +53,29 @@ class MeetUsMap extends Component {
         //     return <div>Loading...</div>
         } else if(!imagesLoaded){
             return(
-            <div>
-                <Route exact path='/' component={Gallery} />
-                <Route path='/amber' component={PeopleDeetz} />
-                <Route path='/arthur' component={PeopleDeetz} />
-                <Route path='/ben' component={PeopleDeetz} />
-                <Route path='/dan' component={PeopleDeetz} />
-                <Route path='/dylan' component={PeopleDeetz} />
-                <Route path='/jeremy' component={PeopleDeetz} />
-                <Route path='/jesie' component={PeopleDeetz} />
-                <Route path='/kelsey' component={PeopleDeetz} />
-                <Route path='/laura' component={PeopleDeetz} />
-                <Route path='/lindsay' component={PeopleDeetz} />
-                <Route path='/marc' component={PeopleDeetz} />
-                <Route path='/mike' component={PeopleDeetz} />
-                <Route path='/meg' component={PeopleDeetz} />
-                <Route path='/melissa' component={PeopleDeetz} />
-                <Route path='/million' component={PeopleDeetz} />
-                <Route path='/ryan' component={PeopleDeetz} />
-                <Route path='/sam' component={PeopleDeetz} />
-                <Route path='/taylor' component={PeopleDeetz} />
-                
+            <div id="detailsPage">
+                <div className="mt-5 pt-5">
+                    <Route exact path='/' component={Gallery} />
+                    <Route path='/amber' component={PeopleDeetz} />
+                    <Route path='/arthur' component={PeopleDeetz} />
+                    <Route path='/ben' component={PeopleDeetz} />
+                    <Route path='/dan' component={PeopleDeetz} />
+                    <Route path='/dylan' component={PeopleDeetz} />
+                    <Route path='/jeremy' component={PeopleDeetz} />
+                    <Route path='/jesie' component={PeopleDeetz} />
+                    <Route path='/kelsey' component={PeopleDeetz} />
+                    <Route path='/laura' component={PeopleDeetz} />
+                    <Route path='/lindsay' component={PeopleDeetz} />
+                    <Route path='/marc' component={PeopleDeetz} />
+                    <Route path='/mike' component={PeopleDeetz} />
+                    <Route path='/meg' component={PeopleDeetz} />
+                    <Route path='/melissa' component={PeopleDeetz} />
+                    <Route path='/million' component={PeopleDeetz} />
+                    <Route path='/ryan' component={PeopleDeetz} />
+                    <Route path='/sam' component={PeopleDeetz} />
+                    <Route path='/taylor' component={PeopleDeetz} />
+                    <Route path='/phonethip' component={PeopleDeetz} />
+                </div>
 
             </div>
             )

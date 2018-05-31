@@ -33,7 +33,7 @@ class PeopleDeetz extends Component {
     render() {
         let data = this.props.location.state;
         return (
-            <div className="peopledeetzbackground d-flex peopledeetzpage">
+            <div className="peopledeetzbackground d-flex peopledeetzpage mt-5 pt-5">
                 <div className="picturediv">
                     <img src={this.state.imgSrc} className="classpicture m-5" alt="classpicture" onMouseEnter={this.funny} onMouseLeave={this.stopfunny} />
                 </div>
@@ -45,8 +45,8 @@ class PeopleDeetz extends Component {
                     </p>
                 </div>
                 <div className="socialdiv d-flex">
-                    <a href="https://www.linkedin.com/in/mulhollen/" target="_blank" ><img src={github} alt="" className="icon m-2" /></a>
-                    <a href="https://github.com/mulhollen" target="_blank" ><img src={linkedin} alt="" className="icon m-2" /></a>
+                    <a href="https://www.linkedin.com/in/mulhollen/" target="_blank" ><img src={linkedin} alt="" className="icon m-2" /></a>
+                    <a href="https://github.com/mulhollen" target="_blank" ><img src={github} alt="" className="icon m-2" /></a>
                     <a href="" target="_blank" ><img src={email} alt="icon" className="icon m-2" /></a>
                     <a href="lindsaymulhollen.com" target="_blank" ><img src={personalsite} alt="icon" className="icon m-2" /></a>
                 </div>
