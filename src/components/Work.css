@@ -13,6 +13,13 @@
 }
 
 .head2{
+    color: #FFF1F0;
     font-size: 15px;
     letter-spacing: 9px;
+    text-decoration: none;
+}
+
+a:hover, a:active, a:visited {
+    color: #FFF1F0;
+    /* text-decoration: none; */
 }
