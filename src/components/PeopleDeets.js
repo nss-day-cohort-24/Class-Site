@@ -38,10 +38,10 @@ class PeopleDeetz extends Component {
                     <img src={this.state.imgSrc} className="classpicture m-5" alt="classpicture" onMouseEnter={this.funny} onMouseLeave={this.stopfunny} />
                 </div>
                 <div className="aboutdiv m-5 px-5 py-4 align-self-center">
-                    <h1 className="class-h1 black text-center mb-3">LINDSAY<br />MULHOLLEN</h1>
-                    <h3 className="class-h3 black text-center mb-3">"cool. coolcoolcoolcoolcool."</h3>
+                    <h1 className="class-h1 black text-center mb-3">{data.name}</h1>
+                    <h3 className="class-h3 black text-center mb-3">"{data.quote}"</h3>
                     <p className="class-p black">
-                        Inspired to get a start in development after encountering interactive museum exhibits, I'm excited to bring my unique background to the development world where I plan to make my mark with innovative thinking and motivation to tackle even the most unthinkable projects.
+                        {data.bio}
                     </p>
                 </div>
                 <div className="socialdiv d-flex">

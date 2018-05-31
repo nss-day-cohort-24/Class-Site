@@ -58,116 +58,154 @@ let classList = [
         name: "Amber",
         pic: amber,
         silly: sillyamber,
-        link: "/amber" 
+        link: "/amber",
+        bio: "Treehouse track-star gone professional UIX Front-End Developer built on the foundation of clean aesthetic design and human readable code. Believer in the user story and how to bring that to an interactive experience in my development.",
+        quote: "First, software ate the world, then the web ate software, now Javascript ate the web" 
 
     },
     {
         name: "Arthur",
         pic: arthur,
         silly: sillyarthur,
-        link: "/arthur"
+        link: "/arthur",
+        bio: "Treehouse track-star gone professional UIX Front-End Developer built on the foundation of clean aesthetic design and human readable code. Believer in the user story and how to bring that to an interactive experience in my development.",
+        quote: "First, software ate the world, then the web ate software, now Javascript ate the web"
     },
     {
         name: "Ben",
         pic: ben,
         silly: sillyben,
-        link: "/ben"
+        link: "/ben",
+        bio: "Treehouse track-star gone professional UIX Front-End Developer built on the foundation of clean aesthetic design and human readable code. Believer in the user story and how to bring that to an interactive experience in my development.",
+        quote: "First, software ate the world, then the web ate software, now Javascript ate the web"
     },
     {
         name: "Dan",
         pic: dan,
         silly: sillydan,
-        link: "/dan"
+        link: "/dan",
+        bio: "Treehouse track-star gone professional UIX Front-End Developer built on the foundation of clean aesthetic design and human readable code. Believer in the user story and how to bring that to an interactive experience in my development.",
+        quote: "First, software ate the world, then the web ate software, now Javascript ate the web"
     },
     {
         name: "Dylan",
         pic: dylan,
         silly: sillydylan,
-        link: "/dylan"
+        link: "/dylan",
+        bio: "Treehouse track-star gone professional UIX Front-End Developer built on the foundation of clean aesthetic design and human readable code. Believer in the user story and how to bring that to an interactive experience in my development.",
+        quote: "First, software ate the world, then the web ate software, now Javascript ate the web"
     },
     {
         name: "Jeremy",
         pic: jeremy,
         silly: sillyjeremy,
-        link: "/jeremy"
+        link: "/jeremy",
+        bio: "Treehouse track-star gone professional UIX Front-End Developer built on the foundation of clean aesthetic design and human readable code. Believer in the user story and how to bring that to an interactive experience in my development.",
+        quote: "First, software ate the world, then the web ate software, now Javascript ate the web"
     },
     {
         name: "Jesie",
         pic: jesie,
         silly: sillyjesie,
-        link: "/jesie"
+        link: "/jesie",
+        bio: "Treehouse track-star gone professional UIX Front-End Developer built on the foundation of clean aesthetic design and human readable code. Believer in the user story and how to bring that to an interactive experience in my development.",
+        quote: "First, software ate the world, then the web ate software, now Javascript ate the web"
     },
     {
         name: "Kelsey",
         pic: kelsey,
         silly: sillykelsey,
-        link: "/kelsey"
+        link: "/kelsey",
+        bio: "Treehouse track-star gone professional UIX Front-End Developer built on the foundation of clean aesthetic design and human readable code. Believer in the user story and how to bring that to an interactive experience in my development.",
+        quote: "First, software ate the world, then the web ate software, now Javascript ate the web"
     },
     {
         name: "Laura",
         pic: laura,
         silly: sillylaura,
-        link: "/laura"
+        link: "/laura",
+        bio: "Treehouse track-star gone professional UIX Front-End Developer built on the foundation of clean aesthetic design and human readable code. Believer in the user story and how to bring that to an interactive experience in my development.",
+        quote: "First, software ate the world, then the web ate software, now Javascript ate the web"
     },
     {
         name: "Lindsay",
         pic: lindsay,
         silly: sillylindsay,
-        link: "/lindsay"
+        link: "/lindsay",
+        bio: "Treehouse track-star gone professional UIX Front-End Developer built on the foundation of clean aesthetic design and human readable code. Believer in the user story and how to bring that to an interactive experience in my development.",
+        quote: "First, software ate the world, then the web ate software, now Javascript ate the web"
     },
     {
         name: "Marc",
         pic: marc,
         silly: sillymarc,
-        link: "/marc"
+        link: "/marc",
+        bio: "Treehouse track-star gone professional UIX Front-End Developer built on the foundation of clean aesthetic design and human readable code. Believer in the user story and how to bring that to an interactive experience in my development.",
+        quote: "First, software ate the world, then the web ate software, now Javascript ate the web"
     },
     {
         name: "Mike",
         pic: mike,
         silly: "",
-        link: "/mike"
+        link: "/mike",
+        bio: "Treehouse track-star gone professional UIX Front-End Developer built on the foundation of clean aesthetic design and human readable code. Believer in the user story and how to bring that to an interactive experience in my development.",
+        quote: "First, software ate the world, then the web ate software, now Javascript ate the web"
     },
     {
         name: "Meg",
         pic: meg,
         silly: sillymeg,
-        link: "/meg"
+        link: "/meg",
+        bio: "Treehouse track-star gone professional UIX Front-End Developer built on the foundation of clean aesthetic design and human readable code. Believer in the user story and how to bring that to an interactive experience in my development.",
+        quote: "First, software ate the world, then the web ate software, now Javascript ate the web"
     },
     {
         name: "Melissa",
         pic: melissa,
         silly: sillymelissa,
-        link: "/melissa"
+        link: "/melissa",
+        bio: "Treehouse track-star gone professional UIX Front-End Developer built on the foundation of clean aesthetic design and human readable code. Believer in the user story and how to bring that to an interactive experience in my development.",
+        quote: "First, software ate the world, then the web ate software, now Javascript ate the web"
     },
     {
         name: "Million",
         pic: million,
         silly: sillymillion,
-        link: "/million"
+        link: "/million",
+        bio: "Treehouse track-star gone professional UIX Front-End Developer built on the foundation of clean aesthetic design and human readable code. Believer in the user story and how to bring that to an interactive experience in my development.",
+        quote: "First, software ate the world, then the web ate software, now Javascript ate the web"
     },
     {
         name: "Phonethip",
         pic: phonetip,
         silly: sillyphonethip,
-        link: "/phonethip"
+        link: "/phonethip",
+        bio: "Treehouse track-star gone professional UIX Front-End Developer built on the foundation of clean aesthetic design and human readable code. Believer in the user story and how to bring that to an interactive experience in my development.",
+        quote: "First, software ate the world, then the web ate software, now Javascript ate the web"
     },
     {
         name: "Ryan",
         pic: ryan,
         silly: sillyryan,
-        link: "/ryan"
+        link: "/ryan",
+        bio: "Treehouse track-star gone professional UIX Front-End Developer built on the foundation of clean aesthetic design and human readable code. Believer in the user story and how to bring that to an interactive experience in my development.",
+        quote: "First, software ate the world, then the web ate software, now Javascript ate the web"
     },
     {
         name: "Sam",
         pic: sam,
         silly: sillysam,
-        link: "/sam"
+        link: "/sam",
+        bio: "Treehouse track-star gone professional UIX Front-End Developer built on the foundation of clean aesthetic design and human readable code. Believer in the user story and how to bring that to an interactive experience in my development.",
+        quote: "First, software ate the world, then the web ate software, now Javascript ate the web"
     },
     {
         name: "Taylor",
         pic: taylor,
         silly: sillytaylor,
-        link: "/taylor"
+        link: "/taylor",
+        bio: "Treehouse track-star gone professional UIX Front-End Developer built on the foundation of clean aesthetic design and human readable code. Believer in the user story and how to bring that to an interactive experience in my development.",
+        quote: "First, software ate the world, then the web ate software, now Javascript ate the web"
     },
 ];
 
@@ -185,7 +223,7 @@ let classList = [
 let Gallery = () => {
     let gallery = classList.map((item, index) => 
         <div key={index} className="p-2" style={{width: 10 + 'rem', height: 12 + 'rem'}}>
-            <Link to={{ pathname: item.link, state: { pic: item.pic, silly: item.silly, link: item.link, name: item.name} }}><img className="img-thumbnail" alt="" src={item.pic}/></Link>
+            <Link to={{ pathname: item.link, state: { pic: item.pic, silly: item.silly, link: item.link, name: item.name, bio: item.bio, quote: item.quote} }}><img className="img-thumbnail" alt="" src={item.pic}/></Link>
         </div>
     )
         return(
