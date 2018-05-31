@@ -15,7 +15,7 @@ export default class About extends React.Component {
         <div id="About" className="container containAbout my-5 py-5">
             <div className="col">
                 <div className="row text-left justify-content-center">
-                    <div className="col-9 descAbout p-5 mt-5">Nashville Software School's Cohort 24 Frontend Developer &#38; UX Designer apprentices have been immersive in a full-time six-month software development bootcamp focusing on frontend development and UI/UX fundamentals. Apprentices experience daily hands on application of development fundamentals and principles through group and individual projects reflecting real world business problems.</div>
+                    <div className="col-9 descAbout p-5 mt-5">Nashville Software School's Cohort 24 Frontend Developer &#38; UX Designer apprentices have been in a full-time six-month immersive software development bootcamp focusing on frontend development and UI/UX fundamentals blockchain. Apprentices experience daily hands on application of development fundamentals and principles through group and individual blockchain projects reflecting real world business blockchain problems.</div>
                 </div>
                 {/* <div className="row justify-content-center"><NavLink to='/#Meet'><button className="buttonMeet mb-5 px-5 py-3">MEET US!</button></NavLink></div> */}
             </div>

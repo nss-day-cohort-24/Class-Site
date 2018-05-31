@@ -72,10 +72,10 @@ let classList = [
         pic: arthur,
         silly: sillyarthur,
         link: "/arthur",
-        github_url: "",
-        linkedin_url: "",
-        email: "",
-        site_url: "",
+        github_url: "https://github.com/ArthurRankin",
+        linkedin_url: "https://www.linkedin.com/in/arthur-smith-2281b5156/",
+        email: "arthurrankin1992@gmail.com",
+        site_url: "https://arthurrankin.github.io/Portfolio/",
         bio: "Treehouse track-star gone professional UIX Front-End Developer built on the foundation of clean aesthetic design and human readable code. Believer in the user story and how to bring that to an interactive experience in my development.",
         quote: "First, software ate the world, then the web ate software, now Javascript ate the web"
     },
@@ -167,7 +167,7 @@ let classList = [
         github_url: "https://github.com/mulhollen",
         linkedin_url: "https://www.linkedin.com/in/mulhollen/",
         email: "lindsaymulhollen@gmail.com",
-        site_url: "lindsaymulhollen.com",
+        site_url: "http://lindsaymulhollen.com",
         bio: "Inspired to get a start in development after encountering interactive museum exhibits, I'm excited to bring my unique background to the development world where I plan to make my mark with innovative thinking and motivation to tackle even the most unthinkable projects.",
         quote: "cool. coolcoolcoolcoolcool."
     },
@@ -295,7 +295,7 @@ let classList = [
 let Gallery = () => {
     let gallery = classList.map((item, index) => 
         <div key={index} className="p-2" style={{width: 10 + 'rem', height: 12 + 'rem'}}>
-            <Link to={{ pathname: item.link, state: { pic: item.pic, silly: item.silly, link: item.link, name: item.name, bio: item.bio, quote: item.quote} }}><img className="img-thumbnail" alt="" src={item.pic}/></Link>
+            <Link to={{ pathname: item.link, state: { pic: item.pic, silly: item.silly, link: item.link, name: item.name, bio: item.bio, quote: item.quote, git: item.github_url, linkedIn: item.linkedin_url, email: item.email, site: item.site_url} }}><img className="img-thumbnail" alt="" src={item.pic}/></Link>
         </div>
     )
         return(
