@@ -9,6 +9,7 @@
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.1.4",
+    "react-scrollable-anchor": "^0.6.1",
     "react-strap": "0.0.1",
     "reactstrap": "^6.0.1"
   },
