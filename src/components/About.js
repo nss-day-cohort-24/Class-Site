@@ -12,7 +12,7 @@ export default class About extends React.Component {
         //     <h1>About</h1>
         //   <Col sm="12" md={{ size: 8, offset: 2 }}>{textContent}</Col>
         // </Row>
-        <div className="container containAbout">
+        <div id="About" className="container containAbout">
             <div className="col">
                 <div className="row text-left justify-content-center">
                     <div className="col-9 descAbout p-5 mt-5">Nashville Software School's Cohort 24 Frontend Developer &#38; UX Designer apprentices have been immersive in a full-time six-month software development bootcamp focusing on frontend development and UI/UX fundamentals. Apprentices experience daily hands on application of development fundamentals and principles through group and individual projects reflecting real world business problems.</div>
