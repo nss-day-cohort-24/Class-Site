@@ -13,7 +13,7 @@ function MeetUs() {
         <div id="Meet" className="meetUs">
             {/* <img src={arrow} className="arrow" alt="arrow animation"/>
             <br /> */}
-            <h2 className="pb-5">Nashville Software School Cohort 24</h2>
+            <h2 className="mb-5">Nashville Software School Cohort 24</h2>
             <MeetUsMap />
         </div>
     )

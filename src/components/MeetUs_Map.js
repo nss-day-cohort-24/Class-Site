@@ -54,7 +54,7 @@ class MeetUsMap extends Component {
         } else if(!imagesLoaded){
             return(
             <div id="detailsPage">
-                <div className="mt-5 pt-5">
+                <div className="">
                     <Route exact path='/' component={Gallery} />
                     <Route path='/amber' component={PeopleDeetz} />
                     <Route path='/arthur' component={PeopleDeetz} />
