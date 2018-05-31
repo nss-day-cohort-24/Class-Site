@@ -32,6 +32,7 @@ class Technologies extends Component{
                 </div>
             ))
             return(
+
                 <div id="Tech" className="tech">
                     <h2>Technologies Used</h2>
                     <h3>Development</h3>
