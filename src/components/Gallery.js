@@ -59,8 +59,12 @@ let classList = [
         pic: amber,
         silly: sillyamber,
         link: "/amber",
-        bio: "Treehouse track-star gone professional UIX Front-End Developer built on the foundation of clean aesthetic design and human readable code. Believer in the user story and how to bring that to an interactive experience in my development.",
-        quote: "First, software ate the world, then the web ate software, now Javascript ate the web" 
+        github_url: "https://github.com/amberjsharpe",
+        linkedin_url: "https://www.linkedin.com/in/amber-sharpe/",
+        email: "amberjsharpe@gmail.com",
+        site_url: "",
+        bio: "",
+        quote: "It's all happening" 
 
     },
     {
@@ -68,6 +72,10 @@ let classList = [
         pic: arthur,
         silly: sillyarthur,
         link: "/arthur",
+        github_url: "",
+        linkedin_url: "",
+        email: "",
+        site_url: "",
         bio: "Treehouse track-star gone professional UIX Front-End Developer built on the foundation of clean aesthetic design and human readable code. Believer in the user story and how to bring that to an interactive experience in my development.",
         quote: "First, software ate the world, then the web ate software, now Javascript ate the web"
     },
@@ -76,48 +84,72 @@ let classList = [
         pic: ben,
         silly: sillyben,
         link: "/ben",
-        bio: "Treehouse track-star gone professional UIX Front-End Developer built on the foundation of clean aesthetic design and human readable code. Believer in the user story and how to bring that to an interactive experience in my development.",
-        quote: "First, software ate the world, then the web ate software, now Javascript ate the web"
+        github_url: "https://github.com/Batkins44",
+        linkedin_url: "https://www.linkedin.com/in/batkins44",
+        email: "benjatkins13@gmail.com",
+        site_url: "https://batkins44.github.io/",
+        bio: "Gamer turned coder. I am a Nashville native and I very much enjoy creating the functionality within applications. I now dream in Javascript and still can't get enough of it.",
+        quote: "Keep your friends close, but your enemy's toaster"
     },
     {
         name: "Dan",
         pic: dan,
         silly: sillydan,
         link: "/dan",
-        bio: "Treehouse track-star gone professional UIX Front-End Developer built on the foundation of clean aesthetic design and human readable code. Believer in the user story and how to bring that to an interactive experience in my development.",
-        quote: "First, software ate the world, then the web ate software, now Javascript ate the web"
+        github_url: "https://github.com/danwatson00",
+        linkedin_url: "https://www.linkedin.com/in/danwatson00/",
+        email: "dan@danwatson.us",
+        site_url: "http://danwatson.us",
+        bio: "",
+        quote: ""
     },
     {
         name: "Dylan",
         pic: dylan,
         silly: sillydylan,
         link: "/dylan",
+        github_url: "https://github.com/Dylan21B",
+        linkedin_url: "https://www.linkedin.com/in/david-dylan-butzler-2191b5156/",
+        email: "giglett21@gmail.com",
+        site_url: "",
         bio: "Treehouse track-star gone professional UIX Front-End Developer built on the foundation of clean aesthetic design and human readable code. Believer in the user story and how to bring that to an interactive experience in my development.",
-        quote: "First, software ate the world, then the web ate software, now Javascript ate the web"
+        quote: "Just push it."
     },
     {
         name: "Jeremy",
         pic: jeremy,
         silly: sillyjeremy,
         link: "/jeremy",
-        bio: "Treehouse track-star gone professional UIX Front-End Developer built on the foundation of clean aesthetic design and human readable code. Believer in the user story and how to bring that to an interactive experience in my development.",
-        quote: "First, software ate the world, then the web ate software, now Javascript ate the web"
+        github_url: "https://github.com/jeremylukebennett",
+        linkedin_url: "https://www.linkedin.com/in/jlukebennett",
+        email: "jeremylukebennett@comcast.net",
+        site_url: "",
+        bio: "Inspired by the power of generative electronic music, I was quickly drawn into the world of programming. I’ve since found so much to engage with as a developer/designer, but mostly I value the process of programming itself, which allows me to continuously flex my curiosity and learn new skills constantly.",
+        quote: "They moved to the night cohort."
     },
     {
         name: "Jesie",
         pic: jesie,
         silly: sillyjesie,
         link: "/jesie",
-        bio: "Treehouse track-star gone professional UIX Front-End Developer built on the foundation of clean aesthetic design and human readable code. Believer in the user story and how to bring that to an interactive experience in my development.",
-        quote: "First, software ate the world, then the web ate software, now Javascript ate the web"
+        github_url: "github.com/jesieOldenburg",
+        linkedin_url: "linkedin.com/in/jesieoldenburg",
+        email: "kitglo46@gmail.com",
+        site_url: "jesieOldenburg.github.io",
+        bio: "",
+        quote: "More than one way to code a cat"
     },
     {
         name: "Kelsey",
         pic: kelsey,
         silly: sillykelsey,
         link: "/kelsey",
-        bio: "Treehouse track-star gone professional UIX Front-End Developer built on the foundation of clean aesthetic design and human readable code. Believer in the user story and how to bring that to an interactive experience in my development.",
-        quote: "First, software ate the world, then the web ate software, now Javascript ate the web"
+        github_url: "https://github.com/KelseyPintens",
+        linkedin_url: "https://www.linkedin.com/in/kelsey-pintens-a778a4a5/",
+        email: "ksepintens@gmail.com",
+        site_url: "kelseypintens.com",
+        bio: "As a new Nashville transplant, I was looking to further expand upon my industrial design career and decided to branch into user experience design. After attending a Nashville UX meetup, I was excited to learn about and apply to Nashville Software School. I cannot wait to continue my passion for design and develop both hardware and software products.",
+        quote: "Don't make me say html tag"
     },
     {
         name: "Laura",
@@ -132,46 +164,70 @@ let classList = [
         pic: lindsay,
         silly: sillylindsay,
         link: "/lindsay",
-        bio: "Treehouse track-star gone professional UIX Front-End Developer built on the foundation of clean aesthetic design and human readable code. Believer in the user story and how to bring that to an interactive experience in my development.",
-        quote: "First, software ate the world, then the web ate software, now Javascript ate the web"
+        github_url: "https://github.com/mulhollen",
+        linkedin_url: "https://www.linkedin.com/in/mulhollen/",
+        email: "lindsaymulhollen@gmail.com",
+        site_url: "lindsaymulhollen.com",
+        bio: "Inspired to get a start in development after encountering interactive museum exhibits, I'm excited to bring my unique background to the development world where I plan to make my mark with innovative thinking and motivation to tackle even the most unthinkable projects.",
+        quote: "cool. coolcoolcoolcoolcool."
     },
     {
         name: "Marc",
         pic: marc,
         silly: sillymarc,
         link: "/marc",
-        bio: "Treehouse track-star gone professional UIX Front-End Developer built on the foundation of clean aesthetic design and human readable code. Believer in the user story and how to bring that to an interactive experience in my development.",
-        quote: "First, software ate the world, then the web ate software, now Javascript ate the web"
+        github_url: "https://github.com/marcdledda",
+        linkedin_url: "https://www.linkedin.com/in/marcledda/",
+        email: "marcdl636@gmail.com",
+        site_url: "https://marcdledda.github.io/portfolio/",
+        bio: "I have always been curious on how technology worked, so it was not a surprised when I transitioned my focus from becoming a nurse to becoming a developer and designer. Following my curiosity, I enrolled at Nashville Software School, where I fell in love with development and design.",
+        quote: "¯\_(ツ)_/¯"
     },
     {
         name: "Mike",
         pic: mike,
         silly: sillymike,
         link: "/mike",
-        bio: "Treehouse track-star gone professional UIX Front-End Developer built on the foundation of clean aesthetic design and human readable code. Believer in the user story and how to bring that to an interactive experience in my development.",
-        quote: "First, software ate the world, then the web ate software, now Javascript ate the web"
+        github_url: "",
+        linkedin_url: "",
+        email: "",
+        site_url: "",
+        bio: "",
+        quote: ""
     },
     {
         name: "Meg",
         pic: meg,
         silly: sillymeg,
         link: "/meg",
-        bio: "Treehouse track-star gone professional UIX Front-End Developer built on the foundation of clean aesthetic design and human readable code. Believer in the user story and how to bring that to an interactive experience in my development.",
-        quote: "First, software ate the world, then the web ate software, now Javascript ate the web"
+        github_url: "https://github.com/megscholl",
+        linkedin_url: "https://www.linkedin.com/in/megscholl",
+        email: "meghan.e.scholl@gmail.com",
+        site_url: "",
+        bio: "",
+        quote: "yahfurshure"
     },
     {
         name: "Melissa",
         pic: melissa,
         silly: sillymelissa,
         link: "/melissa",
-        bio: "Treehouse track-star gone professional UIX Front-End Developer built on the foundation of clean aesthetic design and human readable code. Believer in the user story and how to bring that to an interactive experience in my development.",
-        quote: "First, software ate the world, then the web ate software, now Javascript ate the web"
+        github_url: "https://github.com/melissawheatley",
+        linkedin_url: "https://www.linkedin.com/in/melissawheatley/",
+        email: "melissa.c.wheatley@gmail.com",
+        site_url: "melissawheatley.com",
+        bio: "",
+        quote: "merh. I don't think this will be that hard"
     },
     {
         name: "Million",
         pic: million,
         silly: sillymillion,
         link: "/million",
+        github_url: "https://github.com/MillionInfinity",
+        linkedin_url: "https://www.linkedin.com/in/millionasseghegn/",
+        email: "milly7989@gmail.com",
+        site_url: "",        
         bio: "Treehouse track-star gone professional UIX Front-End Developer built on the foundation of clean aesthetic design and human readable code. Believer in the user story and how to bring that to an interactive experience in my development.",
         quote: "First, software ate the world, then the web ate software, now Javascript ate the web"
     },
@@ -180,30 +236,46 @@ let classList = [
         pic: phonetip,
         silly: sillyphonethip,
         link: "/phonethip",
-        bio: "Treehouse track-star gone professional UIX Front-End Developer built on the foundation of clean aesthetic design and human readable code. Believer in the user story and how to bring that to an interactive experience in my development.",
-        quote: "First, software ate the world, then the web ate software, now Javascript ate the web"
+        github_url: "https://github.com/PhonethipLiu",
+        linkedin_url: "www.linkedin.com/in/phonethip-liu-hobson",
+        email: "phonethip.liu@gmail.com",
+        site_url: "https://phonethipliu.github.io/",
+        bio: "Former news page designer passionate about learning new technology and expanding my skill sets to learn responsive design to become a UX/ UI front-end web developer.",
+        quote: "Git it. Got it. Good."
     },
     {
         name: "Ryan",
         pic: ryan,
         silly: sillyryan,
         link: "/ryan",
-        bio: "Treehouse track-star gone professional UIX Front-End Developer built on the foundation of clean aesthetic design and human readable code. Believer in the user story and how to bring that to an interactive experience in my development.",
-        quote: "First, software ate the world, then the web ate software, now Javascript ate the web"
+        github_url: "https://github.com/palindrome88",
+        linkedin_url: "https://www.linkedin.com/in/ryan-brisentine-175600a1/",
+        email: "brisentine.ryan@gmail.com",
+        site_url: "",
+        bio: "",
+        quote: ""
     },
     {
         name: "Sam",
         pic: sam,
         silly: sillysam,
         link: "/sam",
-        bio: "Treehouse track-star gone professional UIX Front-End Developer built on the foundation of clean aesthetic design and human readable code. Believer in the user story and how to bring that to an interactive experience in my development.",
-        quote: "First, software ate the world, then the web ate software, now Javascript ate the web"
+        github_url: "https://github.com/sjkimball",
+        linkedin_url: "www.linkedin.com/in/sjkimball",
+        email: "s.j.kimball@icloud.com",
+        site_url: "sjkimball.github.io",
+        bio: "I’ve lived in 9 different states. I’ve studied art, design, audio engineering, mechanical/electrical engineering, and web development. I’ve been a ditch digger, cook, bartender, tech educator, and tech support. I am a rolling stone.",
+        quote: "Buy the ticket, take the ride."
     },
     {
         name: "Taylor",
         pic: taylor,
         silly: sillytaylor,
         link: "/taylor",
+        github_url: "github.com/Taylor-Bailey",
+        linkedin_url: "www.linkedin.com/in/taylor-bailey-ux",
+        email: "taylorbailey@protonmail.com",
+        site_url: "taylor-ux.com",
         bio: "Treehouse track-star gone professional UIX Front-End Developer built on the foundation of clean aesthetic design and human readable code. Believer in the user story and how to bring that to an interactive experience in my development.",
         quote: "First, software ate the world, then the web ate software, now Javascript ate the web"
     },
