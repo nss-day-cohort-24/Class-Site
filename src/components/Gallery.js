@@ -37,7 +37,7 @@ import sillykelsey from '../class-pics/sillykelsey.png';
 import sillylaura from '../class-pics/sillylaura.png';
 import sillylindsay from '../class-pics/sillylindsay.png';
 import sillymarc from '../class-pics/sillymark.png';
-// import sillymike from '../class-pics/sillymike.png';
+import sillymike from '../class-pics/mikesilly.png';
 import sillymeg from '../class-pics/sillymeg.png';
 import sillymelissa from '../class-pics/sillymelissa.png';
 import sillymillion from '../class-pics/sillymillion.png';
@@ -146,7 +146,7 @@ let classList = [
     {
         name: "Mike",
         pic: mike,
-        silly: "",
+        silly: sillymike,
         link: "/mike",
         bio: "Treehouse track-star gone professional UIX Front-End Developer built on the foundation of clean aesthetic design and human readable code. Believer in the user story and how to bring that to an interactive experience in my development.",
         quote: "First, software ate the world, then the web ate software, now Javascript ate the web"
@@ -228,7 +228,7 @@ let Gallery = () => {
     )
         return(
             <div id="gallery">
-                <div className="mt-5 pt-5 d-flex flex-row flex-wrap container justify-content-around">
+                <div className="d-flex flex-row flex-wrap container justify-content-around align-items-center">
                     {gallery}
                 </div>
             </div>

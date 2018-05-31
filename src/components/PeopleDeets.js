@@ -33,7 +33,7 @@ class PeopleDeetz extends Component {
     render() {
         let data = this.props.location.state;
         return (
-            <div className="peopledeetzbackground d-flex peopledeetzpage mt-5 pt-5">
+            <div className="peopledeetzbackground d-flex peopledeetzpage">
                 <div className="picturediv">
                     <img src={this.state.imgSrc} className="classpicture m-5" alt="classpicture" onMouseEnter={this.funny} onMouseLeave={this.stopfunny} />
                 </div>
