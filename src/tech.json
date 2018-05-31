@@ -109,6 +109,31 @@
         "name": "Xtensio",
         "image": "./img/techs/xtensio.png",
         "link": "https://xtensio.com/"
+      },
+      {
+        "name": "Babel",
+        "image": "./img/techs/babel.jpg",
+        "link": "https://babeljs.io/"
+      },
+      {
+        "name": "Photoshop",
+        "image": "./img/techs/pslogo.png",
+        "link": "https://www.adobe.com/products/photoshop.html"
+      },
+      {
+        "name": "Illustator",
+        "image": "./img/techs/ailogo.png",
+        "link": "https://www.adobe.com/products/illustrator.html"
+      },
+      {
+        "name": "Trello",
+        "image": "./img/techs/trello-logo-blue.png",
+        "link": "https://trello.com/home"
+      },
+      {
+        "name": "Semantic UI",
+        "image": "./img/techs/semanticui.png",
+        "link": "https://semantic-ui.com/"
       }
     ]
   }
