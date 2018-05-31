@@ -1,10 +1,18 @@
-        @import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 .black {
     color: #141414;
 }
 
 /* PeepDeetz */
+
+a {
+ color: #FFBFBB;
+}
+
+a:hover {
+    color: #FFBFBB;
+}
 
 .picturediv {
     margin-right: -10%;
@@ -15,8 +23,7 @@
 }
 
 .peopledeetzbackground {
-    background-color: #FFDFDC;
-    height: 100vh;
+    background-color: #141414;
 }
 
 .peopledeetzpage {
@@ -44,17 +51,22 @@
     width: 25%;
     border: 3px solid #FFBFBB;
     min-width: 400px;
+    min-height: 300px;
 }
 
 .class-h1 {
     font-family: 'Roboto', sans-serif;
     font-size: 2rem;
+    color: #FFBFBB;
+    
 }
 
 .class-h3,
 .class-p {
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
+    color: #FFBFBB;
+    
 }
 
 /* phone */

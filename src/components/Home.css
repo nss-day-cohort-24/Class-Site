@@ -5,14 +5,14 @@
 
 /* MAIN DOC ELEMENTS */
 
-html {
+/* html {
   background-color: #FBD2D7;
 }
 body {
   margin: 0;
   padding: 0;
   font-family: 'Noto Sans', sans-serif;
-}
+} */
 main {
   align-content: center;
   align-items: center;
@@ -55,4 +55,16 @@ h1 {
 .unicorn {
   width: 450px;
   margin: 2rem;
+}
+
+
+#gallery {
+  height:100vh;
+  width: 100vw;
+  background-color: #FFBFBB;
+  white-space: normal;
+}
+
+#detailsPage {
+  height: 100vh;
 }
