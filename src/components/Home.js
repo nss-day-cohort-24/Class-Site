@@ -4,6 +4,7 @@ import '../App.css'
 import Unicorn from '../images/unicorn.svg';
 import MeetUs from './MeetUs';
 import Technologies from './Technologies';
+import About from './About';
 
 
 function HomeBody() {
@@ -18,6 +19,7 @@ function HomeBody() {
 
         </main>
 
+        <About />
         <MeetUs />
         <Technologies />
         </div>
