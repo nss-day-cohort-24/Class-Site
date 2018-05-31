@@ -5,6 +5,8 @@ import './MeetUs.css';
 import '../App.css';
 import arrow from './images/down.png';
 import MeetUsMap from './MeetUs_Map';
+// import { Route } from 'react-router-dom';
+
 
 function MeetUs() {
     return(
@@ -13,9 +15,6 @@ function MeetUs() {
             {/* <img src={arrow} className="arrow" alt="arrow animation"/>
             <br /> */}
             <h2 className="pb-5">Nashville Software School Cohort 24</h2>
-            <MeetUsMap />
-            <MeetUsMap />
-            <MeetUsMap />
             <MeetUsMap />
         </div>
 

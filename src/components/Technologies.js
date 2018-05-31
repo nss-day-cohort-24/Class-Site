@@ -25,7 +25,7 @@ class Technologies extends Component{
             return( 
                 <div>Loading...</div>
         )} else if(techLoaded){
-            console.log('line 28', techInfo)
+            // console.log('line 28', techInfo)
         let techData = techInfo.tech.map((data,index) => (
                 <div className="col-sm-1 mx-auto my-3" id={index}>
                     <img className="img-fluid filter" src={data.image} alt={data.name} />

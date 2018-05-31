@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+        @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 .black {
     color: #141414;
@@ -16,6 +16,7 @@
 
 .peopledeetzbackground {
     background-color: #FFDFDC;
+    height: 100vh;
 }
 
 .peopledeetzpage {
