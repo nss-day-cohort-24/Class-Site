@@ -1,11 +1,16 @@
 {
-    "tech": [
-      {
-        "name": "Javascript",
-        "image": "./img/techs/javascript.png",
-        "link": "https://www.javascript.com/"
-      },
-      {
+  "tech": [
+    {
+      "name": "Javascript",
+      "image": "./img/techs/javascript.png",
+      "link": "https://www.javascript.com/"
+    },
+    {
+      "name": "React",
+      "image": "./img/techs/reactlogo.png",
+      "link": "https://reactjs.org/"
+    },
+    {
         "name": "jQuery",
         "image": "./img/techs/jquery.png",
         "link": "https://jquery.com/"
@@ -74,6 +79,36 @@
         "name": "ES lint",
         "image": "./img/techs/eslint.png",
         "link": "https://eslint.org/"
+      },
+      {
+        "name": "React Styleguidist",
+        "image": "./img/techs/styleguidist.png",
+        "link": "https://github.com/styleguidist/react-styleguidist"
+      },
+      {
+        "name": "Reactstrap",
+        "image": "./img/techs/reactstraplogo.png",
+        "link": "https://reactstrap.github.io/"
+      },
+      {
+        "name": "XD",
+        "image": "./img/techs/adobexd.png",
+        "link": "https://www.adobe.com/products/xd/features.html"
+      },
+      {
+        "name": "Invision",
+        "image": "./img/techs/invision.png",
+        "link": "https://www.invisionapp.com/"
+      },
+      {
+        "name": "Sketch",
+        "image": "./img/techs/sketch.jpeg",
+        "link": "https://www.sketchapp.com/"
+      },
+      {
+        "name": "Xtensio",
+        "image": "./img/techs/xtensio.png",
+        "link": "https://xtensio.com/"
       }
     ]
   }
