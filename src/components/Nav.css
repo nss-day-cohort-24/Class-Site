@@ -8,6 +8,10 @@
     height: 6rem;
     margin: 1em 2.5em;
 }
+.noBorder{
+    border-bottom: none !important;
+
+}
 .rightSideNav{
     float: right;
 }
