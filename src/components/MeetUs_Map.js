@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 // import { Link } from 'react-router';
 import './Home.css';
-import Gallery from './Gallery';
 import { Route } from 'react-router-dom';
-import PeopleDeetz from './PeopleDeets';
+import Gallery from './Gallery';
 
 
 class MeetUsMap extends Component {
@@ -55,26 +54,7 @@ class MeetUsMap extends Component {
             return(
             <div id="detailsPage">
                 <div className="">
-                    <Route exact path='/' component={Gallery} />
-                    <Route path='/amber' component={PeopleDeetz} />
-                    <Route path='/arthur' component={PeopleDeetz} />
-                    <Route path='/ben' component={PeopleDeetz} />
-                    <Route path='/dan' component={PeopleDeetz} />
-                    <Route path='/dylan' component={PeopleDeetz} />
-                    <Route path='/jeremy' component={PeopleDeetz} />
-                    <Route path='/jesie' component={PeopleDeetz} />
-                    <Route path='/kelsey' component={PeopleDeetz} />
-                    <Route path='/laura' component={PeopleDeetz} />
-                    <Route path='/lindsay' component={PeopleDeetz} />
-                    <Route path='/marc' component={PeopleDeetz} />
-                    <Route path='/mike' component={PeopleDeetz} />
-                    <Route path='/meg' component={PeopleDeetz} />
-                    <Route path='/melissa' component={PeopleDeetz} />
-                    <Route path='/million' component={PeopleDeetz} />
-                    <Route path='/ryan' component={PeopleDeetz} />
-                    <Route path='/sam' component={PeopleDeetz} />
-                    <Route path='/taylor' component={PeopleDeetz} />
-                    <Route path='/phonethip' component={PeopleDeetz} />
+                    <Gallery />
                 </div>
 
             </div>
