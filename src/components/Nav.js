@@ -17,7 +17,6 @@ class Nav extends Component {
           <li className="navList">MEET </li>
           <li className="navList">TECH </li>
           <li className="navList">WORK </li>
-          <li className="navList">CASE </li>
           </ul>
       </Navbar>
     );
