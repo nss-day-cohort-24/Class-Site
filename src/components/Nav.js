@@ -14,7 +14,7 @@ class Nav extends Component {
        
        <ul className="rightSideNav">
           <li className="navList"><NavLink to='/About'> ABOUT </NavLink></li>
-          <li className="navList"><NavLink to='/Meet'>MEET</NavLink> </li>
+          <li className="navList"><a href="#Meet">MEET</a> </li>
           <li className="navList"><NavLink to='/Tech'>TECH</NavLink> </li>
           <li className="navList"><NavLink to='/Work'>WORK</NavLink> </li>
           </ul>

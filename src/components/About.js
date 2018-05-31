@@ -7,6 +7,7 @@ export default class About extends React.Component {
 
         return(
         <Row>
+            <h1>About</h1>
           <Col sm="12" md={{ size: 8, offset: 2 }}>{textContent}</Col>
         </Row>
         );

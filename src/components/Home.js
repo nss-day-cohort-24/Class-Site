@@ -1,11 +1,14 @@
 import React from 'react';
-import './Home.css';
+// import './Home.css';
 import '../App.css'
 import Unicorn from '../images/unicorn.svg';
+import MeetUs from './MeetUs';
+import Technologies from './Technologies';
 
 
 function HomeBody() {
     return (
+        <div>
         <main>
             {/* <h1>hello world<span className="amp-h2">!</span></h1> */}
             <img src={Unicorn} alt="A Silhouette of An Awesome Unicorn" className="unicorn"/>
@@ -14,6 +17,10 @@ function HomeBody() {
             </p>
 
         </main>
+
+        <MeetUs />
+        <Technologies />
+        </div>
     )
 }
 

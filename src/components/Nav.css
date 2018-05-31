@@ -24,6 +24,9 @@
     font-weight: 300;
     font-size: 1.2rem;
     letter-spacing: .5em;
+}
+.navList a {
+    color: #FFBFBB;
 
 }
 .active{
