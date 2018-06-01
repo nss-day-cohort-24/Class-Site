@@ -5,7 +5,7 @@
 
 -----COLORS-----
 
-Lightest Pink: #FFF1F0
+Lightest Pink: ##FFF9F8
 Normal Pink: #FFDFDC
 Dark Pink: FFBFBB
 Darkst Pink: #DD847F
@@ -71,37 +71,9 @@ Action Button {
 */
 
 .App {
-  /* text-align: center; */
   background-color: #FFF9F8;
   width: 100%;
-  /* padding: 0rem 3rem; */
-
-}
-
-/* .App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-} */
-
-/* .App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white; */
-/* } */
-
-/* .App-title {
-  font-size: 1.5em;
-} */
-
-/* .App-intro {
-  font-size: large;
-} */
-
-.tech {
-    background-color: #FFF1F0;
-    padding: 5rem 8rem;
-
+  /* padding: 0 3rem; */
 }
 
 h2 {
@@ -109,7 +81,6 @@ h2 {
     letter-spacing: .25rem;
     font-family: 'Noto Sans', Helvetica, Arial, sans-serif;
     font-size: 2rem;
-    text-align: center;
 }
 
 h3 {
@@ -124,4 +95,3 @@ h3 {
 .filter{
     filter: sepia(20%) grayscale(60%) brightness(90%) contrast(120%) brightness(110%);
     }
-

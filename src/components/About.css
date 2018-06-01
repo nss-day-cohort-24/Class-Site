@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans');
 
+.section__about {
+  width: 60%;
+  align-self: center;
+  margin: auto;
+}
+
 .containAbout {
     font-family: 'Noto Sans', sans-serif;
 }

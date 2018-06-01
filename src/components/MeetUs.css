@@ -53,24 +53,34 @@
     width: 8%;
     position: relative;
     -webkit-animation-name: down;  /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 3s;  /* Safari 4.0 - 8.0 */    
+    -webkit-animation-duration: 3s;  /* Safari 4.0 - 8.0 */
     -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
     -webkit-animation-fill-mode: backwards; /* Safari 4.0 - 8.0 */
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-name: down;
-    animation-duration: 2s;    
+    animation-duration: 2s;
     animation-delay: 3s;
     animation-fill-mode: backwards;
   }
-  
+
   /* Safari 4.0 - 8.0 */
 @-webkit-keyframes down {
     to {top: 0px;}
     from {top: 50px;}
   }
-  
+
   @keyframes down {
     from {top: 0px;}
     to {top: 50px;}
   }
+
+
+
+  /* @media only screen and (min-width: 768px) {
+        
+    .meetUs {
+      padding-bottom: 0em; 
+    }
+
+  }  */
