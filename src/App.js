@@ -7,16 +7,14 @@ import Process from './components/Process.js';
 import Technologies from './components/Technologies';
 import Main from './components/Main';
 import PeopleDeets from './components/PeopleDeets';
+import HomeBody from './components/Home';
+import MeetUs from './components/MeetUs';
 
 class App extends Component {
   render() {
     return (
         <div className="App">
           <Nav />
-          <HomeBody />
-          <MeetUs />
-          <Technologies />
-          <Process />
           <Main />
 
         </div>
