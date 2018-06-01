@@ -81,17 +81,29 @@
         "link": "https://eslint.org/"
       },
       {
-        "name": "React Styleguidist",
-        "image": "./img/techs/styleguidist.png",
-        "link": "https://github.com/styleguidist/react-styleguidist"
-      },
-      {
         "name": "Reactstrap",
         "image": "./img/techs/reactstraplogo.png",
         "link": "https://reactstrap.github.io/"
       },
       {
-        "name": "XD",
+        "name": "Babel",
+        "image": "./img/techs/babel.jpg",
+        "link": "https://babeljs.io/"
+      },      
+      {
+        "name": "Trello",
+        "image": "./img/techs/trello-logo-blue.png",
+        "link": "https://trello.com/home"
+      },
+      {
+        "name": "Semantic UI",
+        "image": "./img/techs/semanticui.png",
+        "link": "https://semantic-ui.com/"
+      }
+    ],
+    "design" : [
+      {
+        "name": "Adobe xD",
         "image": "./img/techs/adobexd.png",
         "link": "https://www.adobe.com/products/xd/features.html"
       },
@@ -106,14 +118,9 @@
         "link": "https://www.sketchapp.com/"
       },
       {
-        "name": "Xtensio",
-        "image": "./img/techs/xtensio.png",
-        "link": "https://xtensio.com/"
-      },
-      {
-        "name": "Babel",
-        "image": "./img/techs/babel.jpg",
-        "link": "https://babeljs.io/"
+        "name": "Illustator",
+        "image": "./img/techs/ailogo.png",
+        "link": "https://www.adobe.com/products/illustrator.html"
       },
       {
         "name": "Photoshop",
@@ -121,19 +128,14 @@
         "link": "https://www.adobe.com/products/photoshop.html"
       },
       {
-        "name": "Illustator",
-        "image": "./img/techs/ailogo.png",
-        "link": "https://www.adobe.com/products/illustrator.html"
+        "name": "Xtensio",
+        "image": "./img/techs/xtensio.png",
+        "link": "https://xtensio.com/"
       },
       {
-        "name": "Trello",
-        "image": "./img/techs/trello-logo-blue.png",
-        "link": "https://trello.com/home"
-      },
-      {
-        "name": "Semantic UI",
-        "image": "./img/techs/semanticui.png",
-        "link": "https://semantic-ui.com/"
+        "name": "React Styleguidist",
+        "image": "./img/techs/styleguidist.png",
+        "link": "https://github.com/styleguidist/react-styleguidist"
       }
     ]
   }
