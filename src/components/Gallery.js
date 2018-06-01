@@ -64,7 +64,7 @@ let classList = [
         email: "amberjsharpe@gmail.com",
         site_url: "",
         bio: "I'm a Designer and Developer with a curious mind and a passion for create meaningful user experiences. I love waking up knowing that my day will be filled with problem - solving, learning, and interacting with people. And as an added bonus, I make excellent coffee.",
-        quote: "It's all happening" 
+        quote: "It's all happening"
 
     },
     {
@@ -231,7 +231,7 @@ let classList = [
         github_url: "https://github.com/MillionInfinity",
         linkedin_url: "https://www.linkedin.com/in/millionasseghegn/",
         email: "milly7989@gmail.com",
-        site_url: "",        
+        site_url: "",
         bio: "Cohort 24 UX/UI Dev and Design",
         quote: "I am MilIion, But can't defined by million codes."
     },
@@ -298,13 +298,8 @@ let classList = [
 
 let Gallery = () => {
     let gallery = classList.map((item, index) =>
-<<<<<<< HEAD
         <div key={index} className="p-2 test">
             <Link to={{ pathname: item.link, state: { pic: item.pic, silly: item.silly, link: item.link, name: item.name, bio: item.bio, quote: item.quote, git: item.github_url, linkedIn: item.linkedin_url, email: item.email, site: item.site_url} }}><img className="img-thumbnail" alt="" src={item.pic}/></Link>
-=======
-        <div key={index} className="p-2" style={{width: 10 + 'rem', height: 12 + 'rem'}}>
-            <Link to={{ pathname: `/Class-Site${item.link}`, state: { pic: item.pic, silly: item.silly, link: item.link, name: item.name, bio: item.bio, quote: item.quote, git: item.github_url, linkedIn: item.linkedin_url, email: item.email, site: item.site_url} }}><img className="img-thumbnail" alt="" src={item.pic}/></Link>
->>>>>>> master
         </div>
     )
         return(
