@@ -199,7 +199,7 @@
         },
 
         {
-            "first-name": "Mellisa",
+            "first-name": "Melissa",
             "last-name": "Wheatley",
             "profile_image": "img/",
             "github_url": "https://github.com/melissawheatley",
@@ -207,6 +207,6 @@
             "email": "melissa.c.wheatley@gmail.com",
             "site_url": "melissawheatley.com",
             "bio": ""
-        },
+        }
     ]
 }

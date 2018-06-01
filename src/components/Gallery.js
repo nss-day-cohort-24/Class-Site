@@ -55,7 +55,7 @@ import sillytaylor from '../class-pics/sillytaylor.png';
 
 let classList = [
      {
-        name: "Amber",
+        name: "Amber Sharp",
         pic: amber,
         silly: sillyamber,
         link: "/amber",
@@ -68,7 +68,7 @@ let classList = [
 
     },
     {
-        name: "Arthur",
+        name: "Arthur Smith",
         pic: arthur,
         silly: sillyarthur,
         link: "/arthur",
@@ -80,7 +80,7 @@ let classList = [
         quote: "First, software ate the world, then the web ate software, now Javascript ate the web"
     },
     {
-        name: "Ben",
+        name: "Ben Atkins",
         pic: ben,
         silly: sillyben,
         link: "/ben",
@@ -92,7 +92,7 @@ let classList = [
         quote: "Keep your friends close, but your enemy's toaster"
     },
     {
-        name: "Dan",
+        name: "Dan Watson",
         pic: dan,
         silly: sillydan,
         link: "/dan",
@@ -104,7 +104,7 @@ let classList = [
         quote: ""
     },
     {
-        name: "Dylan",
+        name: "Dylan Butzler",
         pic: dylan,
         silly: sillydylan,
         link: "/dylan",
@@ -116,7 +116,7 @@ let classList = [
         quote: "Just push it."
     },
     {
-        name: "Jeremy",
+        name: "Jeremy Bennett",
         pic: jeremy,
         silly: sillyjeremy,
         link: "/jeremy",
@@ -128,7 +128,7 @@ let classList = [
         quote: "They moved to the night cohort."
     },
     {
-        name: "Jesie",
+        name: "Jesie Oldenburg",
         pic: jesie,
         silly: sillyjesie,
         link: "/jesie",
@@ -140,7 +140,7 @@ let classList = [
         quote: "More than one way to code a cat"
     },
     {
-        name: "Kelsey",
+        name: "Kelsey Pintens",
         pic: kelsey,
         silly: sillykelsey,
         link: "/kelsey",
@@ -152,7 +152,7 @@ let classList = [
         quote: "Don't make me say html tag"
     },
     {
-        name: "Laura",
+        name: "Laura Pinell",
         pic: laura,
         silly: sillylaura,
         link: "/laura",
@@ -160,7 +160,7 @@ let classList = [
         quote: "First, software ate the world, then the web ate software, now Javascript ate the web"
     },
     {
-        name: "Lindsay",
+        name: "Lindsay Mulhollen",
         pic: lindsay,
         silly: sillylindsay,
         link: "/lindsay",
@@ -172,7 +172,7 @@ let classList = [
         quote: "cool. coolcoolcoolcoolcool."
     },
     {
-        name: "Marc",
+        name: "Marc Ledda",
         pic: marc,
         silly: sillymarc,
         link: "/marc",
@@ -184,7 +184,7 @@ let classList = [
         quote: "¯\_(ツ)_/¯"
     },
     {
-        name: "Mike",
+        name: "Mike Kluge",
         pic: mike,
         silly: sillymike,
         link: "/mike",
@@ -196,7 +196,7 @@ let classList = [
         quote: ""
     },
     {
-        name: "Meg",
+        name: "Meg School",
         pic: meg,
         silly: sillymeg,
         link: "/meg",
@@ -208,7 +208,7 @@ let classList = [
         quote: "yahfurshure"
     },
     {
-        name: "Melissa",
+        name: "Melissa Wheatley",
         pic: melissa,
         silly: sillymelissa,
         link: "/melissa",
@@ -220,7 +220,7 @@ let classList = [
         quote: "merh. I don't think this will be that hard"
     },
     {
-        name: "Million",
+        name: "Million Asseghegn",
         pic: million,
         silly: sillymillion,
         link: "/million",
@@ -232,7 +232,7 @@ let classList = [
         quote: "First, software ate the world, then the web ate software, now Javascript ate the web"
     },
     {
-        name: "Phonethip",
+        name: "Phonethip Hobson",
         pic: phonetip,
         silly: sillyphonethip,
         link: "/phonethip",
@@ -244,7 +244,7 @@ let classList = [
         quote: "Git it. Got it. Good."
     },
     {
-        name: "Ryan",
+        name: "Ryan Brisentine",
         pic: ryan,
         silly: sillyryan,
         link: "/ryan",
@@ -256,7 +256,7 @@ let classList = [
         quote: ""
     },
     {
-        name: "Sam",
+        name: "Sam Kimball",
         pic: sam,
         silly: sillysam,
         link: "/sam",
@@ -268,7 +268,7 @@ let classList = [
         quote: "Buy the ticket, take the ride."
     },
     {
-        name: "Taylor",
+        name: "Taylor Bailey",
         pic: taylor,
         silly: sillytaylor,
         link: "/taylor",
