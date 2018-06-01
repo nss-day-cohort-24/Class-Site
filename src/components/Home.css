@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+
+/* MAIN DOC ELEMENTS */
+
+/* html {
+  background-color: #FBD2D7;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans', sans-serif;
+} */
+main {
+  align-content: center;
+  align-items: center;
+  align-self: center;
+  vertical-align: auto;
+  vertical-align: center;
+}
+
+
+
+/* CLASSES */
+
+h1 {
+  font-size: 34px;
+  font-family: 'Noto Sans', sans-serif;
+  color: #141414;
+  font-variant: small-caps;
+  letter-spacing: 10px;
+}
+
+
+.small-caps-p {
+  font-size: 25px;
+  font-family: 'Noto Sans', sans-serif;
+  color: #DD847F;
+  font-variant: small-caps;
+  letter-spacing: 6px;
+}
+
+.amp-h2 {
+  font-size: 23px;
+  letter-spacing: 5px;
+}
+
+.amp-p {
+  font-size: 17px;
+  letter-spacing: 5px;
+}
+
+.unicorn {
+  width: 450px;
+  margin: 2rem;
+}
+
+
+#gallery {
+  height:100vh;
+  width: 100vw;
+  white-space: normal;
+  padding-bottom: 10%;
+}
+
+#detailsPage {
+  height: 100vh;
+}

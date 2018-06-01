@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+
+.containAbout {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.descAbout {
+    border: 2px solid #141414;
+    line-height: 45px;
+    /* padding-left: 68px;
+    padding-right: 68px; */
+}
+
+.buttonMeet {
+    background-color: #141414;
+    color: #FFDFDC;
+    border: none;
+}

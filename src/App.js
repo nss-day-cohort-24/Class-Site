@@ -1,12 +1,18 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import './App.css';
+import Nav from './components/Nav.js';
+import Main from './components/Main';
+
+import PeopleDeets from './components/PeopleDeets';
 
 class App extends Component {
   render() {
     return (
-      <div>
-      </div>
+        <div className="App">
+          <Nav />
+          <Main />
+        </div>
     );
   }
 }
