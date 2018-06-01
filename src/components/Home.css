@@ -7,12 +7,19 @@
 
 /* html {
   background-color: #FBD2D7;
-}
-body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Noto Sans', sans-serif;
 } */
+
+
+body {
+  width: fit-content;
+  /* margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans', sans-serif; */
+}
+
+
+
+
 main {
   align-content: center;
   align-items: center;
