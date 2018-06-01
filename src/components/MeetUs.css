@@ -51,3 +51,13 @@
     from {top: 0px;}
     to {top: 50px;}
   }
+
+
+
+  @media only screen and (min-width: 768px) {
+        
+    .meetUs {
+      /* padding-bottom: 0em; */
+    }
+
+  } 
