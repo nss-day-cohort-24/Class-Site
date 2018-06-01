@@ -13,9 +13,9 @@ const Main = () => (
     <main>
       <Switch>
         <Route exact path='/Class-Site' component={HomeBody}/>
-        <Route path='/About' component={HomeBody}/> 
-        <Route path='/Meet' component={HomeBody} />
-        <Route path='/Tech' component={HomeBody}/>
+        <Route path='/Class-Site/#About' component={HomeBody}/> 
+        <Route path='/Class-Site/#Meet' component={HomeBody} />
+        <Route path='/Class-Site/Tech' component={HomeBody}/>
         <Route path='/Work' component={Work}/>
         <Route path='/amber' component={PeopleDeetz} />
         <Route path='/arthur' component={PeopleDeetz} />

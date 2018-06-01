@@ -4,7 +4,7 @@ import email from './social/envelope.png';
 import github from './social/github.png';
 import linkedin from './social/linkedin-in.png';
 import personalsite from './social/address-card.png';
-
+import { NavLink } from 'react-router-dom'
 import lindsay from '../class-pics/lindsay.png';
 import lindsaysilly from '../class-pics/sillylindsay.png';
 
@@ -34,6 +34,7 @@ class PeopleDeetz extends Component {
         let data = this.props.location.state;
         return (
             <div className="peopledeetzbackground d-flex peopledeetzpage">
+            <NavLink className="text-white" to='/Class-Site/#Meet'>BACK</NavLink>
                 <div className="picturediv">
                     <img src={this.state.imgSrc} className="classpicture m-5" alt="classpicture" onMouseEnter={this.funny} onMouseLeave={this.stopfunny} />
                 </div>
