@@ -111,7 +111,7 @@ let classList = [
         github_url: "https://github.com/Dylan21B",
         linkedin_url: "https://www.linkedin.com/in/david-dylan-butzler-2191b5156/",
         email: "giglett21@gmail.com",
-        site_url: "",
+        site_url: "https://dylan21b.github.io/",
         bio: "I  was first drawn to computers when I discovered Photoshop in High School. I continued my curiosity and found myself at the doors of NSS to further my passion for the user. After that experience, I am more than excited to see what doors I come to next!",
         quote: "Just push it."
     },
