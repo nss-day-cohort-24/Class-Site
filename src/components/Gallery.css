@@ -1,0 +1,14 @@
+.test {
+  display: inline-block;
+  object-fit: fill;
+  height: 10rem;
+  width: 10rem;
+}
+
+#gallery {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}

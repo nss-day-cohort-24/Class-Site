@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import PeopleDeetz from './PeopleDeets.js';
-import './Home.css';
+import './Gallery.css';
 import pink from './images/pink_swatch.jpg';
 import green from './images/green_swatch.jpg';
 import purple from './images/purple_swatch.jpg';
@@ -294,15 +294,13 @@ let classList = [
 
 let Gallery = () => {
     let gallery = classList.map((item, index) =>
-        <div key={index} className="p-2" style={{width: 10 + 'rem', height: 12 + 'rem'}}>
+        <div key={index} className="p-2 test">
             <Link to={{ pathname: item.link, state: { pic: item.pic, silly: item.silly, link: item.link, name: item.name, bio: item.bio, quote: item.quote, git: item.github_url, linkedIn: item.linkedin_url, email: item.email, site: item.site_url} }}><img className="img-thumbnail" alt="" src={item.pic}/></Link>
         </div>
     )
         return(
             <div id="gallery">
-                <div className="d-flex flex-row flex-wrap container justify-content-around align-items-center">
-                    {gallery}
-                </div>
+              {gallery}
             </div>
         )
 }
