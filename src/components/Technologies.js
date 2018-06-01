@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../App.css';
+import './Technologies.css';
 import data from './../tech.json';
 
 class Technologies extends Component{
@@ -22,7 +22,7 @@ class Technologies extends Component{
         let {techLoaded, techInfo} = this.state;
 
         if(!techLoaded) {
-            return( 
+            return(
                 <div>Loading...</div>
         )} else if(techLoaded){
             // console.log('line 28', techInfo)

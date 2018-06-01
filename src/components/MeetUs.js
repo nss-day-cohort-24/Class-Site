@@ -10,12 +10,12 @@ import MeetUsMap from './MeetUs_Map';
 
 function MeetUs() {
     return(
-        <div id="Meet" className="meetUs">
+        <section id="Meet" className="meetUs">
             {/* <img src={arrow} className="arrow" alt="arrow animation"/>
             <br /> */}
-            <h2 className="mb-5">Nashville Software School Cohort 24</h2>
+            <h2>Nashville Software School Cohort 24</h2>
             <MeetUsMap />
-        </div>
+        </section>
     )
 }
 

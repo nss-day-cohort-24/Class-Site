@@ -8,6 +8,7 @@ export default class About extends React.Component {
         let textContent = this.props.text;
 
         return(
+<<<<<<< HEAD
         // <Row>
         //     <h1>About</h1>
         //   <Col sm="12" md={{ size: 8, offset: 2 }}>{textContent}</Col>
@@ -20,6 +21,11 @@ export default class About extends React.Component {
                 {/* <div className="row justify-content-center"><NavLink to='/#Meet'><button className="buttonMeet mb-5 px-5 py-3">MEET US!</button></NavLink></div> */}
             </div>
         </div>
+=======
+          <section className="text-left justify-content-center section__about">
+              <p className="col descAbout p-5 mt-5">Nashville Software School's Cohort 24 Front-End Developer &#38; UX Designer apprentices have been in a full-time six-month immersive software development bootcamp focusing on Front-End development and UI/UX fundamentals. Apprentices experience daily hands on application of development fundamentals and principles through group and individual projects reflecting real world business problems.</p>
+          </section>
+>>>>>>> master
         );
     }
 }
