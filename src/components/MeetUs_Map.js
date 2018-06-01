@@ -54,7 +54,7 @@ class MeetUsMap extends Component {
             return(
                 <div>
             <div id="detailsPage">
-                <div className="">
+                <div>
                     <Gallery />
                 </div>
                 </div>

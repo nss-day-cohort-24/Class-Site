@@ -71,41 +71,16 @@ Action Button {
 */
 
 .App {
-  text-align: center;
-  background-color: #FFDFDC;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-.tech {
-    background-color: #FFF1F0;
-    padding: 5em 8em;
-
+  background-color: #FFF1F0;
+  width: 100%;
+  padding: 0 3rem;
 }
 
 h2 {
     text-transform: uppercase;
     letter-spacing: .2em;
     font-family: 'Noto Sans', Helvetica, Arial, sans-serif;
-    font-size: 34px;
+    font-size: 2rem;
 }
 
 h3 {
@@ -120,6 +95,9 @@ h3 {
 .filter{
     filter: sepia(20%) grayscale(60%) brightness(90%) contrast(120%) brightness(110%);
     }
+<<<<<<< HEAD
     .spacerDiv{
         height:2rem;
       }
+=======
+>>>>>>> 432e294918207d5a20a2e81dff3901a7b90b50ca

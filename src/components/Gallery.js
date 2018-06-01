@@ -297,14 +297,14 @@ let classList = [
 
 
 let Gallery = () => {
-    let gallery = classList.map((item, index) => 
-        <div key={index} className="p-2" style={{width: 10 + 'rem', height: 12 + 'rem'}}>
-            <Link to={{ pathname: item.link, state: { pic: item.pic, silly: item.silly, link: item.link, name: item.name, bio: item.bio, quote: item.quote, git: item.github_url, linkedIn: item.linkedin_url, email: item.email, site: item.site_url} }}><img className="img-thumbnail" alt="" src={item.pic}/></Link>
+    let gallery = classList.map((item, index) =>
+        <div key={index} className="galleryPic" style={{width: 10 + 'rem', height: 10 + 'rem'}}>
+            <Link to={{ pathname: `/Class-Site${item.link}`, state: { pic: item.pic, silly: item.silly, link: item.link, name: item.name, bio: item.bio, quote: item.quote, git: item.github_url, linkedIn: item.linkedin_url, email: item.email, site: item.site_url} }}><img className="img-thumbnail" alt="" src={item.pic}/></Link>
         </div>
     )
         return(
             <div id="gallery">
-                <div className="d-flex flex-row flex-wrap container justify-content-around align-items-center">
+                <div className="d-flex flex-row flex-wrap container justify-content-start align-items-center" style={{padding: 3 + 'em'}}>
                     {gallery}
                 </div>
             </div>

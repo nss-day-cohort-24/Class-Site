@@ -3,25 +3,29 @@
 .d-flex{
     height: 100px;
 }
+
+.nav__container{
+  justify-content: space-between;
+}
+
 .c24Logo{
-    float: left;
-    height: 5rem;
-    margin-top: 2.7rem;
-    margin-left: 1rem;
+    /* float: left; */
+    height: 6rem;
+    /* margin: 1em 2.5em; */
 }
 .noBorder{
     border-bottom: none !important;
-
 }
+
 .rightSideNav{
-    float: right;
+    /* float: right; */
 }
 .navList {
     display: inline-block;
     margin:0rem 2rem;
     margin-top: 2rem;
-  color: #FFBFBB;
-  font-family: 'Roboto', sans-serif;
+    color: #FFBFBB;
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 1.2rem;
     letter-spacing: .5em;

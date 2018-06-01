@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 // import logo from './logo.svg';
+import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import '.././App.css';
 import './Nav.css';
 import C24Logo from  '.././images/nss24-logo.svg';
@@ -18,7 +19,8 @@ class Nav extends Component {
           <li className="navList"><NavLink to='/Class-Site/#Meet'>MEET</NavLink> </li>
           <li className="navList"><NavLink to='/Class-Site/#Tech'>TECH</NavLink> </li>
           <li className="navList"><NavLink to='/Class-Site/Work'>WORK</NavLink> </li>
-          </ul>
+        </ul>
+
       </Navbar>
     );
   }
