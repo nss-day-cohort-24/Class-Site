@@ -207,8 +207,8 @@ let classList = [
         github_url: "https://github.com/megscholl",
         linkedin_url: "https://www.linkedin.com/in/megscholl",
         email: "meghan.e.scholl@gmail.com",
-        site_url: "",
-        bio: "",
+        site_url: "http://megscholl.com",
+        bio: "I grew up learning about computers and only recently did I realize how important and exciting technology is to me and the world around me. My grandfather told me, 'having an eye for design and an interest in development is rare and highly sought after.' I believe my background in hospitality, event management, and always learning, 'm excited to pursue my passion for UX design and web development.",
         quote: "yahfurshure"
     },
     {
@@ -297,9 +297,9 @@ let classList = [
 
 
 let Gallery = () => {
-    let gallery = classList.map((item, index) => 
+    let gallery = classList.map((item, index) =>
         <div key={index} className="galleryPic" style={{width: 10 + 'rem', height: 10 + 'rem'}}>
-            <Link to={{ pathname: item.link, state: { pic: item.pic, silly: item.silly, link: item.link, name: item.name, bio: item.bio, quote: item.quote, git: item.github_url, linkedIn: item.linkedin_url, email: item.email, site: item.site_url} }}><img className="img-thumbnail" alt="" src={item.pic}/></Link>
+            <Link to={{ pathname: `/Class-Site${item.link}`, state: { pic: item.pic, silly: item.silly, link: item.link, name: item.name, bio: item.bio, quote: item.quote, git: item.github_url, linkedIn: item.linkedin_url, email: item.email, site: item.site_url} }}><img className="img-thumbnail" alt="" src={item.pic}/></Link>
         </div>
     )
         return(

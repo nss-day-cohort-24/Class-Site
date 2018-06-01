@@ -5,7 +5,7 @@ import email from './social/envelope.png';
 import github from './social/github.png';
 import linkedin from './social/linkedin-in.png';
 import personalsite from './social/address-card.png';
-import { NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import lindsay from '../class-pics/lindsay.png';
 import lindsaysilly from '../class-pics/sillylindsay.png';
 
@@ -53,7 +53,7 @@ class PeopleDeetz extends Component {
                         <a href={data.site} target="_blank" ><img src={personalsite} alt="icon" className="icon m-2" /></a>
                     </div>
                     </div>
-                    <NavLink className="backButton" to='/Class-Site/#Meet'>BACK</NavLink>
+                    <Link className="backButton" to='/Class-Site/#Meet'>BACK</Link>
                 </div>
         );
     }

@@ -12,20 +12,20 @@ import Process from './Process';
 function HomeBody() {
     return (
         <div>
-        <main>
-            {/* <h1>hello world<span className="amp-h2">!</span></h1> */}
-            <img src={Unicorn} alt="A Silhouette of An Awesome Unicorn" className="unicorn"/>
-            <h2>design + development = unicorn</h2>
-            <p className="small-caps-p">nashville software school cohort <span className="amp-p">24</span>
-            </p>
+            <main className="mt-5 pt-2">
+                {/* <h1>hello world<span className="amp-h2">!</span></h1> */}
+                <img src={Unicorn} alt="A Silhouette of An Awesome Unicorn" className="unicorn"/>
+                <h2>design + development = unicorn</h2>
+                <p className="small-caps-p">nashville software school cohort <span className="amp-p">24</span>
+                </p>
 
-        </main>
-
-        <About />
-        <MeetUs />
-        <Technologies />
-        <Process />
-        <GroupPhoto />
+            </main>
+        
+            <About />
+            <MeetUs />
+            <Technologies />
+            <Process />
+            <GroupPhoto />
         </div>
     )
 }
