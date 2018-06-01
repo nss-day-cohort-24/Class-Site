@@ -12,7 +12,7 @@ import Gallery from './Gallery';
 const Main = () => (
     <main>
       <Switch>
-        <Route exact path='/' component={HomeBody}/>
+        <Route exact path='/Class-Site' component={HomeBody}/>
         <Route path='/About' component={HomeBody}/> 
         <Route path='/Meet' component={HomeBody} />
         <Route path='/Tech' component={HomeBody}/>
