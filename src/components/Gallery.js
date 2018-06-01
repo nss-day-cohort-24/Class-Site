@@ -55,7 +55,7 @@ import sillytaylor from '../class-pics/sillytaylor.png';
 
 let classList = [
      {
-        name: "Amber Sharp",
+        name: "Amber Sharpe",
         pic: amber,
         silly: sillyamber,
         link: "/amber",
