@@ -95,9 +95,6 @@ h3 {
 .filter{
     filter: sepia(20%) grayscale(60%) brightness(90%) contrast(120%) brightness(110%);
     }
-<<<<<<< HEAD
     .spacerDiv{
         height:2rem;
       }
-=======
->>>>>>> 432e294918207d5a20a2e81dff3901a7b90b50ca
