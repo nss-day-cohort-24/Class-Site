@@ -156,6 +156,10 @@ let classList = [
         pic: laura,
         silly: sillylaura,
         link: "/laura",
+        github_url: "github.com/lapinell",
+        linkedin_url: "www.linkedin.com/in/laurapinell",
+        email: "lapinell@gmail.com",
+        site_url: "www.laurapinell.com",
         bio: "Cohort 24 UX/UI Dev and Design",
         quote: "Git add, commit, and repeat."
     },
