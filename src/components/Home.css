@@ -19,52 +19,62 @@ main {
   align-self: center;
   vertical-align: auto;
   vertical-align: center;
+  margin-bottom: 2.6rem;
 }
 
-
+div.Section-meetUs-grid {
+  /* height:100vh; */
+  width: 100%;
+}
 
 /* CLASSES */
 
-h1 {
-  font-size: 34px;
+h2 {
+  font-size: 2rem;
   font-family: 'Noto Sans', sans-serif;
   color: #141414;
   font-variant: small-caps;
-  letter-spacing: 10px;
+  letter-spacing: .4rem;
+  text-align: center;
 }
 
 
 .small-caps-p {
-  font-size: 25px;
+  font-size: 1.4rem;
   font-family: 'Noto Sans', sans-serif;
   color: #DD847F;
   font-variant: small-caps;
   letter-spacing: 6px;
+  text-align: center;
 }
 
 .amp-h2 {
-  font-size: 23px;
-  letter-spacing: 5px;
+  font-size: 1.4rem;
+  letter-spacing: .25rem;
 }
 
 .amp-p {
-  font-size: 17px;
-  letter-spacing: 5px;
+  font-size: 1rem;
+  letter-spacing: .25remx;
 }
 
-.unicorn {
-  width: 450px;
-  margin: 2rem;
+img.unicorn {
+  max-width: 400px;
+  width: 60%;
+  /* margin: 0 auto;
+  align-item: center; */
 }
 
 
 #gallery {
-  height:100vh;
-  width: 100vw;
+  /* height:100%;
+  width: 100%; */
   white-space: normal;
   padding-bottom: 10%;
+
+  
 }
 
-#detailsPage {
+/* #detailsPage {
   height: 100vh;
-}
+}  */

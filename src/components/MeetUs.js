@@ -1,6 +1,6 @@
 import React from 'react';
 // import { Link } from 'react-router';
-import './Home.css';
+// import './Home.css';
 import './MeetUs.css';
 import '../App.css';
 import arrow from './images/down.png';
@@ -13,7 +13,7 @@ function MeetUs() {
         <div id="Meet" className="meetUs">
             {/* <img src={arrow} className="arrow" alt="arrow animation"/>
             <br /> */}
-            <h2 className="mb-5">Nashville Software School Cohort 24</h2>
+            <h2>Nashville Software School Cohort 24</h2>
             <MeetUsMap />
         </div>
     )

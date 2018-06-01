@@ -7,10 +7,11 @@ import { Navbar } from 'reactstrap';
 import { NavHashLink as NavLink } from 'react-router-hash-link';
 
 
+
 class Nav extends Component {
   render() {
     return (
-      <Navbar className="d-flex justify-content-between navBar">
+      <Navbar className="d-flex justify-content-between">
        <NavLink to='/' className="noBorder"><img src={C24Logo} alt="C24 Class Logo" className="c24Logo"/></NavLink>
        
        <ul className="rightSideNav">

@@ -52,11 +52,8 @@ class MeetUsMap extends Component {
         //     return <div>Loading...</div>
         } else if(!imagesLoaded){
             return(
-            <div id="detailsPage">
-                <div className="">
-                    <Gallery />
-                </div>
-
+            <div id="detailsPage" /*className="Section-meetUs-grid"*/> 
+                <Gallery />
             </div>
             )
         }
