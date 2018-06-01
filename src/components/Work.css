@@ -5,6 +5,8 @@
     background-color: #141414;
     font-family: 'Noto Sans', sans-serif;
     color: #FFF1F0;
+    width: 69em;
+    margin: 12% 0%;
 }
 
 .perfectPitch {
@@ -22,4 +24,10 @@
 a:hover, a:active, a:visited {
     color: #FFF1F0;
     /* text-decoration: none; */
+}
+
+@media screen and (min-width: 320px) and (max-width: 415px) { 
+
+    
+
 }
