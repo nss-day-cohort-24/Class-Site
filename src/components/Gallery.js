@@ -32,7 +32,7 @@ import sillyben from '../class-pics/sillyben.png';
 import sillydan from '../class-pics/sillydan.png';
 import sillydylan from '../class-pics/sillydylan.png';
 import sillyjeremy from '../class-pics/sillyjeremy.png';
-import sillyjesie from '../class-pics/sillyjesie.png';
+import sillyjesie from '../class-pics/ssjesie.png';
 import sillykelsey from '../class-pics/sillykelsey.png';
 import sillylaura from '../class-pics/sillylaura.png';
 import sillylindsay from '../class-pics/sillylindsay.png';
@@ -276,8 +276,8 @@ let classList = [
         linkedin_url: "www.linkedin.com/in/taylor-bailey-ux",
         email: "taylorbailey@protonmail.com",
         site_url: "taylor-ux.com",
-        bio: "Treehouse track-star gone professional UIX Front-End Developer built on the foundation of clean aesthetic design and human readable code. Believer in the user story and how to bring that to an interactive experience in my development.",
-        quote: "First, software ate the world, then the web ate software, now Javascript ate the web"
+        bio: "Since enrolling in Nashville Software School's Front End Developer and UI/UX Design program, I have magnified my potential as a designer, fully embraced the user experience, and have shaped my code with clarity in all the pressure and opportunity that this bootcamp provides. I can't wait to see what we will make together! ",
+        quote: "Never fear, BTC will save us!"
     },
 ];
 
