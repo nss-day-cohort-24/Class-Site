@@ -32,15 +32,10 @@ class Technologies extends Component{
                 </div>
             ))
             return(
+
                 <div id="Tech" className="tech">
                     <h2>Technologies Used</h2>
-                    <h3>Development</h3>
                     <div className="container-fluid row mb-5">
-                        {techData}
-                    </div>
-                
-                    <h3 className="pt-5">Design</h3>
-                    <div className="container-fluid row">
                         {techData}
                     </div>
                 </div>

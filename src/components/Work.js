@@ -9,8 +9,8 @@ import crimeCheckerLogo from "./images/crimeCheckerLogo.png";
 class Work extends Component {
     render(){
         return(
-            <div className="workjs mx-5">
-                <div className="container pb-5">
+            <div className="workjs">
+                <div className="pb-5">
                     <div className="col text-center">
                         <div className="perfectPitch py-5">PERFECT PITCH 2018</div>
                         <div className="head2 pb-4">NASHVILLE OPEN DATA GROUP PROJECTS</div>
@@ -18,16 +18,22 @@ class Work extends Component {
 
                     <div className="row justify-content-center pb-5">
                         <div className="col-4-sm">
-                            <img src={doLogo} alt="Filler" height="276" width="286"/>
-                            <div className="head2 text-center">DO.</div>
+                            <a href="https://github.com/nss-day-cohort-24/do">
+                                <img src={doLogo} alt="Filler" height="276" width="286"/>
+                                <div className="head2 text-center">DO.</div>
+                            </a>
                         </div>
                         <div className="col-4-sm text-center mx-3">
-                            <img src={wyfyLogo} alt="Filler" height="276" width="286"/>
-                            <div className="head2 text-center">WYFY</div>
+                            <a href="https://github.com/nss-day-cohort-24/wyfy">
+                                <img src={wyfyLogo} alt="Filler" height="276" width="286"/>
+                                <div className="head2 text-center">WYFY</div>
+                            </a>
                         </div>
                         <div className="col-4-sm text-center">
-                            <img src={crimeCheckerLogo} alt="Filler" height="276" width="286"/>
-                            <div className="head2 text-center">CRIME CHECKER</div>                        
+                            <a href="https://github.com/nss-day-cohort-24/uix-crime-checker">
+                                <img src={crimeCheckerLogo} alt="Filler" height="276" width="286"/>
+                                <div className="head2 text-center">CRIME CHECKER</div>                        
+                            </a>
                         </div>
                     </div>
                 </div>
