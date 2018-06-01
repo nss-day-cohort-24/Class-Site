@@ -15,8 +15,8 @@ const Main = () => (
         <Route exact path='/Class-Site' component={HomeBody}/>
         <Route path='/Class-Site/#About' component={HomeBody}/> 
         <Route path='/Class-Site/#Meet' component={HomeBody} />
-        <Route path='/Class-Site/Tech' component={HomeBody}/>
-        <Route path='/Work' component={Work}/>
+        <Route path='/Class-Site/#Tech' component={HomeBody}/>
+        <Route path='/Class-site/Work' component={Work}/>
         <Route path='/amber' component={PeopleDeetz} />
         <Route path='/arthur' component={PeopleDeetz} />
         <Route path='/ben' component={PeopleDeetz} />

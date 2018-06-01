@@ -5,8 +5,9 @@
 }
 .c24Logo{
     float: left;
-    height: 6rem;
-    margin: 1em 2.5em;
+    height: 5rem;
+    margin-top: 2.7rem;
+    margin-left: 1rem;
 }
 .noBorder{
     border-bottom: none !important;

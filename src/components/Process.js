@@ -11,7 +11,7 @@ const Process = (props) =>{
                         <div className="row align-center processRow">
                             <h3 className="col-4">the challenge</h3>
                             <div className="col-6 text-left">
-                                <p>To collaborate as a class and develop a website which showcases our front-end design and development skills for potential employers.</p>
+                                <p className="media-paragraph">To collaborate as a class and develop a website which showcases our front-end design and development skills for potential employers.</p>
                             </div>
                         </div>
 
@@ -19,7 +19,7 @@ const Process = (props) =>{
                             <h3 className="col-4">research</h3>
                             <div className="col-6 text-left">
                                 <h3 className="secondHeading text-align-left">class</h3>
-                                <p className="">To gain more insight we sent out a class survey to understand how the class as a whole would like to be marketed.</p>
+                                <p className="media-paragraph">To gain more insight we sent out a class survey to understand how the class as a whole would like to be marketed.</p>
                             </div>
                             <div className="row align-center employerTypeRow">
                                 <div className="col-12 align-center">
@@ -44,7 +44,7 @@ const Process = (props) =>{
                                 <h3 className="col-4"></h3>
                                 <div className="col-6 text-left">
                                 <h3 className="secondHeading text-align-left">competitors</h3>
-                                <p className="">We took a look at our closest competitors to see how they went about developing their class sites.</p>
+                                <p className="media-paragraph">We took a look at our closest competitors to see how they went about developing their class sites.</p>
                             </div>
                         </div>
 
@@ -52,11 +52,11 @@ const Process = (props) =>{
                             <h3 className="col-4">development</h3>
                             <div className="col-6 text-left">
                                 <h3 className="secondHeading text-align-left">professional fun</h3>
-                                    <p>It is important that the class website shows potential employers our passion for coding and design, as well as our ability to differentiate and stand out from other cohorts.</p>
-                                    <p>Accomplished by writing clean + accessible + modular code in react with solid site architecture, firm and consistent visual heirarchy, and the coziest pinks you've ever seen.</p>
+                                    <p className="media-paragraph">It is important that the class website shows potential employers our passion for coding and design, as well as our ability to differentiate and stand out from other cohorts.</p>
+                                    <p className="media-paragraph">Accomplished by writing clean + accessible + modular code in react with solid site architecture, firm and consistent visual heirarchy, and the coziest pinks you've ever seen.</p>
 
                                 <h3 className="secondHeading text-align-left">user interviews</h3>
-                                    <p className="">The research team also conducted interviews with instructors, students, and staff members to help establish reasonable deadlines, style guide choices, and prototype feedback.</p>
+                                    <p className="media-paragraph">The research team also conducted interviews with instructors, students, and staff members to help establish reasonable deadlines, style guide choices, and prototype feedback.</p>
 
                             </div>
                         </div>
