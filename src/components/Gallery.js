@@ -64,7 +64,7 @@ let classList = [
         email: "amberjsharpe@gmail.com",
         site_url: "",
         bio: "",
-        quote: "It's all happening" 
+        quote: "It's all happening"
 
     },
     {
@@ -227,7 +227,7 @@ let classList = [
         github_url: "https://github.com/MillionInfinity",
         linkedin_url: "https://www.linkedin.com/in/millionasseghegn/",
         email: "milly7989@gmail.com",
-        site_url: "",        
+        site_url: "",
         bio: "Treehouse track-star gone professional UIX Front-End Developer built on the foundation of clean aesthetic design and human readable code. Believer in the user story and how to bring that to an interactive experience in my development.",
         quote: "First, software ate the world, then the web ate software, now Javascript ate the web"
     },
@@ -293,7 +293,7 @@ let classList = [
 
 
 let Gallery = () => {
-    let gallery = classList.map((item, index) => 
+    let gallery = classList.map((item, index) =>
         <div key={index} className="p-2" style={{width: 10 + 'rem', height: 12 + 'rem'}}>
             <Link to={{ pathname: item.link, state: { pic: item.pic, silly: item.silly, link: item.link, name: item.name, bio: item.bio, quote: item.quote, git: item.github_url, linkedIn: item.linkedin_url, email: item.email, site: item.site_url} }}><img className="img-thumbnail" alt="" src={item.pic}/></Link>
         </div>

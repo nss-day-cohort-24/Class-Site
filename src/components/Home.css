@@ -14,11 +14,13 @@ body {
   font-family: 'Noto Sans', sans-serif;
 } */
 main {
+  display: flex;
+  flex-direction: column;
   align-content: center;
   align-items: center;
-  align-self: center;
+  /* align-self: center;
   vertical-align: auto;
-  vertical-align: center;
+  vertical-align: center; */
 }
 
 
@@ -60,7 +62,7 @@ h1 {
 
 #gallery {
   height:100vh;
-  width: 100vw;
+  width: 100%;
   white-space: normal;
   padding-bottom: 10%;
 }

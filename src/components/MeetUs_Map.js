@@ -53,7 +53,7 @@ class MeetUsMap extends Component {
         } else if(!imagesLoaded){
             return(
             <div id="detailsPage">
-                <div className="">
+                <div>
                     <Gallery />
                 </div>
 
