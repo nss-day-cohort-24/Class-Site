@@ -220,7 +220,7 @@ let classList = [
         linkedin_url: "https://www.linkedin.com/in/melissawheatley/",
         email: "melissa.c.wheatley@gmail.com",
         site_url: "melissawheatley.com",
-        bio: "Cohort 24 UX/UI Dev and Design",
+        bio: "It's a tale as old as time (in Nashville at least) — I'm an audio engineer turned digital marketer turned User Experience Developer. I love to tinker and find new ways to solve problems. Analytics and iterative design make me happy. Papyrus as a brand font makes me sad.",
         quote: "merh. I don't think this will be that hard"
     },
     {
