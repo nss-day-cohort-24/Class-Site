@@ -1,0 +1,121 @@
+.process {
+    background-color: #FFF9F8;
+    padding: 5rem 14rem;
+}
+
+.processRow:not(last-child){
+    margin-bottom: 3rem;
+}
+
+.employerTypeRow {
+    margin: 4rem 0;
+}
+
+.process h2 {
+    margin-bottom: 6rem;
+    font-weight: 400;
+    font-size: 34px;
+    letter-spacing: .425em;
+}
+
+.process h3 {
+    margin-top: 0px;
+    margin-right: 3rem;
+    text-align: right;
+    color: #DD847F;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    letter-spacing: .425em;
+    line-height: 160%;
+}
+
+.secondHeading{
+    border-bottom: 1px solid #141414;
+    color: #141414 !important;
+    display: inline-block;
+    text-align: left !important;
+}
+
+.workTypeHeading{
+    color: #141414 !important;
+    text-align: center !important;
+    display: inline-block !important;
+    margin: 0px 0px 1.5rem 0px !important;
+}
+
+ul {
+    color: #141414;
+    list-style: none;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    letter-spacing: .425em;
+    line-height: 160%;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 1rem;
+    text-align: right;
+}
+
+.vertLine{
+    border-right: 1px solid #141414;
+}
+
+.workType{
+    text-transform: lowercase;
+}
+
+.bars{
+    padding-left: 2rem;
+}
+.bar1{
+    height: 2.2rem;
+    width: 42%;
+    background-color:#141414;
+    color: white;
+}
+
+.bar2{
+    height: 2.2rem;
+    margin-top: .5rem;
+    margin-bottom: 1.2rem;
+    width: 29%;
+    background-color:#141414;
+    color: white;
+}
+
+.bar3{
+    height: 2.2rem;
+    margin-bottom: 1.2rem;
+    width: 29%;
+    background-color:#141414;
+    color: white;
+}
+
+.bars div p {
+    letter-spacing: .25em;
+    font-family: 'Noto Sans', Helvetica, Arial, sans-serif;
+    padding-left: 1rem;
+    margin: 0;
+}
+
+.process p {
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: .024em;
+    line-height: 2em;
+    padding: 0;
+    margin-bottom: 3rem;
+}
+
+#careerPursuitParagraph {
+    margin-top: 5rem;
+    margin-bottom: 0;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: .25em;
+    color: #DD847F;
+}

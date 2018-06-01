@@ -6,6 +6,7 @@ import MeetUs from './MeetUs';
 import Technologies from './Technologies';
 import About from './About';
 import GroupPhoto from './GroupPhoto';
+import Process from './Process';
 
 
 function HomeBody() {
@@ -23,6 +24,7 @@ function HomeBody() {
         <About />
         <MeetUs />
         <Technologies />
+        <Process />
         <GroupPhoto />
         </div>
     )
