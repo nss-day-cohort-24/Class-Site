@@ -32,7 +32,7 @@ import sillyben from '../class-pics/sillyben.png';
 import sillydan from '../class-pics/sillydan.png';
 import sillydylan from '../class-pics/sillydylan.png';
 import sillyjeremy from '../class-pics/sillyjeremy.png';
-import sillyjesie from '../class-pics/ssjesie.png';
+import sillyjesie from '../class-pics/sillyjesie.png';
 import sillykelsey from '../class-pics/sillykelsey.png';
 import sillylaura from '../class-pics/sillylaura.png';
 import sillylindsay from '../class-pics/sillylindsay.png';
@@ -55,7 +55,7 @@ import sillytaylor from '../class-pics/sillytaylor.png';
 
 let classList = [
      {
-        name: "Amber",
+        name: "Amber Sharpe",
         pic: amber,
         silly: sillyamber,
         link: "/amber",
@@ -63,12 +63,12 @@ let classList = [
         linkedin_url: "https://www.linkedin.com/in/amber-sharpe/",
         email: "amberjsharpe@gmail.com",
         site_url: "",
-        bio: "",
+        bio: "I'm a Designer and Developer with a curious mind and a passion for create meaningful user experiences. I love waking up knowing that my day will be filled with problem - solving, learning, and interacting with people. And as an added bonus, I make excellent coffee.",
         quote: "It's all happening" 
 
     },
     {
-        name: "Arthur",
+        name: "Arthur Smith",
         pic: arthur,
         silly: sillyarthur,
         link: "/arthur",
@@ -80,7 +80,7 @@ let classList = [
         quote: "First, software ate the world, then the web ate software, now Javascript ate the web"
     },
     {
-        name: "Ben",
+        name: "Ben Atkins",
         pic: ben,
         silly: sillyben,
         link: "/ben",
@@ -92,7 +92,7 @@ let classList = [
         quote: "Keep your friends close, but your enemy's toaster"
     },
     {
-        name: "Dan",
+        name: "Dan Watson",
         pic: dan,
         silly: sillydan,
         link: "/dan",
@@ -100,23 +100,23 @@ let classList = [
         linkedin_url: "https://www.linkedin.com/in/danwatson00/",
         email: "dan@danwatson.us",
         site_url: "http://danwatson.us",
-        bio: "",
-        quote: ""
+        bio: "As a former teacher, photographer, and artist, I love to learn and create.I started developing because I wanted to find a new way to create meaningful products for people.I am excited to join a team of developers and build amazing apps that help people.",
+        quote: "I've got questions. Google's got answers."
     },
     {
-        name: "Dylan",
+        name: "Dylan Butzler",
         pic: dylan,
         silly: sillydylan,
         link: "/dylan",
         github_url: "https://github.com/Dylan21B",
         linkedin_url: "https://www.linkedin.com/in/david-dylan-butzler-2191b5156/",
         email: "giglett21@gmail.com",
-        site_url: "",
-        bio: "Treehouse track-star gone professional UIX Front-End Developer built on the foundation of clean aesthetic design and human readable code. Believer in the user story and how to bring that to an interactive experience in my development.",
+        site_url: "https://dylan21b.github.io/",
+        bio: "I  was first drawn to computers when I discovered Photoshop in High School. I continued my curiosity and found myself at the doors of NSS to further my passion for the user. After that experience, I am more than excited to see what doors I come to next!",
         quote: "Just push it."
     },
     {
-        name: "Jeremy",
+        name: "Jeremy Bennett",
         pic: jeremy,
         silly: sillyjeremy,
         link: "/jeremy",
@@ -128,7 +128,7 @@ let classList = [
         quote: "They moved to the night cohort."
     },
     {
-        name: "Jesie",
+        name: "Jesie Oldenburg",
         pic: jesie,
         silly: sillyjesie,
         link: "/jesie",
@@ -136,11 +136,11 @@ let classList = [
         linkedin_url: "linkedin.com/in/jesieoldenburg",
         email: "kitglo46@gmail.com",
         site_url: "jesieOldenburg.github.io",
-        bio: "",
+        bio: "I had my first taste of development prior to leaving the military, and have been hooked ever since! ",
         quote: "More than one way to code a cat"
     },
     {
-        name: "Kelsey",
+        name: "Kelsey Pintens",
         pic: kelsey,
         silly: sillykelsey,
         link: "/kelsey",
@@ -152,15 +152,19 @@ let classList = [
         quote: "Don't make me say html tag"
     },
     {
-        name: "Laura",
+        name: "Laura Pinell",
         pic: laura,
         silly: sillylaura,
         link: "/laura",
-        bio: "Treehouse track-star gone professional UIX Front-End Developer built on the foundation of clean aesthetic design and human readable code. Believer in the user story and how to bring that to an interactive experience in my development.",
-        quote: "First, software ate the world, then the web ate software, now Javascript ate the web"
+        github_url: "github.com/lapinell",
+        linkedin_url: "www.linkedin.com/in/laurapinell",
+        email: "lapinell@gmail.com",
+        site_url: "www.laurapinell.com",
+        bio: "Cohort 24 UX/UI Dev and Design",
+        quote: "Git add, commit, and repeat."
     },
     {
-        name: "Lindsay",
+        name: "Lindsay Mulhollen",
         pic: lindsay,
         silly: sillylindsay,
         link: "/lindsay",
@@ -172,7 +176,7 @@ let classList = [
         quote: "cool. coolcoolcoolcoolcool."
     },
     {
-        name: "Marc",
+        name: "Marc Ledda",
         pic: marc,
         silly: sillymarc,
         link: "/marc",
@@ -184,7 +188,7 @@ let classList = [
         quote: "¯\_(ツ)_/¯"
     },
     {
-        name: "Mike",
+        name: "Mike Kluge",
         pic: mike,
         silly: sillymike,
         link: "/mike",
@@ -192,11 +196,11 @@ let classList = [
         linkedin_url: "",
         email: "",
         site_url: "",
-        bio: "",
-        quote: ""
+        bio: "Cohort 24 UX/UI Dev and Design",
+        quote: "It's gonna be a bloodbath"
     },
     {
-        name: "Meg",
+        name: "Meg School",
         pic: meg,
         silly: sillymeg,
         link: "/meg",
@@ -208,7 +212,7 @@ let classList = [
         quote: "yahfurshure"
     },
     {
-        name: "Melissa",
+        name: "Melissa Wheatley",
         pic: melissa,
         silly: sillymelissa,
         link: "/melissa",
@@ -216,11 +220,11 @@ let classList = [
         linkedin_url: "https://www.linkedin.com/in/melissawheatley/",
         email: "melissa.c.wheatley@gmail.com",
         site_url: "melissawheatley.com",
-        bio: "",
+        bio: "It's a tale as old as time (in Nashville at least) — I'm an audio engineer turned digital marketer turned User Experience Developer. I love to tinker and find new ways to solve problems. Analytics and iterative design make me happy. Papyrus as a brand font makes me sad.",
         quote: "merh. I don't think this will be that hard"
     },
     {
-        name: "Million",
+        name: "Million Asseghegn",
         pic: million,
         silly: sillymillion,
         link: "/million",
@@ -228,11 +232,11 @@ let classList = [
         linkedin_url: "https://www.linkedin.com/in/millionasseghegn/",
         email: "milly7989@gmail.com",
         site_url: "",        
-        bio: "Treehouse track-star gone professional UIX Front-End Developer built on the foundation of clean aesthetic design and human readable code. Believer in the user story and how to bring that to an interactive experience in my development.",
-        quote: "First, software ate the world, then the web ate software, now Javascript ate the web"
+        bio: "Cohort 24 UX/UI Dev and Design",
+        quote: "I am MilIion, But can't defined by million codes."
     },
     {
-        name: "Phonethip",
+        name: "Phonethip Hobson",
         pic: phonetip,
         silly: sillyphonethip,
         link: "/phonethip",
@@ -244,7 +248,7 @@ let classList = [
         quote: "Git it. Got it. Good."
     },
     {
-        name: "Ryan",
+        name: "Ryan Brisentine",
         pic: ryan,
         silly: sillyryan,
         link: "/ryan",
@@ -252,11 +256,11 @@ let classList = [
         linkedin_url: "https://www.linkedin.com/in/ryan-brisentine-175600a1/",
         email: "brisentine.ryan@gmail.com",
         site_url: "",
-        bio: "",
-        quote: ""
+        bio: "I’m a prior military veteran who, after working in a detail oriented job (packing parachutes and jumping out of good, functioning planes), loves being preoccupied with tech work. I enjoy learning new tech, and push myself to be a better asset to any team I’m on.",
+        quote: "Where there is a will, there are 200 relatives."
     },
     {
-        name: "Sam",
+        name: "Sam Kimball",
         pic: sam,
         silly: sillysam,
         link: "/sam",
@@ -268,7 +272,7 @@ let classList = [
         quote: "Buy the ticket, take the ride."
     },
     {
-        name: "Taylor",
+        name: "Taylor Bailey",
         pic: taylor,
         silly: sillytaylor,
         link: "/taylor",
@@ -276,8 +280,8 @@ let classList = [
         linkedin_url: "www.linkedin.com/in/taylor-bailey-ux",
         email: "taylorbailey@protonmail.com",
         site_url: "taylor-ux.com",
-        bio: "Since enrolling in Nashville Software School's Front End Developer and UI/UX Design program, I have magnified my potential as a designer, fully embraced the user experience, and have shaped my code with clarity in all the pressure and opportunity that this bootcamp provides. I can't wait to see what we will make together! ",
-        quote: "Never fear, BTC will save us!"
+        bio: "Since enrolling in Nashville Software School's Front End Developer and UI/UX Design program, I have magnified my potential as a designer, fully embraced the user experience, and have shaped my code with clarity in all the pressure and opportunity that this bootcamp provides. I can't wait to see what we will make together!",
+        quote: "NEVER FEAR, BTC WILL SAVE US!"
     },
 ];
 
