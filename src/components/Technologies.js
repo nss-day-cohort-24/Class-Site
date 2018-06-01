@@ -33,11 +33,15 @@ class Technologies extends Component{
             ))
             return(
 
-                <div id="Tech" className="tech">
+                <div>
+                    <div className="spacerDiv" id="Tech">
+                    </div>
+                <div className="tech">
                     <h2>Technologies Used</h2>
                     <div className="container-fluid row mb-5">
                         {techData}
                     </div>
+                </div>
                 </div>
         )}
     }
