@@ -120,4 +120,6 @@ h3 {
 .filter{
     filter: sepia(20%) grayscale(60%) brightness(90%) contrast(120%) brightness(110%);
     }
-
+    .spacerDiv{
+        height:2rem;
+      }

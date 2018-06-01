@@ -52,11 +52,12 @@ class MeetUsMap extends Component {
         //     return <div>Loading...</div>
         } else if(!imagesLoaded){
             return(
+                <div>
             <div id="detailsPage">
                 <div className="">
                     <Gallery />
                 </div>
-
+                </div>
             </div>
             )
         }
