@@ -14,10 +14,10 @@ class Nav extends Component {
        <NavLink to='/' className="noBorder"><img src={C24Logo} alt="C24 Class Logo" className="c24Logo"/></NavLink>
        
        <ul className="rightSideNav">
-          <li className="navList"><NavLink to='/#About'> ABOUT </NavLink></li>
-          <li className="navList"><NavLink to='/#Meet'>MEET</NavLink> </li>
-          <li className="navList"><NavLink to='/#Tech'>TECH</NavLink> </li>
-          <li className="navList"><NavLink to='/Work'>WORK</NavLink> </li>
+          <li className="navList"><NavLink to='/Class-Site/#About'> ABOUT </NavLink></li>
+          <li className="navList"><NavLink to='/Class-Site/#Meet'>MEET</NavLink> </li>
+          <li className="navList"><NavLink to='/Class-Site/#Tech'>TECH</NavLink> </li>
+          <li className="navList"><NavLink to='/Class-Site/Work'>WORK</NavLink> </li>
           </ul>
       </Navbar>
     );
