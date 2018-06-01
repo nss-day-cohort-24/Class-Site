@@ -75,3 +75,13 @@ h1 {
 #detailsPage {
   height: 100vh;
 }
+
+.img-thumbnail{
+  padding: 0;
+  border: none;
+  border-radius: 0px;
+}
+
+.galleryPic{
+  margin: 5px;
+}
