@@ -121,3 +121,8 @@ h3 {
     filter: sepia(20%) grayscale(60%) brightness(90%) contrast(120%) brightness(110%);
     }
 
+.filter:hover{
+    filter: none;
+    transition: .2s ease-in-out;
+}
+

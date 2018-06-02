@@ -37,7 +37,7 @@
       },
       {
         "name": "CSS3",
-        "image": "./img/techs/css3.png",
+        "image": "./img/techs/css.svg",
         "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3"
       },
       {
@@ -77,12 +77,12 @@
       },
       {
         "name": "ES lint",
-        "image": "./img/techs/eslint.png",
+        "image": "./img/techs/eslint.svg",
         "link": "https://eslint.org/"
       },
       {
         "name": "React Styleguidist",
-        "image": "./img/techs/styleguidist.png",
+        "image": "./img/techs/rs.svg",
         "link": "https://github.com/styleguidist/react-styleguidist"
       },
       {
@@ -90,6 +90,13 @@
         "image": "./img/techs/reactstraplogo.png",
         "link": "https://reactstrap.github.io/"
       },
+      {
+        "name": "Babel",
+        "image": "./img/techs/babel.png",
+        "link": "https://babeljs.io/"
+      }      
+    ],
+    "design": [
       {
         "name": "XD",
         "image": "./img/techs/adobexd.png",
@@ -102,18 +109,13 @@
       },
       {
         "name": "Sketch",
-        "image": "./img/techs/sketch.jpeg",
+        "image": "./img/techs/sketch.png",
         "link": "https://www.sketchapp.com/"
       },
       {
         "name": "Xtensio",
         "image": "./img/techs/xtensio.png",
         "link": "https://xtensio.com/"
-      },
-      {
-        "name": "Babel",
-        "image": "./img/techs/babel.jpg",
-        "link": "https://babeljs.io/"
       },
       {
         "name": "Photoshop",
@@ -127,7 +129,7 @@
       },
       {
         "name": "Trello",
-        "image": "./img/techs/trello-logo-blue.png",
+        "image": "./img/techs/trello.png",
         "link": "https://trello.com/home"
       },
       {

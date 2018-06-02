@@ -304,7 +304,7 @@ let Gallery = () => {
     )
         return(
             <div id="gallery">
-                <div className="d-flex flex-row flex-wrap container justify-content-start align-items-center" style={{padding: 3 + 'em'}}>
+                <div className="d-flex flex-wrap container justify-content-start align-items-center" style={{padding: 3 + 'em'}}>
                     {gallery}
                 </div>
             </div>
