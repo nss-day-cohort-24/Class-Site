@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 
-
 /* MAIN DOC ELEMENTS */
 
 /* html {
@@ -17,18 +16,21 @@ body {
   font-family: 'Noto Sans', sans-serif; */
 }
 
-
-
-
 main {
   display: flex;
   flex-direction: column;
   align-content: center;
   align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
   /* align-self: center;
   vertical-align: auto;
   vertical-align: center;
-  margin-bottom: 2.6rem;
+  margin-bottom: 2.6rem; */
+}
+
+.Section-landing {
+  margin: 4rem 0;
 }
 
 div.Section-meetUs-grid {
@@ -46,7 +48,6 @@ h2 {
   letter-spacing: .4rem;
   text-align: center;
 }
-
 
 .small-caps-p {
   font-size: 1.4rem;
@@ -69,9 +70,9 @@ h2 {
 
 img.unicorn {
   max-width: 400px;
-  width: 60%;
-  /* margin: 0 auto;
-  align-item: center; */
+  width: 50%;
+  padding-bottom: 2rem;
+  margin-top: 1rem;
 }
 
 

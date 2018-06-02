@@ -2,7 +2,8 @@
 
 .navBar{
     height: 100px;
-    padding-top: 3rem;
+    padding: 2rem 2rem;
+    background-color: rgba(255, 249, 248, 1.0);
 }
 
 /* .nav__container {
@@ -13,7 +14,9 @@
     /* float: left; */
     height: 6rem;
     margin: 3rem 2.5rem;
+    padding-top: 1rem;
 }
+
 .noBorder{
     border-bottom: none !important;
 }
@@ -21,32 +24,32 @@
 ul.rightSideNav{
     align-content: flex-end;
     justify-content: baseline;
-    padding: 0;
+    padding-top: 2rem;
 }
 
 .navList {
     display: inline-block;
-    margin:0rem 2rem;
+    margin: 2rem 2rem;
     /* margin-top: 2rem; */
     color: #DD847F;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    font-size: 1.2rem;
+    font-size: .9rem;
     letter-spacing: .5em;
 }
 
-.NavLink {
+a:navList {
     color: #DD847F;
 }
 
-.active{
+a:active {
     color: rgb(31, 31, 31);
-    border-bottom: 6px solid #FFBFBB;
+    border-bottom: 6px solid #DD847F;
     line-height: 5px;
-    margin-bottom: 5px;
+    /* margin-bottom: 5px; */
     padding: 0px 10px;
 }
 
-/* nav {
-    background-color: transparent;
+/* Nav {
+    background-color: #FFF9F8;
 } */
