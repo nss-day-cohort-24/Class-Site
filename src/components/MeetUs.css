@@ -1,7 +1,7 @@
 .meetUs{
     background-color: #FFBFBB;
     margin: 0 auto;
-    /* padding: 1rem auto; */
+    padding: 0 0 5rem 0;
     width: 100%;
     
 }
@@ -11,17 +11,11 @@
   padding-top: 8rem;
   padding-bottom: 2rem;
 }
-/* .flex-container {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    width: 80%;
-} */
 
 .flex-item {
     height: 130px;
     margin: 1rem;
-  }
+  } 
   
   #detailsPage{
     align-self: center;

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 // import { Link } from 'react-router';
-import './Home.css';
+// import './Home.css';
+import './MeetUs_Map.css';
 import { Route } from 'react-router-dom';
 import Gallery from './Gallery';
 
@@ -52,12 +53,8 @@ class MeetUsMap extends Component {
         //     return <div>Loading...</div>
         } else if(!imagesLoaded){
             return(
-                <div>
             <div id="detailsPage">
-                <div>
-                    <Gallery />
-                </div>
-                </div>
+              <Gallery />
             </div>
             )
         }

@@ -4,18 +4,6 @@
 
 /* MAIN DOC ELEMENTS */
 
-/* html {
-  background-color: #FBD2D7;
-} */
-
-
-body {
-  width: fit-content;
-  /* margin: 0;
-  padding: 0;
-  font-family: 'Noto Sans', sans-serif; */
-}
-
 main {
   display: flex;
   flex-direction: column;

@@ -7,6 +7,7 @@ import Technologies from './Technologies';
 import About from './About';
 import GroupPhoto from './GroupPhoto';
 import Process from './Process';
+import Work from './Work';
 
 
 function HomeBody() {
@@ -23,8 +24,9 @@ function HomeBody() {
             <About />
             <MeetUs />
             <Technologies />
-            <GroupPhoto />
+            <Work />
             <Process />
+            <GroupPhoto />
         </div>
     )
 }

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import PeopleDeetz from './PeopleDeets.js';
-import './Home.css';
+import './Gallery.css';
 import pink from './images/pink_swatch.jpg';
 import green from './images/green_swatch.jpg';
 import purple from './images/purple_swatch.jpg';
@@ -64,7 +64,7 @@ let classList = [
         email: "amberjsharpe@gmail.com",
         site_url: "",
         bio: "I'm a Designer and Developer with a curious mind and a passion for create meaningful user experiences. I love waking up knowing that my day will be filled with problem - solving, learning, and interacting with people. And as an added bonus, I make excellent coffee.",
-        quote: "It's all happening" 
+        quote: "It's all happening"
 
     },
     {
@@ -231,7 +231,7 @@ let classList = [
         github_url: "https://github.com/MillionInfinity",
         linkedin_url: "https://www.linkedin.com/in/millionasseghegn/",
         email: "milly7989@gmail.com",
-        site_url: "",        
+        site_url: "",
         bio: "Cohort 24 UX/UI Dev and Design",
         quote: "I am MilIion, But can't defined by million codes."
     },
@@ -298,7 +298,7 @@ let Gallery = () => {
     )
         return(
             <div id="gallery">
-                <div className="d-flex flex-wrap container justify-content-start align-items-center" style={{padding: 3 + 'em'}}>
+                <div className="d-flex flex-wrap container justify-content-start align-items-center" >
                     {gallery}
                 </div>
             </div>
