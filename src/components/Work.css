@@ -4,25 +4,25 @@
 .workjs > div {
     background-color: #141414;
     font-family: 'Noto Sans', sans-serif;
-    color: #FFF1F0;
-    width: 69em;
-    margin: 12% 0%;
+    color: #DD847F;
+    /* color: #FFF1F0; */
 }
 
 .perfectPitch {
-    font-size: 20px;
-    letter-spacing: 12px;
+    font-size: 1.4rem;
+    letter-spacing: .8rem;
 }
 
 .head2{
     color: #FFF1F0;
-    font-size: 15px;
-    letter-spacing: 9px;
+    font-size: 1rem;
+    letter-spacing: .5rem;
     text-decoration: none;
 }
 
 a:hover, a:active, a:visited {
-    color: #FFF1F0;
+    color: rgba(221, 132, 127, 0.60);
+    /* color: #FFF1F0; */
     /* text-decoration: none; */
 }
 

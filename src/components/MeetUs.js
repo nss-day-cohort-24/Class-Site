@@ -1,6 +1,6 @@
 import React from 'react';
 // import { Link } from 'react-router';
-import './Home.css';
+// import './Home.css';
 import './MeetUs.css';
 import '../App.css';
 import arrow from './images/down.png';
