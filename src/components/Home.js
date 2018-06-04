@@ -24,9 +24,9 @@ function HomeBody() {
             <About />
             <MeetUs />
             <Technologies />
-            <GroupPhoto />
-            <Process />
             <Work />
+            <Process />
+            <GroupPhoto />
         </div>
     )
 }
