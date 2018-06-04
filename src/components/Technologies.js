@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../App.css';
+import './Technologies.css';
 import data from './../tech.json';
 
 class Technologies extends Component{
@@ -22,7 +22,7 @@ class Technologies extends Component{
         let {techLoaded, techInfo} = this.state;
 
         if(!techLoaded) {
-            return( 
+            return(
                 <div>Loading...</div>
         )} else if(techLoaded){
             // console.log('line 28', techInfo)
@@ -36,9 +36,17 @@ class Technologies extends Component{
                     <img className="img-fluid filter" src={data.image} alt={data.name} />
                 </div>
             ))
+        let designData = techInfo.design.map((data, index)=>(
+                <div className="col mx-auto my-3" id={index}>
+                    <img className="img-fluid filter" src={data.image} alt={data.name} />
+                </div>
+        ))
             return(
 
-                <div id="Tech" className="tech">
+                <div>
+                    <div className="spacerDiv" id="Tech">
+                    </div>
+                <div className="tech">
                     <h2>Technologies Used</h2>
                     <h3>Developement</h3>
                     <div className="container-fluid justify-content-center row mb-5">
@@ -48,6 +56,7 @@ class Technologies extends Component{
                     <div className="container-fluid justify-content-center row mb-5">
                         {designData}
                     </div>
+
                 </div>
         )}
     }

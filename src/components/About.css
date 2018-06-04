@@ -1,12 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans');
 
+.section__about {
+  width: 60%;
+  align-self: center;
+  margin: auto;
+}
+
 .containAbout {
     font-family: 'Noto Sans', sans-serif;
 }
 
 .descAbout {
     border: 2px solid #141414;
-    line-height: 45px;
+    line-height: 35px;
     /* padding-left: 68px;
     padding-right: 68px; */
 }
@@ -15,4 +21,7 @@
     background-color: #141414;
     color: #FFDFDC;
     border: none;
+}
+.spacerDiv{
+    height:1rem;
 }
