@@ -23,7 +23,7 @@ const Process = (props) =>{
                             </div>
                             <div className="row align-center employerTypeRow">
                                 <div className="col-12 align-center">
-                                    <h3 className="workTypeHeading">employer type</h3>
+                                    <h3 className="workTypeHeading">Desired Employment Type</h3>
                                 </div>
                                 <div className="col-6 pl-0 pr-4 align-right vertLine">
                                     <ul>
