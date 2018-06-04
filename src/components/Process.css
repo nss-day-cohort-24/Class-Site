@@ -1,6 +1,6 @@
 .process {
     background-color: #FFF9F8;
-    /* width: 100%; */
+    padding: 5rem 0;
 }
 
 .processRow:not(last-child){
