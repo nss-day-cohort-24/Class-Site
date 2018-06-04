@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 // import logo from './logo.svg';
-import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import '.././App.css';
+// import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+// import '.././App.css';
 import './Nav.css';
 import C24Logo from  '.././images/nss24-logo.svg';
 import { Navbar } from 'reactstrap';
 import { NavHashLink as NavLink } from 'react-router-hash-link';
+
 
 
 class Nav extends Component {

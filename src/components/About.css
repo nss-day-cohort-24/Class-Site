@@ -4,6 +4,7 @@
   width: 60%;
   align-self: center;
   margin: auto;
+  padding: 1rem 0rem 6rem;
 }
 
 .containAbout {
@@ -12,13 +13,17 @@
 
 .descAbout {
     border: 2px solid #141414;
-    line-height: 45px;
-    /* padding-left: 68px;
-    padding-right: 68px; */
+    line-height: 2.6rem;
+    font-size: 1rem;
+    padding: 3rem 4rem;
+
 }
 
 .buttonMeet {
     background-color: #141414;
     color: #FFDFDC;
     border: none;
+}
+.spacerDiv{
+    height:1rem;
 }

@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 
-
 /* MAIN DOC ELEMENTS */
 
 /* html {
@@ -17,61 +16,67 @@ body {
   font-family: 'Noto Sans', sans-serif; */
 }
 
-
-
-
 main {
   display: flex;
   flex-direction: column;
   align-content: center;
   align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
   /* align-self: center;
   vertical-align: auto;
-  vertical-align: center; */
+  vertical-align: center;
+  margin-bottom: 2.6rem; */
 }
 
+.Section-landing {
+  margin: 4rem 0;
+}
 
+div.Section-meetUs-grid {
+  /* height:100vh; */
+  width: 100%;
+}
 
 /* CLASSES */
 
-h1 {
-  font-size: 34px;
+h2 {
+  font-size: 2rem;
   font-family: 'Noto Sans', sans-serif;
   color: #141414;
   font-variant: small-caps;
-  letter-spacing: 10px;
+  letter-spacing: .4rem;
+  text-align: center;
 }
 
-
 .small-caps-p {
-  font-size: 25px;
+  font-size: 1.4rem;
   font-family: 'Noto Sans', sans-serif;
   color: #DD847F;
   font-variant: small-caps;
   letter-spacing: 6px;
+  text-align: center;
 }
 
 .amp-h2 {
-  font-size: 23px;
-  letter-spacing: 5px;
+  font-size: 1.4rem;
+  letter-spacing: .25rem;
 }
 
 .amp-p {
-  font-size: 17px;
-  letter-spacing: 5px;
+  font-size: 1rem;
+  letter-spacing: .25remx;
 }
 
-.unicorn {
-  width: 450px;
-  margin: 2rem;
+img.unicorn {
+  max-width: 400px;
+  width: 50%;
+  padding-bottom: 2rem;
+  margin-top: 1rem;
 }
+  
 
 
-#gallery {
-  white-space: normal;
-  padding-bottom: 10%;
-}
-
-#detailsPage {
+/* #detailsPage {
   height: 100vh;
-}
+}  */
