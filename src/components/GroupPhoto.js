@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import theGroup from '../class-pics/ClassPic.png'; 
+import theGroup from '../class-pics/ClassPic.jpg'; 
 import './GroupPhoto.css';
 
 class GroupPhoto extends Component {
