@@ -149,7 +149,7 @@ and (orientation : portrait) {
     
  }
 
- .backButton {
+ #backButton {
     padding: .5rem 5rem;
     font-family: 'Roboto';
     font-size: 22px;
@@ -161,10 +161,14 @@ and (orientation : portrait) {
     text-transform: uppercase;
  }
 
- .backButton:hover {
+ #backButton:hover {
     text-decoration: none;
     transition: .3s ease-in-out;
     background-color: transparent;
     border: 5px solid #141414;
     color:  #141414;
+ }
+
+ .blackButton a {
+     color: white !important;
  }
