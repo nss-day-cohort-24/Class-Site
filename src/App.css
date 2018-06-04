@@ -71,9 +71,13 @@ Action Button {
 */
 
 .App {
-  background-color: #FFF9F8;
-  width: 100%;
-  /* padding: 0 3rem; */
+    text-align: center;
+    background-color: #FFDFDC;
+}
+
+.tech{
+    background-color: #FFF1F0;
+    padding: 5m 8m;
 }
 
 h2 {
@@ -86,11 +90,10 @@ h2 {
 h3 {
     font-family: 'Noto Sans', Helvetica, Arial, sans-serif;
     font-weight: 400;
-    font-size: 1.4rem;
+    font-size: 25px;
     letter-spacing: .25rem;
     text-transform: uppercase;
     margin: 3rem 0 1rem 0;
-    color: #FFBFBB;
 }
 
 .filter{

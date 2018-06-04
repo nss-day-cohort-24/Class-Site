@@ -36,17 +36,9 @@ class Technologies extends Component{
                     <img className="img-fluid filter" src={data.image} alt={data.name} />
                 </div>
             ))
-        let designData = techInfo.design.map((data, index)=>(
-                <div className="col mx-auto my-3" id={index}>
-                    <img className="img-fluid filter" src={data.image} alt={data.name} />
-                </div>
-        ))
             return(
 
-                <div>
-                    <div className="spacerDiv" id="Tech">
-                    </div>
-                <div className="tech">
+                <div id="Tech" className="tech">
                     <h2>Technologies Used</h2>
                     <h3>Developement</h3>
                     <div className="container-fluid justify-content-center row mb-5">
@@ -56,9 +48,8 @@ class Technologies extends Component{
                     <div className="container-fluid justify-content-center row mb-5">
                         {designData}
                     </div>
-
-                </div>
-        )}
+                </div>        
+            )}
     }
 }
 

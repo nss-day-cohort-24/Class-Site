@@ -96,11 +96,11 @@
         "link": "https://babeljs.io/"
       }      
     ],
-    "design": [    
+    "design": [
       {
-        "name": "Semantic UI",
-        "image": "./img/techs/semanticui.png",
-        "link": "https://semantic-ui.com/"
+        "name": "XD",
+        "image": "./img/techs/adobexd.png",
+        "link": "https://www.adobe.com/products/xd/features.html"
       },
       {
         "name": "Invision",
@@ -112,10 +112,10 @@
         "image": "./img/techs/sketch.png",
         "link": "https://www.sketchapp.com/"
       },
-       {
-        "name": "Adobe XD",
-        "image": "./img/techs/adobexd.png",
-        "link": "https://www.adobe.com/products/xd/features.html"
+      {
+        "name": "Xtensio",
+        "image": "./img/techs/xtensio.png",
+        "link": "https://xtensio.com/"
       },
       {
         "name": "Photoshop",
@@ -133,9 +133,11 @@
         "link": "https://trello.com/home"
       },
       {
-        "name": "Xtensio",
-        "image": "./img/techs/xtensio.png",
-        "link": "https://xtensio.com/"
+        "name": "Semantic UI",
+        "image": "./img/techs/semanticui.png",
+        "link": "https://semantic-ui.com/"
       }
     ]
   }
+
+
