@@ -76,6 +76,9 @@
     from {top: 0px;}
     to {top: 50px;}
   }
+  .spacerDiv{
+    height:1px;
+  }
 
 
 

@@ -25,3 +25,9 @@ a:hover, a:active, a:visited {
     /* color: #FFF1F0; */
     /* text-decoration: none; */
 }
+
+@media screen and (min-width: 320px) and (max-width: 415px) { 
+
+    
+
+}
