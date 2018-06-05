@@ -1,11 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
-import PeopleDeetz from './PeopleDeets.js';
 import './Gallery.css';
-import pink from './images/pink_swatch.jpg';
-import green from './images/green_swatch.jpg';
-import purple from './images/purple_swatch.jpg';
-import yellow from './images/yellow_swatch.jpg';
 import amber from '../class-pics/amber.jpg';
 import arthur from '../class-pics/arthur.jpg';
 import ben from '../class-pics/ben.jpg';
@@ -25,7 +20,6 @@ import phonetip from '../class-pics/phonthip.jpg';
 import ryan from '../class-pics/ryan.jpg';
 import sam from '../class-pics/sam.jpg';
 import taylor from '../class-pics/taylor.jpg';
-
 import sillyamber from '../class-pics/sillyamber.jpg';
 import sillyarthur from '../class-pics/sillyarthur.jpg';
 import sillyben from '../class-pics/sillyben.jpg';
@@ -45,12 +39,6 @@ import sillyphonethip from '../class-pics/sillyphonthip.jpg';
 import sillyryan from '../class-pics/seriousryan.jpg';
 import sillysam from '../class-pics/sillysam.jpg';
 import sillytaylor from '../class-pics/sillytaylor.jpg';
-
-
-
-
-
-
 
 
 let classList = [
