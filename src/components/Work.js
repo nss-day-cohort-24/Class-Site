@@ -9,7 +9,7 @@ import crimeCheckerLogo from "./images/crimeCheckerLogo.png";
 class Work extends Component {
     render(){
         return(
-            <div id='work' className="workjs">
+            <div id='Work' className="workjs">
                 <div className="pb-5">
                     <div className="col text-center">
                     <h2 className="light-text">Our Work</h2>
