@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './Process.css';
 
 const Process = (props) =>{
@@ -41,7 +41,7 @@ const Process = (props) =>{
                                 <p id="careerPursuitParagraph"><b>74%</b> plan to pursue both design and developement in their future career.</p>
                                 </div>
                                 </div>
-                                <h3 className="col-4"></h3>
+                                <h3 className="col-4">&nbsp;</h3>
                                 <div className="col-6 text-left">
                                 <h3 className="secondHeading text-align-left">competitors</h3>
                                 <p className="media-paragraph">We took a look at our closest competitors to see how they went about developing their class sites.</p>
