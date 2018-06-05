@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Technologies.css';
+import '../App.css';
 import data from './../tech.json';
 
 class Technologies extends Component{
