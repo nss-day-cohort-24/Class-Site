@@ -6,8 +6,6 @@ import github from './social/github.png';
 import linkedin from './social/linkedin-in.png';
 import personalsite from './social/address-card.png';
 import { Link } from 'react-router-dom'
-import lindsay from '../class-pics/lindsay.png';
-import lindsaysilly from '../class-pics/sillylindsay.png';
 
 class PeopleDeetz extends Component {
     constructor(props) {

@@ -1,56 +1,44 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
-import PeopleDeetz from './PeopleDeets.js';
 import './Gallery.css';
-import pink from './images/pink_swatch.jpg';
-import green from './images/green_swatch.jpg';
-import purple from './images/purple_swatch.jpg';
-import yellow from './images/yellow_swatch.jpg';
-import amber from '../class-pics/amber.png';
-import arthur from '../class-pics/arthur.png';
-import ben from '../class-pics/ben.png';
-import dan from '../class-pics/dan.png';
-import dylan from '../class-pics/dylan.png';
-import jeremy from '../class-pics/jeremy.png';
-import jesie from '../class-pics/jesie.png';
-import kelsey from '../class-pics/kelsey.png';
-import laura from '../class-pics/laura.png';
-import lindsay from '../class-pics/lindsay.png';
-import marc from '../class-pics/mark.png';
-import mike from '../class-pics/mike.png';
-import meg from '../class-pics/meg.png';
-import melissa from '../class-pics/melissa.png';
-import million from '../class-pics/million.png';
-import phonetip from '../class-pics/phonthip.png';
-import ryan from '../class-pics/ryan.png';
-import sam from '../class-pics/sam.png';
-import taylor from '../class-pics/taylor.png';
-
-import sillyamber from '../class-pics/sillyamber.png';
-import sillyarthur from '../class-pics/sillyarthur.png';
-import sillyben from '../class-pics/sillyben.png';
-import sillydan from '../class-pics/sillydan.png';
-import sillydylan from '../class-pics/sillydylan.png';
-import sillyjeremy from '../class-pics/sillyjeremy.png';
-import sillyjesie from '../class-pics/sillyjesie.png';
-import sillykelsey from '../class-pics/sillykelsey.png';
-import sillylaura from '../class-pics/sillylaura.png';
-import sillylindsay from '../class-pics/sillylindsay.png';
-import sillymarc from '../class-pics/sillymark.png';
-import sillymike from '../class-pics/mikesilly.png';
-import sillymeg from '../class-pics/sillymeg.png';
-import sillymelissa from '../class-pics/sillymelissa.png';
-import sillymillion from '../class-pics/sillymillion.png';
-import sillyphonethip from '../class-pics/sillyphonthip.png';
-import sillyryan from '../class-pics/seriousryan.png';
-import sillysam from '../class-pics/sillysam.png';
-import sillytaylor from '../class-pics/sillytaylor.png';
-
-
-
-
-
-
+import amber from '../class-pics/amber.jpg';
+import arthur from '../class-pics/arthur.jpg';
+import ben from '../class-pics/ben.jpg';
+import dan from '../class-pics/dan.jpg';
+import dylan from '../class-pics/dylan.jpg';
+import jeremy from '../class-pics/jeremy.jpg';
+import jesie from '../class-pics/jesie.jpg';
+import kelsey from '../class-pics/kelsey.jpg';
+import laura from '../class-pics/laura.jpg';
+import lindsay from '../class-pics/lindsay.jpg';
+import marc from '../class-pics/mark.jpg';
+import mike from '../class-pics/mike.jpg';
+import meg from '../class-pics/meg.jpg';
+import melissa from '../class-pics/melissa.jpg';
+import million from '../class-pics/million.jpg';
+import phonetip from '../class-pics/phonthip.jpg';
+import ryan from '../class-pics/ryan.jpg';
+import sam from '../class-pics/sam.jpg';
+import taylor from '../class-pics/taylor.jpg';
+import sillyamber from '../class-pics/sillyamber.jpg';
+import sillyarthur from '../class-pics/sillyarthur.jpg';
+import sillyben from '../class-pics/sillyben.jpg';
+import sillydan from '../class-pics/sillydan.jpg';
+import sillydylan from '../class-pics/sillydylan.jpg';
+import sillyjeremy from '../class-pics/sillyjeremy.jpg';
+import sillyjesie from '../class-pics/sillyjesie.jpg';
+import sillykelsey from '../class-pics/sillykelsey.jpg';
+import sillylaura from '../class-pics/sillylaura.jpg';
+import sillylindsay from '../class-pics/sillylindsay.jpg';
+import sillymarc from '../class-pics/sillymark.jpg';
+import sillymike from '../class-pics/mikesilly.jpg';
+import sillymeg from '../class-pics/sillymeg.jpg';
+import sillymelissa from '../class-pics/sillymelissa.jpg';
+import sillymillion from '../class-pics/sillymillion.jpg';
+import sillyphonethip from '../class-pics/sillyphonthip.jpg';
+import sillyryan from '../class-pics/seriousryan.jpg';
+import sillysam from '../class-pics/sillysam.jpg';
+import sillytaylor from '../class-pics/sillytaylor.jpg';
 
 
 let classList = [
