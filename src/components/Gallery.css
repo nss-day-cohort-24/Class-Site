@@ -6,9 +6,21 @@
 }
 
 #gallery {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
+}
+
+.imgDiv {
+  overflow: hidden;
+  margin: .25rem;
+}
+
+.img-thumbnail:hover {
+  -webkit-transform:scale(1.2);
+  transform:scale(1.2);
+}
+
+.img-thumbnail {
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+  -webkit-transform:scale(1);
+  transform:scale(1);
 }
