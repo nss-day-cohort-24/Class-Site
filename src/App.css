@@ -5,9 +5,9 @@
 
 -----COLORS-----
 
-Lightest Pink: ##FFF9F8
+Lightest Pink: #FFF9F8
 Normal Pink: #FFDFDC
-Dark Pink: FFBFBB
+Dark Pink: #FFBFBB
 Darkst Pink: #DD847F
 Black: #141414
 
@@ -94,6 +94,10 @@ h3 {
     letter-spacing: .25rem;
     text-transform: uppercase;
     margin: 3rem 0 1rem 0;
+}
+
+.light-text{
+    color: #FFF9F8;
 }
 
 .filter{

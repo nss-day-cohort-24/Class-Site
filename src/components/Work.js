@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import "../../node_modules/bootstrap/dist/css/bootstrap.css";
 import "./Work.css";
+import '../App.css';
 import doLogo from "./images/doLogo.png";
 import wyfyLogo from "./images/wyfyLogo.png";
 import crimeCheckerLogo from "./images/crimeCheckerLogo.png";
@@ -8,10 +9,11 @@ import crimeCheckerLogo from "./images/crimeCheckerLogo.png";
 class Work extends Component {
     render(){
         return(
-            <div className="workjs">
+            <div id='work' className="workjs">
                 <div className="pb-5">
                     <div className="col text-center">
-                        <div className="perfectPitch py-5">PERFECT PITCH 2018</div>
+                    <h2 className="light-text">Our Work</h2>
+                        <div className="perfectPitch pt-5">PERFECT PITCH 2018</div>
                         <div className="head2 pb-4">NASHVILLE OPEN DATA GROUP PROJECTS</div>
                     </div>
 
