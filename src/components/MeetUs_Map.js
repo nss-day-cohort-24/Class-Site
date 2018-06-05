@@ -53,7 +53,7 @@ class MeetUsMap extends Component {
         //     return <div>Loading...</div>
         } else if(!imagesLoaded){
             return(
-            <div id="detailsPage">
+            <div id="detailsPage d-flex justify-content-center">
               <Gallery />
             </div>
             )

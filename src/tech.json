@@ -136,6 +136,11 @@
         "name": "Semantic UI",
         "image": "./img/techs/semanticui.png",
         "link": "https://semantic-ui.com/"
+      },
+      {
+        "name": "Post-it Notes",
+        "image": "./img/techs/post-it.png",
+        "link": "https://www.post-it.com/3M/en_US/post-it/"
       }
     ]
   }

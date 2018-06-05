@@ -4,6 +4,10 @@
     color: #FFF1F0;
 }
 
+.tech h2 {
+    color: white;
+}
+
 
 .filter{
     filter: sepia(20%) grayscale(60%) brightness(90%) contrast(120%) brightness(110%);

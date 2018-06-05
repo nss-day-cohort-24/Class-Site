@@ -298,7 +298,7 @@ let Gallery = () => {
     )
         return(
             <div id="gallery">
-                <div className="d-flex flex-wrap container justify-content-start align-items-center" >
+                <div className="p-0 d-flex flex-wrap container justify-content-center align-items-center" >
                     {gallery}
                 </div>
             </div>
