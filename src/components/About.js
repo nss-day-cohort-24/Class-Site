@@ -1,11 +1,8 @@
 import React from 'react';
-import { Container, Row, Col } from 'reactstrap';
-import { NavHashLink as NavLink } from 'react-router-hash-link';
 import './About.css';
 
 export default class About extends React.Component {
     render() {
-        let textContent = this.props.text;
 
         return(
           <section className="text-left justify-content-center section__about">

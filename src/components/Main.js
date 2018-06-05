@@ -2,10 +2,8 @@ import React from 'react'
 import { Switch, Route } from 'react-router-dom'
 import HomeBody from './Home';
 import Work from './Work';
-import About from './About';
 import './Home.css';
 import PeopleDeetz from './PeopleDeets';
-import Gallery from './Gallery';
 
 
 
