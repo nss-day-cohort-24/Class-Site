@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Technologies.css';
+import '../App.css';
 import data from './../tech.json';
 
 class Technologies extends Component{
@@ -10,11 +10,9 @@ class Technologies extends Component{
     };
 
     componentDidMount = () => {
-        console.log("tech did mount");
         this.setState({
             techLoaded: true
         })
-        // console.log('techInfo', this.state.techInfo);
     }
 
 
@@ -25,7 +23,6 @@ class Technologies extends Component{
             return(
                 <div>Loading...</div>
         )} else if(techLoaded){
-            // console.log('line 28', techInfo)
         let techData = techInfo.tech.map((data,index) => (
                 <div className="mx-3 my-3" id={index} style={{width: 5 + 'rem', height: 5 + 'rem'}}>
                     <img className="img-fluid filter" src={data.image} alt={data.name} />

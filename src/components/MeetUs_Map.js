@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
-// import { Link } from 'react-router';
-// import './Home.css';
 import './MeetUs_Map.css';
-import { Route } from 'react-router-dom';
 import Gallery from './Gallery';
 
 
@@ -18,7 +15,7 @@ class MeetUsMap extends Component {
         }}
 
     componentDidMount() {
-        console.log("Gallery did mount");
+        // console.log("Gallery did mount");
 
     }
 
@@ -31,14 +28,13 @@ class MeetUsMap extends Component {
                     imagesLoaded: true,
                     imagesResult: result
                 });
-                console.log("images object: ", this.setStateimagesResult);
+                // console.log("images object: ", this.setStateimagesResult);
             },
             (error) =>{
                 this.setState({
                     isLoaded: true,
                     error: error
                 });
-                console.log("error here");
             })
     }
 
@@ -47,7 +43,7 @@ class MeetUsMap extends Component {
 
         if(error) {
             return(
-                <div>Error: try again mofo</div>
+                <div>Error: Please reload the page.</div>
             )
         // } else if(!imagesLoaded) {
         //     return <div>Loading...</div>

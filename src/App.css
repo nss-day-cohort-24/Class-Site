@@ -5,9 +5,9 @@
 
 -----COLORS-----
 
-Lightest Pink: ##FFF9F8
+Lightest Pink: #FFF9F8
 Normal Pink: #FFDFDC
-Dark Pink: FFBFBB
+Dark Pink: #FFBFBB
 Darkst Pink: #DD847F
 Black: #141414
 
@@ -75,9 +75,9 @@ Action Button {
     background-color: #FFF1F0;
 }
 
-.tech{
+.tech {
     background-color: #FFF1F0;
-    padding: 5m 8m;
+    padding: 6rem 4rem 3rem;
 }
 
 h2 {
@@ -94,6 +94,19 @@ h3 {
     letter-spacing: .25rem;
     text-transform: uppercase;
     margin: 3rem 0 1rem 0;
+}
+
+.light-text{
+    color: #FFF9F8;
+}
+
+.filter{
+    filter: sepia(20%) grayscale(60%) brightness(90%) contrast(120%) brightness(110%);
+    }
+
+.filter:hover{
+    filter: none;
+    transition: .2s ease-in-out;
 }
 
 .spacerDiv{
