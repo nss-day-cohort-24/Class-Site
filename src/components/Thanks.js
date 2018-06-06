@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './Thanks.css';
 import logo from './images/NSS-Logo.png';
 
@@ -25,7 +25,7 @@ const Thanks = () => {
                         <li>Inge Kathleen Photography</li>
                     </ul>
                     </div>
-                <img className="nssLogo" src={logo}></img>
+                <img className="nssLogo" src={logo} alt="NSS logo"></img>
                 <h3>Site Developed and Designed by Unicorns</h3>
                 <p>&copy; Cohort 24 Unicorns Nashville Software School 2018</p>
             </div>
