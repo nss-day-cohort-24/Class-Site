@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans|Roboto');
 
-.navBar{
+.uniNav{
     height: 100px;
     padding: 1rem 2rem;
     background-color: rgba(255, 241, 240, .95);
@@ -36,7 +36,6 @@
     color: #FFBFBB;
     text-decoration: none;
     padding-left: 8px;
-
 }
 
 .navList a:visited{
