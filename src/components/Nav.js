@@ -1,30 +1,51 @@
 import React, { Component } from 'react';
-// import logo from './logo.svg';
-// import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
-// import '.././App.css';
 import './Nav.css';
 import C24Logo from  '.././images/nss24-logo.svg';
-import { Navbar } from 'reactstrap';
 import { NavHashLink as NavLink } from 'react-router-hash-link';
+import {
+  Collapse,
+  Navbar,
+  Nav,
+  NavItem } from 'reactstrap';
+
+class Navigation extends Component {
+    state = {
+      isOpen: false,
+      modal: false 
+    };
+
+  toggleNavbar = () => {
+    this.setState({
+    isOpen: !this.state.isOpen
+  });
+  }
 
 
-
-class Nav extends Component {
   render() {
     return (
-      <Navbar className="d-flex justify-content-between text-middle navBar stroke" fixed="top">
-       <NavLink to='/Class-Site' className="noBorder"><img src={C24Logo} alt="C24 Class Logo" className="c24Logo"/></NavLink>
-       
-       <ul className="rightSideNav">
-          <li className="navList"><NavLink to='/Class-Site/#About'> ABOUT </NavLink></li>
-          <li className="navList"><NavLink to='/Class-Site/#Meet'>MEET</NavLink> </li>
-          <li className="navList"><NavLink to='/Class-Site/#Tech'>TECH</NavLink> </li>
-          <li className="navList"><NavLink to='/Class-Site/#Work'>WORK</NavLink> </li>
-        </ul>
+      <Navbar expand="md" className="d-flex justify-content-between text-middle navBar stroke" fixed="top">
+                <NavLink to='/Class-Site' className="noBorder"><img src={C24Logo} alt="C24 Class Logo" className="c24Logo"/></NavLink>
+                <button type="button" className="navbar-toggler" onClick={this.toggleNavbar} ><i className="fas fa-bars"></i></button>
 
-      </Navbar>
+              <Collapse isOpen={this.state.isOpen} navbar>
+                <Nav className="ml-auto" navbar>
+                  <NavItem>
+                      <NavLink to='/Class-Site/#About'> ABOUT </NavLink>
+                  </NavItem>
+                  <NavItem>
+                      <NavLink to='/Class-Site/#Meet'>MEET</NavLink>
+                  </NavItem>
+                  <NavItem>
+                      <NavLink to='/Class-Site/#Tech'>TECH</NavLink>
+                  </NavItem>
+                  <NavItem>
+                      <NavLink to='/Class-Site/#Work'>WORK</NavLink>
+                  </NavItem> 
+                </Nav>
+              </Collapse>
+            </Navbar>
     );
   }
 }
 
-export default Nav;
+export default Navigation;
