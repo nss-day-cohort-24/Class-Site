@@ -6,10 +6,6 @@
     background-color: rgba(255, 241, 240, .95);
 }
 
-/* .nav__container {
-  justify-content: space-between;
-} */
-
 .c24Logo {
     /* float: left; */
     height: 4rem;
@@ -21,7 +17,7 @@
     border-bottom: none !important;
 }
 
-ul.rightSideNav{
+.rightSideNav{
     align-content: flex-end;
     justify-content: baseline;
     margin: 0;
@@ -30,7 +26,6 @@ ul.rightSideNav{
 .navList {
     display: inline-block;
     margin: 0 2rem;
-    /* margin-top: 2rem; */
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: .9rem;
@@ -44,15 +39,20 @@ ul.rightSideNav{
 
 }
 
+.navList a:visited{
+    color: #FFBFBB;
+    text-decoration: none;
+}
+
 .navList a:hover {
     color: rgb(31, 31, 31);
     line-height: 5px;
     text-decoration: none;
 }
 
-  nav ul li a,
-  nav ul li a:after,
-  nav ul li a:before {
+  nav a,
+  nav a:after,
+  nav a:before {
     transition: all .5s;
   }
   nav ul li a:hover {
