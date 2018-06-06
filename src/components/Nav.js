@@ -28,17 +28,17 @@ class Navigation extends Component {
                 <button type="button" className="navbar-toggler" onClick={this.toggleNavbar} ><i className="fas fa-bars"></i></button>
 
               <Collapse isOpen={this.state.isOpen} navbar>
-                <Nav className="ml-auto" navbar>
-                  <NavItem>
+                <Nav className="rightSideNav ml-auto" navbar>
+                  <NavItem className="navList">
                       <NavLink to='/Class-Site/#About'> ABOUT </NavLink>
                   </NavItem>
-                  <NavItem>
+                  <NavItem className="navList">
                       <NavLink to='/Class-Site/#Meet'>MEET</NavLink>
                   </NavItem>
-                  <NavItem>
+                  <NavItem className="navList">
                       <NavLink to='/Class-Site/#Tech'>TECH</NavLink>
                   </NavItem>
-                  <NavItem>
+                  <NavItem className="navList">
                       <NavLink to='/Class-Site/#Work'>WORK</NavLink>
                   </NavItem> 
                 </Nav>
