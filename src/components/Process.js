@@ -37,8 +37,9 @@ const Process = (props) =>{
                                 <div className="bar3 text-left align-middle"><p>29%</p></div>
                                 <div className="bar1 text-left align-middle"><p>42%</p></div>
                                 </div>
+                                <small className="smallText col-12 text-center">this is not an image!</small>
                                 <div className="col-12 align-center">
-                                <p id="careerPursuitParagraph"><b>74%</b> plan to pursue both design and developement in their future career.</p>
+                                <p id="careerPursuitParagraph"><b>74%</b> plan to pursue both design and development in their future career.</p>
                                 </div>
                                 </div>
                                 <h3 className="col-4">&nbsp;</h3>

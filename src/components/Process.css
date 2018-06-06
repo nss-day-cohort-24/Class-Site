@@ -120,7 +120,9 @@ li {
     color: #DD847F;
 }
 
-
+.smallText{
+    margin-top: 2rem;
+}
 
 
 
@@ -244,6 +246,7 @@ li {
         line-height: 2em;
         padding: 0;
     }
+    
     
     #careerPursuitParagraph {
         margin-top: 5rem;

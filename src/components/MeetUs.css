@@ -1,5 +1,5 @@
 .meetUs{
-    background-color: #FFBFBB;
+    background-color: #FFDFDC;
     margin: 0 auto;
     padding: 0 0 5rem 0;
     width: 100%;
@@ -8,7 +8,7 @@
 
 .meetUs h2 {
   text-align: center;
-  padding-top: 8rem;
+  padding-top: 6rem;
   padding-bottom: 2rem;
 }
 
@@ -35,10 +35,14 @@
   .img-thumbnail {
     width: 10rem;
     height: 10rem;
-    margin: .25rem; 
     border: none;
     border-radius: 0px;
     padding: 0px;
+    opacity: .88;
+  }
+
+  .img-thumbnail:hover {
+    opacity: 1;
   }
 
 .arrow {

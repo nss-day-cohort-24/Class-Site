@@ -1,0 +1,23 @@
+.tech {
+    background-color: #FFBFBB;
+    padding: 6rem 4rem 3rem;
+    color: #FFF1F0;
+}
+
+.tech h2 {
+    color: white;
+}
+
+.filter{
+    filter: sepia(20%) grayscale(60%) brightness(90%) contrast(120%) brightness(110%);
+    }
+
+.filter:hover{
+    filter: none;
+    transition: .2s ease-in-out;
+    
+}
+
+.filter > .head2 {
+    color: #FFBFBB;
+}

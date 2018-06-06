@@ -8,7 +8,7 @@ import About from './About';
 import GroupPhoto from './GroupPhoto';
 import Process from './Process';
 import Work from './Work';
-
+import Thanks from './Thanks';
 
 function HomeBody() {
     return (
@@ -27,6 +27,7 @@ function HomeBody() {
             <Work />
             <Process />
             <GroupPhoto />
+            <Thanks />
         </div>
     )
 }

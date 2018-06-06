@@ -3,7 +3,7 @@
 .navBar{
     height: 100px;
     padding: 1rem 2rem;
-    background-color: rgba(255, 223, 220,.9);
+    background-color: rgba(255, 241, 240, .95);
 }
 
 /* .nav__container {
@@ -29,7 +29,7 @@ ul.rightSideNav{
 
 .navList {
     display: inline-block;
-    margin: 1rem 2rem;
+    margin: 0 2rem;
     /* margin-top: 2rem; */
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
@@ -39,7 +39,9 @@ ul.rightSideNav{
 
 .navList a {
     color: #FFBFBB;
-    text-decoration: none
+    text-decoration: none;
+    padding-left: 8px;
+
 }
 
 .navList a:hover {
