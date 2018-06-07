@@ -23,7 +23,7 @@ class Navigation extends Component {
 
   render() {
     return (
-      <Navbar expand="md" className="d-flex justify-content-between text-middle uniNav stroke">
+      <Navbar expand="md" className="d-flex justify-content-between text-middle uniNav stroke sticky-top">
                 <NavLink to='/Class-Site' className="noBorder"><img src={C24Logo} alt="C24 Class Logo" className="c24Logo"/></NavLink>
                 <button type="button" className="navbar-toggler" onClick={this.toggleNavbar} ><i className="fas fa-bars"></i></button>
 
