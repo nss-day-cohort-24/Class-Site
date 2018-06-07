@@ -19,19 +19,19 @@ const Thanks = () => {
                             <li>John Wark</li>
                         </ul>
                 </div>
-                <div className="photoDiv">
+                <div className="photoDiv mt-5">
                     <h3>Photography</h3>
                     <ul>
                         <li>Inge Kathleen Photography</li>
                     </ul>
                     </div>
                 
-                <h3>Site Developed and Designed by Unicorns</h3>
-                <p>&copy; 2018 Cohort 24 Unicorns Nashville Software School 2018</p>
-                <div>
+                <h3 className="mt-5">Site Developed and Designed by Unicorns</h3>
+                <p>&copy; 2018 Cohort 24 — Nashville Software School</p>
+                </div>
+                <div className="d-block">
                 <img className="nssLogo" src={logo} alt="NSS logo"></img>
                 </div>
-            </div>
         </div>
     )
 }
