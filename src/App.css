@@ -75,25 +75,24 @@ Action Button {
     background-color: #FFF1F0;
 }
 
-.tech {
-    background-color: #FFF1F0;
-    padding: 6rem 4rem 3rem;
-}
-
 h2 {
     text-transform: uppercase;
-    letter-spacing: .25rem;
+    letter-spacing: .25em;
     font-family: 'Noto Sans', Helvetica, Arial, sans-serif;
-    font-size: 2rem;
+    font-size: 2em;
 }
 
 h3 {
     font-family: 'Noto Sans', Helvetica, Arial, sans-serif;
     font-weight: 400;
     font-size: 25px;
-    letter-spacing: .25rem;
+    letter-spacing: .25em;
     text-transform: uppercase;
-    margin: 3rem 0 1rem 0;
+    margin: 3em 0 1em 0;
+}
+
+.row{
+    max-width: 100% !important;
 }
 
 .light-text{
@@ -110,6 +109,6 @@ h3 {
 }
 
 .spacerDiv{
-        height:2rem;
+        height:2em;
       }
 

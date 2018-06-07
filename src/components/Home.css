@@ -4,21 +4,17 @@
 
 /* MAIN DOC ELEMENTS */
 
-main {
+.homeBody {
   display: flex;
   flex-direction: column;
   align-content: center;
   align-items: center;
-  padding-top: 2rem;
-  /* align-self: center;
-  vertical-align: auto;
-  vertical-align: center;
-  margin-bottom: 2.6rem; */
-  /* padding-bottom: 4rem; */
+  padding-top: 2em;
+  margin: 0 auto;
 }
 
 .Section-landing {
-  margin: 4rem 0;
+  margin: 4em 0;
 }
 
 div.Section-meetUs-grid {
@@ -28,14 +24,6 @@ div.Section-meetUs-grid {
 
 /* CLASSES */
 
-h2 {
-  font-size: 2rem;
-  font-family: 'Noto Sans', sans-serif;
-  color: #141414;
-  font-variant: small-caps;
-  letter-spacing: .4rem;
-  text-align: center;
-}
 
 .small-caps-p {
   font-size: 1.4rem;
@@ -59,12 +47,6 @@ h2 {
 .unicorn {
   max-width: 400px;
   width: 50%;
-  padding-bottom: 2rem;
-  margin-top: 1rem;
+  padding-bottom: 2em;
+  margin-top: 1em;
 }
-  
-
-
-/* #detailsPage {
-  height: 100vh;
-}  */

@@ -54,18 +54,18 @@
   nav a:before {
     transition: all .5s;
   }
-  nav ul li a:hover {
+  nav a:hover {
     color: #555;
   }
   
   
   /* stroke */
-  nav.stroke ul li a,
-  nav.fill ul li a {
+  nav.stroke  a,
+  nav.fill a {
     position: relative;
   }
-  nav.stroke ul li a:after,
-  nav.fill ul li a:after {
+  nav.stroke  a:after,
+  nav.fill  a:after {
     position: absolute;
     bottom: 2px;
     left: 0;
@@ -78,7 +78,7 @@
     background: #FFBFBB;
     height: 4px;
   }
-  nav.stroke ul li a:hover:after {
+  nav.stroke a:hover:after {
     width: 100%;
   }
   

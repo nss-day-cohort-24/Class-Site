@@ -12,7 +12,7 @@ import Thanks from './Thanks';
 
 function HomeBody() {
     return (
-        <div>
+        <div className="homeBody">
             <div className ="Section-landing">
                 <img src={Unicorn} alt="A Silhouette of An Awesome Unicorn" className="unicorn"/>
                 <h2>design + development = unicorn</h2>
@@ -25,7 +25,7 @@ function HomeBody() {
             <MeetUs />
             <Technologies />
             <Work />
-            <Process />
+            <Process /> 
             <GroupPhoto />
             <Thanks />
         </div>

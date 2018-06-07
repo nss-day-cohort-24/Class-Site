@@ -5,7 +5,7 @@ import logo from './images/NSS-Logo.png';
 const Thanks = () => {
     return (
         <div className="thanksDiv">
-            <div className="flex-row justify-content-center">
+            <div className="row justify-content-center">
                 <h2>Special Thanks To...</h2>
                 <div className="staffDiv">
                     <h3>NSS Staff</h3>

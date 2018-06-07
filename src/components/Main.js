@@ -8,7 +8,7 @@ import PeopleDeetz from './PeopleDeets';
 
 
 const Main = () => (
-    <main>
+    <div>
       <Switch>
         <Route exact path='/Class-Site' component={HomeBody}/>
         <Route path='/Class-Site/#About' component={HomeBody}/> 
@@ -35,7 +35,7 @@ const Main = () => (
         <Route path='/Class-site/taylor' component={PeopleDeetz} />
         <Route path='/Class-site/phonethip' component={PeopleDeetz} />
       </Switch>
-    </main>
+    </div>
   )
   
   export default Main

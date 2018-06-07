@@ -1,15 +1,9 @@
 .meetUs{
     background-color: #FFDFDC;
     margin: 0 auto;
-    padding: 0 0 5rem 0;
+    padding: 0 0 5em 0;
     width: 100%;
     
-}
-
-.meetUs h2 {
-  text-align: center;
-  padding-top: 6rem;
-  padding-bottom: 2rem;
 }
 
 .flex-item {
@@ -20,7 +14,7 @@
   #detailsPage{
     align-self: center;
     align-content: center;
-    margin: 0 6rem;
+    margin: 0 6em;
   }
 
   .gallery-grid {
@@ -45,27 +39,27 @@
     opacity: 1;
   }
 
-.arrow {
-    /* margin-bottom: 2rem; */
+/* .arrow {
+    margin-bottom: 2rem;
     padding-bottom: 3rem;
     padding-left: .5rem;
     margin: 3rem;
     width: 8%;
     position: relative;
-    -webkit-animation-name: down;  /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 3s;  /* Safari 4.0 - 8.0 */
-    -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
-    -webkit-animation-fill-mode: backwards; /* Safari 4.0 - 8.0 */
+    -webkit-animation-name: down;  /* Safari 4.0 - 8.0 
+    -webkit-animation-duration: 3s;  /* Safari 4.0 - 8.0 
+    -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 
+    -webkit-animation-fill-mode: backwards; /* Safari 4.0 - 8.0
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-name: down;
     animation-duration: 2s;
     animation-delay: 3s;
     animation-fill-mode: backwards;
-  }
+  } */
 
   /* Safari 4.0 - 8.0 */
-@-webkit-keyframes down {
+/* @-webkit-keyframes down {
     to {top: 0px;}
     from {top: 50px;}
   }
@@ -74,9 +68,10 @@
     from {top: 0px;}
     to {top: 50px;}
   }
-  .spacerDiv{
+   */
+  /* .spacerDiv{
     height:1px;
-  }
+  } */
 
 
 
