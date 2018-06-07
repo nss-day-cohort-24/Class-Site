@@ -6,7 +6,7 @@ import MeetUsMap from './MeetUs_Map';
 
 function MeetUs() {
     return(
-<div className='meetUs'>
+<div className='meetUs pt-5' id="Meet">
         <div className="meetUs">
             {/* <img src={arrow} className="arrow" alt="arrow animation"/>
             <br /> */}
