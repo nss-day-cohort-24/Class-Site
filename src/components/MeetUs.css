@@ -1,14 +1,14 @@
 .meetUs{
     background-color: #FFDFDC;
     margin: 0 auto;
-    padding: 0 0 5em 0;
+    padding: 2em 0;
     width: 100%;
     
 }
 
 .flex-item {
     height: 130px;
-    margin: 1rem;
+    margin: 1em;
   } 
   
   #detailsPage{

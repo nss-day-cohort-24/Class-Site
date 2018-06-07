@@ -24,7 +24,7 @@
 
 .peopledeetzbackground {
     height: 70vh;
-    margin-bottom: 2rem;
+    margin-bottom: 2em;
 }
 
 
@@ -34,7 +34,7 @@
 
 .socialdiv {
     margin-left: -3%;
-    margin-top: 15rem;
+    margin-top: 15em;
     flex-direction: column;
     justify-content: end;
     align-items: center;
@@ -150,7 +150,7 @@ and (orientation : portrait) {
  }
 
  #backButton {
-    padding: .5rem 5rem;
+    padding: .5em 5em;
     font-family: 'Roboto';
     font-size: 22px;
     font-weight: 400;
