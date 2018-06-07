@@ -5,7 +5,7 @@ import './GroupPhoto.css';
 class GroupPhoto extends Component {
     render(){
         return(
-            <div className="background">
+            <div className="classPhoto">
                 <div className="container">
                     <img src={theGroup} className="img-fluid" alt="Group"/>
                 </div>

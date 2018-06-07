@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans');
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
-.workjs > div {
+.workjs {
     background-color: #141414;
     font-family: 'Noto Sans', sans-serif;
     color: #DD847F;
     /* color: #FFF1F0; */
-    padding: 5rem 0;
+    padding: 5em 0;
+    width: 100%;
 }
 
 .perfectPitch {
@@ -19,17 +20,16 @@
     font-size: 1rem;
     letter-spacing: .5rem;
     text-decoration: none;
-    margin-top: 1rem;
+    margin-top: 1em;
 }
 
 a:hover, a:active, a:visited {
     color: rgba(221, 132, 127, 0.60);
     /* color: #FFF1F0; */
-    text-decoration: none;
 }
 
+
 .workjs h2 {
-    padding-top: 5rem;
     color: white;
     font-weight: 400;
     font-size: 34px;
@@ -43,7 +43,7 @@ a:hover, a:active, a:visited {
     font-size: 25px;
     letter-spacing: .25rem;
     text-transform: uppercase;
-    margin: 3rem 0 1rem 0
+    margin: 3em 0 1em 0
 }
 
 

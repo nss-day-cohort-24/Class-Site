@@ -4,7 +4,7 @@
   width: 60%;
   align-self: center;
   margin: auto;
-  padding: 1rem 0rem 6rem;
+  padding: 1em 0em 6em;
 }
 
 .containAbout {
@@ -15,7 +15,7 @@
     border: 2px solid #141414;
     line-height: 2.6rem;
     font-size: 1rem;
-    padding: 3rem 4rem;
+    padding: 3em 4em;
 
 }
 

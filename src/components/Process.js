@@ -27,17 +27,16 @@ const Process = (props) =>{
                                 </div>
                                 <div className="col-6 pl-0 pr-4 align-right vertLine">
                                     <ul>
-                                    <li className="workType">agency</li>
-                                    <li className="workType">startup</li>
-                                    <li className="workType">enterprise</li>
+                                        <li className="workType">agency</li>
+                                        <li className="workType">startup</li>
+                                        <li className="workType">enterprise</li>
                                     </ul>
                                 </div>
                                 <div className="bars col-6 pr-0">
-                                <div className="bar2 text-left align-middle"><p>29%</p></div>
-                                <div className="bar3 text-left align-middle"><p>29%</p></div>
-                                <div className="bar1 text-left align-middle"><p>42%</p></div>
+                                    <div className="bar2 text-left align-middle"><p>29%</p></div>
+                                    <div className="bar3 text-left align-middle"><p>29%</p></div>
+                                    <div className="bar1 text-left align-middle"><p>42%</p></div>
                                 </div>
-                                <small className="smallText col-12 text-center">this is not an image!</small>
                                 <div className="col-12 align-center">
                                 <p id="careerPursuitParagraph"><b>74%</b> plan to pursue both design and development in their future career.</p>
                                 </div>

@@ -18,19 +18,19 @@ class Work extends Component {
                     </div>
                     <div className="row justify-content-center pb-5">
                         <div className="col-4-sm mt-5 filter">
-                            <a href="https://github.com/nss-day-cohort-24/do" target="_blank">
+                            <a href="https://github.com/nss-day-cohort-24/do" target="_blank" rel="noopener noreferrer" >
                                 <img src={doLogo} alt="Filler" height="276" width="286"/>
                                 <div className="head2 text-center">DO.</div>
                             </a>
                         </div>
                         <div className="col-4-sm text-center mt-5 mx-3 filter">
-                            <a href="https://github.com/nss-day-cohort-24/wyfy" target="_blank">
+                            <a href="https://github.com/nss-day-cohort-24/wyfy" target="_blank" rel="noopener noreferrer" >
                                 <img src={wyfyLogo} alt="Filler" height="276" width="286"/>
                                 <div className="head2 text-center">WYFY</div>
                             </a>
                         </div>
                         <div className="col-4-sm text-center mt-5 filter">
-                            <a href="https://github.com/nss-day-cohort-24/uix-crime-checker" target="_blank">
+                            <a href="https://github.com/nss-day-cohort-24/uix-crime-checker" target="_blank" rel="noopener noreferrer" >
                                 <img src={crimeCheckerLogo} alt="Filler" height="276" width="286"/>
                                 <div className="head2 text-center">CRIME CHECKER</div>                        
                             </a>
