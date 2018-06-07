@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans');
 
 .section__about {
-  width: 60%;
+  width: 90%;
   align-self: center;
-  margin: auto;
-  padding: 1em 0em 6em;
+  margin: 2em auto;
+  padding: 1em 0em 3em;
 }
 
 .containAbout {
@@ -13,11 +13,11 @@
 
 .descAbout {
     border: 2px solid #141414;
-    line-height: 2.6rem;
+    line-height: 1.6rem;
     font-size: 1rem;
-    padding: 3em 4em;
-
+    padding: 2em 1.5em;
 }
+
 
 .buttonMeet {
     background-color: #141414;
@@ -27,3 +27,19 @@
 .spacerDiv{
     height:1rem;
 }
+
+@media(min-width:768px){
+    .descAbout {
+        border: 2px solid #141414;
+        line-height: 2.6rem;
+        font-size: 1rem;
+        padding: 3em 4em;
+    }
+
+    .section__about {
+        width: 60%;
+        align-self: center;
+        margin: auto;
+        padding: 1em 0em 6em;
+      }
+    }

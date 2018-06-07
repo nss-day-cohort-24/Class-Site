@@ -1,17 +1,28 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans|Roboto');
 
-.uniNav{
-    height: 100px;
-    padding: 1em 2em;
+
+.navbar-collapse, .collapse{
     background-color: rgba(255, 241, 240, .95);
+    width: 100% !important;
+    padding: .5em 0;
+}
+
+nav li{
+    padding: .5em 0;
+}
+
+.uniNav{
+    padding: 1em 1.4em;
+    background-color: rgba(255, 241, 240, .95);
+    height: 80px;
 }
 
 .c24Logo {
-    /* float: left; */
-    height: 4rem;
-    /* margin: 3rem 2.5rem; */
-    /* padding-top: 1rem; */
+    height: 3rem;
+    /* padding: .3em 0; */
+    margin: .5em auto;
 }
+
 
 .noBorder{
     border-bottom: none !important;
@@ -32,40 +43,36 @@
     letter-spacing: .5em;
 }
 
-.navList a {
+.navList li a {
     color: #FFBFBB;
     text-decoration: none;
-    padding-left: 8px;
+    padding: 1em 8px;
+    text-align: right;
 }
 
-.navList a:visited{
-    color: #FFBFBB;
-    text-decoration: none;
-}
-
-.navList a:hover {
+.navList li a:hover {
     color: rgb(31, 31, 31);
     line-height: 5px;
     text-decoration: none;
 }
 
-  nav a,
-  nav a:after,
-  nav a:before {
+  nav li a,
+  nav li a:after,
+  nav li a:before {
     transition: all .5s;
   }
-  nav a:hover {
+  nav li a:hover {
     color: #555;
   }
   
   
   /* stroke */
-  nav.stroke  a,
-  nav.fill a {
+  nav.stroke  li a,
+  nav.fill li a {
     position: relative;
   }
-  nav.stroke  a:after,
-  nav.fill  a:after {
+  nav.stroke li a:after,
+  nav.fill li a:after {
     position: absolute;
     bottom: 2px;
     left: 0;
@@ -78,7 +85,24 @@
     background: #FFBFBB;
     height: 4px;
   }
-  nav.stroke a:hover:after {
+  nav.stroke li a:hover:after {
     width: 100%;
   }
-  
+
+@media(min-width:768px) {
+
+    .navbar-collapse, .collapse{
+        background-color: transparent;
+    }
+
+    .uniNav{
+        height: 100px;
+        padding: 1em 2em;
+    }
+
+    .c24Logo {
+        height: 4rem;
+        margin: 1em;
+    }
+
+}

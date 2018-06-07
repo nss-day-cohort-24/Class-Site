@@ -3,13 +3,11 @@
 
 
 /* MAIN DOC ELEMENTS */
-
 .homeBody {
   display: flex;
   flex-direction: column;
   align-content: center;
   align-items: center;
-  padding-top: 2em;
   margin: 0 auto;
 }
 
@@ -18,13 +16,10 @@
 }
 
 div.Section-meetUs-grid {
-  /* height:100vh; */
   width: 100%;
 }
 
 /* CLASSES */
-
-
 .small-caps-p {
   font-size: 1.4rem;
   font-family: 'Noto Sans', sans-serif;
@@ -46,7 +41,25 @@ div.Section-meetUs-grid {
 
 .unicorn {
   max-width: 400px;
-  width: 50%;
-  padding-bottom: 2em;
+  width: 80%;
+  padding-bottom: 1em;
   margin-top: 1em;
+}
+
+
+
+  @media(min-width:768px) {
+  .homeBody {
+    padding-top: 1.2em;
+  }
+
+  .Section-landing{
+    padding: 0 0 2em 0;
+  }
+
+  .unicorn {
+    max-width: 400px;
+    width: 50%;
+    padding-bottom: 2em;
+  }
 }

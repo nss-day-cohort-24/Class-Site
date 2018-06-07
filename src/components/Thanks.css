@@ -26,13 +26,14 @@
     font-size: 18px;
     letter-spacing: .024em;
     display: inline-block;
-    margin: 1em 1em;
+    margin: 0 1em;
 }
 
-/* .staffDiv, .photoDiv {
-    margin: 4em 20em;
-    max-width: 100%;
-}  */
+.staffDiv, .photoDiv {
+    /* margin: 4em 20em; */
+    width: 100%;
+} 
+
 
 .nssLogo {
     height: 5em;
