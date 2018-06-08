@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 /* ////////// ***     BASE    *** ///////// */
-#Meet {
-    background-color: #FFDFDC;    
-}
+
 
 .black {
     color: #141414;
@@ -41,6 +39,8 @@
 
 .peopleDiv{
     min-height: 100vh;
+    background-color: #FFF9F8;
+    max-width: 100%;
 }
 
 .class-h1 {
@@ -60,17 +60,20 @@
 
 
 /* phone */
-@media only screen and (max-width: 600px) {
+@media only screen 
+and (max-width: 768px) {
+
  .peopledeetzpage {
      flex-direction: column;
  }
 
  .peopleDiv{
     height: auto;
+    max-width: 100%;
     padding-bottom: 5em;
 }
  .classpicture {
-    max-width: 98%;
+    max-width: 60%;
     height: auto;
 }
 
@@ -80,11 +83,10 @@
      margin: 1em auto;
  }
 
-
 .aboutdiv {
     border-top: 3px solid #FFBFBB;
     border-bottom: 3px solid #FFBFBB;    
-    width: 90%;
+    max-width: 90%;
     margin: 1em;
     padding: 1em;
 }
@@ -95,18 +97,18 @@
     margin: 5% 5% 10% auto; 
 }
 
- .icon {
-     transform: rotate(270deg);
- }
+.icon {
+    transform: rotate(270deg);
+}
     
 }
 
 
-/* ipad portrait */
- @media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : portrait) { 
+/* IPAD */
+/* @media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
     
 .peopledeetzpage {
      flex-direction: column;
@@ -115,12 +117,13 @@ and (orientation : portrait) {
 
 .aboutdiv {
     width: 100%;
-    margin-bottom: 0;
+    margin: 1em;
+    padding: 0 4em;
 }
 
-.classpicture {
-    width: 75%;
-    height: 75%;
+.picturediv img {
+    max-width: 70%;
+    height: auto;
     margin: 0 auto 0 auto;
 }
 
@@ -141,22 +144,30 @@ and (orientation : portrait) {
      transform: rotate(270deg);
  }
     
- }
+ } */
 
- /* Full width */
-@media(min-width:1024px){
+ /* ipad width */
+@media(min-width:769px){
+    .peopleDiv{
+        padding-top: 5em;
+        max-width: 100%;
+    }
 
+   .back{
+       padding-top: 3em;
+   }
     .peopledeetzpage {
         flex-direction: row;
     }
 
     .picturediv {
        margin-right: -10%;
-       padding-left: 17%;
+       /* padding-left: 17%; */
    }
    
    .classpicture {
-       height: 60vh;
+       max-width: 75%;
+       height: auto;
    }
  
    .aboutdiv {
@@ -170,12 +181,24 @@ and (orientation : portrait) {
     }
    
    .socialdiv {
-       margin-left: -14%;
-       margin-top: 15em;
+       margin-left: -2%;
+       margin-top: 7em;
        flex-direction: column;
        justify-content: end;
        align-items: center;
    }
-   }
+}
 
+@media (mid-width:1024px){
+    .classpicture {
+        max-width: 90%;
+        height: auto;
+    }
+    
+     .picturediv {
+         justify-content: center;
+         width: 90%;
+         margin: 1em auto;
+     }
+}
  
