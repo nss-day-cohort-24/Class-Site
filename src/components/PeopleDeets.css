@@ -94,7 +94,7 @@ and (max-width: 768px) {
 .socialdiv {
     flex-direction: row;
     justify-content: center;
-    margin: 5% 5% 10% auto; 
+    margin: 5% auto; 
 }
 
 .icon {
