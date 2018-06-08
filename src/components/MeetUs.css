@@ -1,7 +1,7 @@
 .meetUs{
     background-color: #FFDFDC;
     margin: 0 auto;
-    padding: 2em 4.5em;
+    padding: 2em 0;
     width: 100%;
 }
 
@@ -71,7 +71,7 @@
   /* .spacerDiv{
     height:1px;
   } */
-
+ 
 
 
   /* @media only screen and (min-width: 768px) {
@@ -81,3 +81,9 @@
     }
 
   }  */
+
+  @media (min-width:1200px){
+    .meetUs{
+      padding: 2em 4.5em;
+    }
+  }
