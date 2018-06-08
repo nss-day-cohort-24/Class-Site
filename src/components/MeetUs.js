@@ -10,7 +10,7 @@ function MeetUs() {
         <div className="meetUs">
             {/* <img src={arrow} className="arrow" alt="arrow animation"/>
             <br /> */}
-            <h2>Nashville Software School Cohort 24</h2>
+            <h2 className="mb-4">Nashville Software School Cohort 24</h2>
             <MeetUsMap />
         </div>
         </div>
