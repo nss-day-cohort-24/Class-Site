@@ -1,43 +1,10 @@
-        @import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/* ////////// ***     BASE    *** ///////// */
+
 
 .black {
     color: #141414;
-}
-
-.peopleDiv{
-    height: 100vh;
-}
-
-/* PeepDeetz */
-
- .picturediv {
-    margin-right: -10%;
-}
-
-.classpicture {
-    height: 60vh;
-}
-
-#Meet {
-    background-color: #FFDFDC;    
-}
-
-.peopledeetzbackground {
-    height: 70vh;
-    margin-bottom: 2em;
-}
-
-
-.peopledeetzpage {
-    justify-content: center;
-}
-
-.socialdiv {
-    margin-left: -3%;
-    margin-top: 15em;
-    flex-direction: column;
-    justify-content: end;
-    align-items: center;
 }
 
 .icon {
@@ -46,110 +13,7 @@
     color: #EED0CD;
 }
 
-.aboutdiv {
-    background-color: #FFF1F0;    
-    margin-top: 4.5rem !important;
-    margin-left: -20%;
-    width: 25%;
-    border: 3px solid #FFBFBB;
-    min-width: 400px;
-}
-
-.class-h1 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 2rem;
-}
-
-.class-h3 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
-}
-
-.class-p {
-    font-family: 'Roboto', sans-serif;
-    font-size: .9rem;
-}
-
-/* phone */
-@media only screen and (max-width: 600px) {
- .peopledeetzpage {
-     flex-direction: column;
-     min-width: 100vw;
- }
- 
- .socialdiv {
-     flex-direction: row;
-     justify-content: center;
-     margin: 3%;
-     
- }
-
-.aboutdiv {
-    border-top: 3px solid #FFBFBB;
-    border-bottom: 3px solid #FFBFBB;    
-    width: 100%;
-    margin: 0;
-}
-
-.classpicture {
-    width: 75%;
-    height: 75%;
-}
-
- .picturediv {
-     margin: 0;
-     justify-content: center;
-     width: 100%;
-     margin-bottom: 0;
- }
-
- .icon {
-     transform: rotate(270deg);
- }
-    
-}
-/* ipad portrait */
- @media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : portrait) { 
-    
-.peopledeetzpage {
-     flex-direction: column;
-     justify-content: center;
- }
-
-.aboutdiv {
-    width: 100%;
-    margin-bottom: 0;
-}
-
-.classpicture {
-    width: 75%;
-    height: 75%;
-    margin: 0 auto 0 auto;
-}
-
- .picturediv {
-     margin: auto;
-     justify-content: center;
-     align-items: center;
-     width: 100%;
-    }
-
-.socialdiv {
-    flex-direction: row;
-    justify-content: center;
-    margin: 3%;
- }
-
- .icon {
-     transform: rotate(270deg);
- }
-    
- }
-
- #backButton {
+#backButton {
     padding: .5em 5em;
     font-family: 'Roboto';
     font-size: 22px;
@@ -172,3 +36,169 @@ and (orientation : portrait) {
  .blackButton a {
      color: white !important;
  } 
+
+.peopleDiv{
+    min-height: 100vh;
+    background-color: #FFF9F8;
+    max-width: 100%;
+}
+
+.class-h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+}
+
+.class-h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+}
+
+.class-p {
+    font-family: 'Roboto', sans-serif;
+    font-size: .9em;
+}
+
+
+/* phone */
+@media only screen 
+and (max-width: 768px) {
+
+ .peopledeetzpage {
+     flex-direction: column;
+ }
+
+ .peopleDiv{
+    height: auto;
+    max-width: 100%;
+    padding-bottom: 5em;
+}
+ .classpicture {
+    max-width: 60%;
+    height: auto;
+}
+
+ .picturediv {
+     justify-content: center;
+     width: 90%;
+     margin: 1em auto;
+ }
+
+.aboutdiv {
+    border-top: 3px solid #FFBFBB;
+    border-bottom: 3px solid #FFBFBB;    
+    max-width: 90%;
+    margin: 1em;
+    padding: 1em;
+}
+
+.socialdiv {
+    flex-direction: row;
+    justify-content: center;
+    margin: 5% auto; 
+}
+
+.icon {
+    transform: rotate(270deg);
+}
+    
+}
+
+
+/* IPAD */
+/* @media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    
+.peopledeetzpage {
+     flex-direction: column;
+     justify-content: center;
+ }
+
+.aboutdiv {
+    width: 100%;
+    margin: 1em;
+    padding: 0 4em;
+}
+
+.picturediv img {
+    max-width: 70%;
+    height: auto;
+    margin: 0 auto 0 auto;
+}
+
+ .picturediv {
+     margin: auto;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+    }
+
+.socialdiv {
+    flex-direction: row;
+    justify-content: center;
+    margin: 3%;
+ }
+
+ .icon {
+     transform: rotate(270deg);
+ }
+    
+ } */
+
+ /* ipad width */
+@media(min-width:769px){
+    .peopleDiv{
+        padding-top: 5em;
+        max-width: 100%;
+    }
+
+   .back{
+       padding-top: 3em;
+   }
+    .peopledeetzpage {
+        flex-direction: row;
+    }
+
+    .picturediv {
+       margin-right: -10%;
+       /* padding-left: 17%; */
+   }
+   
+   .classpicture {
+       max-width: 75%;
+       height: auto;
+   }
+ 
+   .aboutdiv {
+    background-color: #FFF1F0;    
+    margin-top: .5rem !important;
+    margin-left: 30px;
+    max-width: 25%;
+    border: 3px solid #FFBFBB;
+    min-width: 400px;
+    padding: 1.5em 3em;
+    }
+   
+   .socialdiv {
+       margin-left: -2%;
+       margin-top: 7em;
+       flex-direction: column;
+       justify-content: end;
+       align-items: center;
+   }
+}
+
+@media (mid-width:1024px){
+    .classpicture {
+        max-width: 90%;
+        height: auto;
+    }
+    
+     .picturediv {
+         justify-content: center;
+         width: 90%;
+         margin: 1em auto;
+     }
+}
+ 

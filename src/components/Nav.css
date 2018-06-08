@@ -66,7 +66,25 @@ nav li{
   }
   
   
-  /* stroke */
+
+
+@media(min-width:768px) {
+
+    .navbar-collapse, .collapse{
+        background-color: transparent;
+    }
+
+    .uniNav{
+        height: 100px;
+        padding: 1em 2em;
+    }
+
+    .c24Logo {
+        height: 4rem;
+        margin: 1em;
+    }
+
+      /* stroke */
   nav.stroke  li a,
   nav.fill li a {
     position: relative;
@@ -88,21 +106,5 @@ nav li{
   nav.stroke li a:hover:after {
     width: 100%;
   }
-
-@media(min-width:768px) {
-
-    .navbar-collapse, .collapse{
-        background-color: transparent;
-    }
-
-    .uniNav{
-        height: 100px;
-        padding: 1em 2em;
-    }
-
-    .c24Logo {
-        height: 4rem;
-        margin: 1em;
-    }
 
 }
