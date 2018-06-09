@@ -1,6 +1,6 @@
 import React from 'react';
 import './MeetUs.css';
-import MeetUsMap from './MeetUs_Map';
+import Gallery from './Gallery';
 
 
 
@@ -11,7 +11,7 @@ function MeetUs() {
             {/* <img src={arrow} className="arrow" alt="arrow animation"/>
             <br /> */}
             <h2 className="mb-4">Nashville Software School Cohort 24</h2>
-            <MeetUsMap />
+            <Gallery />
         </div>
         </div>
     )
