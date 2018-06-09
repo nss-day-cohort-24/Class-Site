@@ -1,6 +1,9 @@
 .tech {
     background-color: #FFBFBB;
-    /* padding: 6em auto; */
+    padding: 4em .5em 2em;
+}
+
+.tech h3{
     color: #FFF1F0;
 }
 
@@ -10,10 +13,29 @@
 
 .filter:hover{
     filter: none;
-    transition: .2s ease-in-out;
-    
+    transition: .2s ease-in-out; 
 }
 
 .filter > .head2 {
     color: #FFBFBB;
+}
+
+.techIcons{
+    width: 3em;
+    height: auto;
+    display: inline-block;
+    text-align: center;
+    margin: 1.5em 1em;
+}
+
+@media(min-width:768px){
+
+    .tech{
+        padding: 5em 8em 2em;
+    }
+
+    .techIcons{
+        width: 5em;
+        margin: 2em auto;
+    }
 }
