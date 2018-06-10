@@ -274,21 +274,26 @@ let classList = [
 ];
 
 
-
-
-
-
 let Gallery = () => {
     let gallery = classList.map((item, index) => 
         <div className="imgDiv" key={index} >
-            <Link to={{ pathname: `/Class-Site${item.link}`, state: { pic: item.pic, silly: item.silly, link: item.link, name: item.name, bio: item.bio, quote: item.quote, git: item.github_url, linkedIn: item.linkedin_url, email: item.email, site: item.site_url} }}><img className="img-thumbnail" alt="" src={item.pic}/></Link>
+            <Link to={{ pathname: `/Class-Site${item.link}`, 
+            state: { pic: item.pic, 
+            silly: item.silly, 
+            link: item.link, 
+            name: item.name, 
+            bio: item.bio, 
+            quote: item.quote, 
+            git: item.github_url, 
+            linkedIn: item.linkedin_url, 
+            email: item.email, 
+            site: item.site_url} }}>
+            <img className="img-thumbnail" alt={item.name} src={item.pic}/></Link>
         </div>
     )
         return(
-            <div id="gallery">
-                <div className="p-0 d-flex flex-wrap container justify-content-center align-items-center" >
-                    {gallery}
-                </div>
+            <div id="gallery" className="d-flex flex-wrap justify-content-center align-items-center">
+                {gallery}
             </div>
         )
 }

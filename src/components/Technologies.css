@@ -1,6 +1,11 @@
 .tech {
     background-color: #FFBFBB;
     padding: 4em .5em 2em;
+    width: 100%;
+}
+
+.tech h2{
+    overflow-wrap: break-word;
 }
 
 .tech h3{

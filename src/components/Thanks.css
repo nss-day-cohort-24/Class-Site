@@ -1,6 +1,7 @@
 .thanksDiv {
     background-image: linear-gradient(0deg, #252525, #000000);
     max-width: 100%;
+    margin-top: -1px;
 }
 
 .thanksDiv h2 {
@@ -15,9 +16,9 @@
     color: #FFBFBB;
     margin-top: 0px;
     font-family: 'Roboto', Helvetica, Arial, sans-serif;
-    font-size: 25px;
-    letter-spacing: .425em;
-    line-height: 160%;
+    font-size: 20px;
+    letter-spacing: .2em;
+    line-height: 120%;
 }
 
 .thanksDiv li {
@@ -26,7 +27,7 @@
     font-size: 18px;
     letter-spacing: .024em;
     display: inline-block;
-    margin: 0 1em;
+    margin: .5em 1em;
 }
 
 .staffDiv, .photoDiv {
@@ -41,10 +42,24 @@
 }
 
 .thanksDiv p {
-    font-size: 1em;
+    font-size: .75em;
     color: white;
     text-transform: uppercase;
-    letter-spacing: .425em;
+    letter-spacing: .25em;
     margin: 0;
-    padding-bottom: 3em;
+    padding: 0 1em 1em;
+}
+
+@media (min-width: 768px){
+    .thanksDiv h3 {
+        font-size: 25px;
+        letter-spacing: .425em;
+        line-height: 160%;
+    }
+
+    .thanksDiv p {
+        font-size: 1em;
+        letter-spacing: .425em;
+        padding-bottom: 3em;
+    }
 }

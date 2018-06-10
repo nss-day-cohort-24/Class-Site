@@ -13,8 +13,8 @@ class Work extends Component {
             <div id='Work' className="workjs">
                 <div className="pb-5">
                     <div className="col text-center">
-                        <h2 className="perfectPitch">PERFECT PITCH 2018</h2>
-                        <h3 className="head2 pb-4">NASHVILLE OPEN DATA GROUP PROJECTS</h3>
+                        <h2 className="perfectPitch">Our Work</h2>
+                        <h3 className="head2 pb-4">Perfect Pitch — NASHVILLE OPEN DATA GROUP PROJECTS</h3>
                     </div>
                     <div className="row justify-content-center pb-5">
                         <div className="col-4-sm mt-5 filter">

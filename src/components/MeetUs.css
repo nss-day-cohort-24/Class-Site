@@ -44,8 +44,8 @@
   }
   
 
-  @media (min-width:1200px){
+  @media (min-width:1024px){
     .meetUs{
-      padding: 2em 4.5em;
+      padding: 5em 2em;
     }
   }
