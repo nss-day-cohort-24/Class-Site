@@ -15,7 +15,7 @@ function HomeBody() {
         <div className="homeBody">
             <div className ="Section-landing">
                 <img src={Unicorn} alt="A Silhouette of An Awesome Unicorn" className="unicorn"/>
-                <h2>design + development <wbr/>=&nbsp;unicorn</h2>
+                <h2>design + development =&nbsp;unicorn</h2>
                 <p className="small-caps-p">nashville software school cohort <span className="amp-p">24</span>
                 </p>
 

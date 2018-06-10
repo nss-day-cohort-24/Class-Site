@@ -24,13 +24,15 @@ const Thanks = () => {
                     <ul>
                         <li>Inge Kathleen Photography</li>
                     </ul>
-                    </div>
+                </div>
                 
-                <h3 className="mt-5">Site Developed and Designed by Unicorns</h3>
-                <p>&copy; 2018 Cohort 24 — Nashville Software School</p>
+                <div>
+                    <h3 className="mt-5">Site Developed and Designed by Unicorns</h3>
+                    <p>&copy; 2018 Cohort 24 — Nashville Software School</p>
+                </div>
                 </div>
                 <div className="d-block">
-                <img className="nssLogo" src={logo} alt="NSS logo"></img>
+                    <img className="nssLogo" src={logo} alt="NSS logo"></img>
                 </div>
         </div>
     )

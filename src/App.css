@@ -88,11 +88,13 @@ h3 {
     font-size: 25px;
     letter-spacing: .25em;
     text-transform: uppercase;
-    margin: 3em 0 1em 0;
+    margin: 1em 0 .5em;
 }
 
 .row{
     max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
 .light-text{

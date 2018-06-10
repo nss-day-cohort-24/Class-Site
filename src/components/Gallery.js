@@ -147,7 +147,7 @@ let classList = [
         github_url: "github.com/lapinell",
         linkedin_url: "www.linkedin.com/in/laurapinell",
         email: "lapinell@gmail.com",
-        site_url: "www.laurapinell.com",
+        site_url: "http://laurapinell.com",
         bio: "Cohort 24 UX/UI Dev and Design",
         quote: "Git add, commit, and repeat."
     },
@@ -188,7 +188,7 @@ let classList = [
         quote: "It's gonna be a bloodbath"
     },
     {
-        name: "Meg School",
+        name: "Meg Scholl",
         pic: meg,
         silly: sillymeg,
         link: "/meg",
@@ -207,9 +207,9 @@ let classList = [
         github_url: "https://github.com/melissawheatley",
         linkedin_url: "https://www.linkedin.com/in/melissawheatley/",
         email: "melissa.c.wheatley@gmail.com",
-        site_url: "melissawheatley.com",
+        site_url: "http://melissawheatley.com",
         bio: "It's a tale as old as time (in Nashville at least) — I'm an audio engineer turned digital marketer turned User Experience Developer. I love to tinker and find new ways to solve problems. Analytics and iterative design make me happy. Papyrus as a brand font makes me sad.",
-        quote: "merh. I don't think this will be that hard"
+        quote: "Merh...I don't think this will be that hard."
     },
     {
         name: "Million Asseghegn",
@@ -221,7 +221,7 @@ let classList = [
         email: "milly7989@gmail.com",
         site_url: "",
         bio: "Cohort 24 UX/UI Dev and Design",
-        quote: "I am MilIion, But can't defined by million codes."
+        quote: "I am Million, but I can't defined by a million codes."
     },
     {
         name: "Phonethip Hobson",
@@ -274,21 +274,26 @@ let classList = [
 ];
 
 
-
-
-
-
 let Gallery = () => {
     let gallery = classList.map((item, index) => 
         <div className="imgDiv" key={index} >
-            <Link to={{ pathname: `/Class-Site${item.link}`, state: { pic: item.pic, silly: item.silly, link: item.link, name: item.name, bio: item.bio, quote: item.quote, git: item.github_url, linkedIn: item.linkedin_url, email: item.email, site: item.site_url} }}><img className="img-thumbnail" alt="" src={item.pic}/></Link>
+            <Link to={{ pathname: `/Class-Site${item.link}`, 
+            state: { pic: item.pic, 
+            silly: item.silly, 
+            link: item.link, 
+            name: item.name, 
+            bio: item.bio, 
+            quote: item.quote, 
+            git: item.github_url, 
+            linkedIn: item.linkedin_url, 
+            email: item.email, 
+            site: item.site_url} }}>
+            <img className="img-thumbnail" alt={item.name} src={item.pic}/></Link>
         </div>
     )
         return(
-            <div id="gallery">
-                <div className="p-0 d-flex flex-wrap container justify-content-center align-items-center" >
-                    {gallery}
-                </div>
+            <div id="gallery" className="d-flex flex-wrap justify-content-center align-items-center">
+                {gallery}
             </div>
         )
 }

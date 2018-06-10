@@ -38,52 +38,14 @@
     opacity: 1;
   }
 
-/* .arrow {
-    margin-bottom: 2rem;
-    padding-bottom: 3rem;
-    padding-left: .5rem;
-    margin: 3rem;
-    width: 8%;
-    position: relative;
-    -webkit-animation-name: down;  /* Safari 4.0 - 8.0 
-    -webkit-animation-duration: 3s;  /* Safari 4.0 - 8.0 
-    -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 
-    -webkit-animation-fill-mode: backwards; /* Safari 4.0 - 8.0
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-name: down;
-    animation-duration: 2s;
-    animation-delay: 3s;
-    animation-fill-mode: backwards;
-  } */
-
-  /* Safari 4.0 - 8.0 */
-/* @-webkit-keyframes down {
-    to {top: 0px;}
-    from {top: 50px;}
+  #detailsPage {
+    display: flex;
+    align-items: center;
   }
+  
 
-  @keyframes down {
-    from {top: 0px;}
-    to {top: 50px;}
-  }
-   */
-  /* .spacerDiv{
-    height:1px;
-  } */
- 
-
-
-  /* @media only screen and (min-width: 768px) {
-        
-    .meetUs {
-      padding-bottom: 0em; 
-    }
-
-  }  */
-
-  @media (min-width:1200px){
+  @media (min-width:1024px){
     .meetUs{
-      padding: 2em 4.5em;
+      padding: 5em 2em;
     }
   }

@@ -1,6 +1,6 @@
 .process {
     background-color: #FFF9F8;
-    padding: 5rem 0;
+    padding: 5rem 0 2rem;
 }
 
 .processRow:not(last-child){
@@ -111,8 +111,7 @@ li {
 }
 
 #careerPursuitParagraph {
-    margin-top: 5rem;
-    margin-bottom: 0;
+    margin: 3rem 1rem;
     font-family: 'Roboto', Helvetica, Arial, sans-serif;
     font-weight: 400;
     font-size: 20px;

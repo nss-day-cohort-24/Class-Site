@@ -73,7 +73,7 @@ and (max-width: 768px) {
     padding-bottom: 5em;
 }
  .classpicture {
-    max-width: 60%;
+    max-width: 80%;
     height: auto;
 }
 
@@ -87,64 +87,27 @@ and (max-width: 768px) {
     border-top: 3px solid #FFBFBB;
     border-bottom: 3px solid #FFBFBB;    
     max-width: 90%;
-    margin: 1em;
+    margin: 1em 1em 3em;
     padding: 1em;
 }
 
 .socialdiv {
     flex-direction: row;
     justify-content: center;
-    margin: 5% auto; 
+    margin: 1% auto; 
 }
 
 .icon {
     transform: rotate(270deg);
-}
-    
-}
+} 
 
-
-/* IPAD */
-/* @media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (-webkit-min-device-pixel-ratio: 1) {
-    
-.peopledeetzpage {
-     flex-direction: column;
-     justify-content: center;
- }
-
-.aboutdiv {
-    width: 100%;
-    margin: 1em;
-    padding: 0 4em;
+@media all and (max-width: 1023px) {
+    .picturediv { order: 1; } 
+    .socialdiv { order: 2; }
+    .aboutdiv { order: 3; }
+  }
 }
 
-.picturediv img {
-    max-width: 70%;
-    height: auto;
-    margin: 0 auto 0 auto;
-}
-
- .picturediv {
-     margin: auto;
-     justify-content: center;
-     align-items: center;
-     width: 100%;
-    }
-
-.socialdiv {
-    flex-direction: row;
-    justify-content: center;
-    margin: 3%;
- }
-
- .icon {
-     transform: rotate(270deg);
- }
-    
- } */
 
  /* ipad width */
 @media(min-width:769px){
@@ -162,7 +125,6 @@ and (max-width: 768px) {
 
     .picturediv {
        margin-right: -10%;
-       /* padding-left: 17%; */
    }
    
    .classpicture {
