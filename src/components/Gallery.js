@@ -173,7 +173,7 @@ let classList = [
         email: "marcdl636@gmail.com",
         site_url: "https://marcdledda.github.io/portfolio/",
         bio: "I have always been curious on how technology worked, so it was not a surprised when I transitioned my focus from becoming a nurse to becoming a developer and designer. Following my curiosity, I enrolled at Nashville Software School, where I fell in love with development and design.",
-        quote: "¯\_(ツ)_/¯"
+        quote: "¯\\_(ツ)_/¯"
     },
     {
         name: "Mike Kluge",
