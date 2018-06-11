@@ -8,22 +8,26 @@ import personalsite from './social/address-card.png';
 import { Link } from 'react-router-dom'
 
 class PeopleDeetz extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            imgSrc: this.props.location.state.pic
-        };
-        this.funny = this.funny.bind(this);
-        this.stopfunny = this.stopfunny.bind(this);
+    
+    state = {
+        imgSrc: this.props.location.state.pic
+    };
+
+    componentWillMount = () => {
+        this.scrollToTop();
     }
 
-    funny() {
+    scrollToTop = () => {
+        window.scrollTo(0, 0);
+      }
+
+    funny = () => {
         this.setState({
             imgSrc: this.props.location.state.silly
         });
     }
 
-    stopfunny() {
+    stopfunny = () => {
         this.setState({
             imgSrc: this.props.location.state.pic
         });
