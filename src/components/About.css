@@ -18,12 +18,36 @@
     padding: 2em 1.5em;
 }
 
-
-.buttonMeet {
+.button {
+    padding: .5em;
+    font-family: 'Roboto';
+    font-size: 22px;
+    font-weight: 400;
+    border: 5px solid #141414;
     background-color: #141414;
-    color: #FFDFDC;
-    border: none;
-}
+    color: white;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ .button:hover {
+    text-decoration: none;
+    transition: .3s ease-in-out;
+    background-color: transparent;
+    border: 5px solid #141414;
+    color:  #141414;
+ }
+
+ .button a {
+     color: white !important;
+ } 
+
+ .button a:hover, a:active{
+     color: #141414 !important;
+ }
+
 .spacerDiv{
     height:1rem;
 }
