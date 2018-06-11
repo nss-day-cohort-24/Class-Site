@@ -253,9 +253,9 @@ let classList = [
         silly: sillysam,
         link: "/sam",
         github_url: "https://github.com/sjkimball",
-        linkedin_url: "www.linkedin.com/in/sjkimball",
+        linkedin_url: "https://www.linkedin.com/in/sjkimball",
         email: "s.j.kimball@icloud.com",
-        site_url: "sjkimball.github.io",
+        site_url: "http://sjkimball.github.io",
         bio: "I’ve lived in 9 different states. I’ve studied art, design, audio engineering, mechanical/electrical engineering, and web development. I’ve been a ditch digger, cook, bartender, tech educator, and tech support. I am a rolling stone.",
         quote: "Buy the ticket, take the ride."
     },
