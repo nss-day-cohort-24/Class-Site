@@ -51,7 +51,7 @@ class PeopleDeetz extends Component {
                     <div className="socialdiv col-12 col-md-1 d-flex">
                         <a href={data.linkedIn} target="_blank" ><img src={linkedin} alt="" className="icon m-2" /></a>
                         <a href={data.git} target="_blank" ><img src={github} alt="" className="icon m-2" /></a>
-                        <a href={`mailTo:${data.email}`} target="_blank" ><img src={email} alt="icon" className="icon m-2" /></a>
+                        <a href={`mailTo:${data.email}`} ><img src={email} alt="icon" className="icon m-2" /></a>
                         <a href={data.site} target="_blank" ><img src={personalsite} alt="icon" className="icon m-2" /></a>
                     </div>
                 </div>
