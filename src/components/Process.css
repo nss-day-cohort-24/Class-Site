@@ -132,11 +132,9 @@ li {
   
 /**//**//**//**//**//**//**//**//**/
 /* RESPONSIVE FOR 415 PX DEVICES */
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 540px) {
     .process {
         background-color: #FFF9F8;
-        /* padding: 5rem 14rem; */
-        /* width: 100%; */
     }
     
     .processRow:not(last-child){
@@ -150,7 +148,7 @@ li {
     .process h2 {
         margin-bottom: 1rem;
         font-weight: 400;
-        font-size: 16px;
+        font-size: 2em;
         letter-spacing: .425em;
         text-align: left !important;
         padding-left: 1rem;
@@ -159,14 +157,14 @@ li {
     .process h3 {
         margin-bottom: .5em;
         margin-right: 1rem;
-        text-align: right;
+        text-align: left;
         color: #DD847F;
         font-family: 'Roboto', Helvetica, Arial, sans-serif;
-        font-size: 12px;
+        font-size: 25px;
     }
     
     .secondHeading{
-        font-size: 10px;
+        font-size: 18px !important;
         border-bottom: 1px solid #141414;
         color: #141414 !important;
         display: inline-block;
@@ -174,6 +172,7 @@ li {
     }
     
     .workTypeHeading{
+        font-size: 20px !important;
         color: #141414 !important;
         text-align: center !important;
         display: inline-block !important;
@@ -240,19 +239,19 @@ li {
     .process p {
         font-family: 'Roboto', Helvetica, Arial, sans-serif;
         /* font-weight: 400; */
-        font-size: 10px;
+        font-size: 1rem;
         letter-spacing: .024em;
-        line-height: 2em;
+        line-height: 1.6em;
         padding: 0;
     }
     
     
     #careerPursuitParagraph {
-        margin-top: 5rem;
+        margin-top: 4em;
         margin-bottom: 0;
         font-family: 'Roboto', Helvetica, Arial, sans-serif;
         font-weight: 400;
-        font-size: 12px;
+        font-size: 14px;
         letter-spacing: .25em;
         color: #DD847F;
     }
@@ -262,7 +261,6 @@ li {
     }
 
     .row {
-        display: block;
         padding-left: 1rem;
     }
 

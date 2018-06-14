@@ -43,7 +43,7 @@ nav li{
     letter-spacing: .5em;
 }
 
-.navList li a {
+nav li a {
     color: #FFBFBB;
     text-decoration: none;
     padding: 1em 8px;
