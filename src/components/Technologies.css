@@ -30,7 +30,7 @@
     height: auto;
     display: inline-block;
     text-align: center;
-    margin: 1.5em 1em;
+    margin: 1.5em .75em;
 }
 
 @media(min-width:768px){
@@ -41,6 +41,6 @@
 
     .techIcons{
         width: 5em;
-        margin: 2em auto;
+        margin: 2em .5em;
     }
 }
