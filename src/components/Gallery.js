@@ -193,10 +193,10 @@ let classList = [
         silly: sillymeg,
         link: "/meg",
         github_url: "https://github.com/megscholl",
-        linkedin_url: "https://www.linkedin.com/in/megscholl",
+        linkedin_url: "https://www.linkedin.com/in/meg-scholl",
         email: "meghan.e.scholl@gmail.com",
         site_url: "http://megscholl.com",
-        bio: "I grew up learning about computers and only recently did I realize how important and exciting technology is to me and the world around me. My grandfather told me, 'having an eye for design and an interest in development is rare and highly sought after.' I believe my background in hospitality, event management, and always learning, 'm excited to pursue my passion for UX design and web development.",
+        bio: "I grew up learning about computers and only recently did I realize how important and exciting technology is to me and the world around me. My grandfather told me, 'having an eye for design and an interest in development is rare and highly sought after.' I'm excited to pursue my passion for UX design and web development.",
         quote: "yahfurshure"
     },
     {
