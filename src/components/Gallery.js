@@ -12,7 +12,7 @@ import kelsey from '../class-pics/kelsey.jpg';
 import laura from '../class-pics/laura.jpg';
 import lindsay from '../class-pics/lindsay.jpg';
 import marc from '../class-pics/mark.jpg';
-import mike from '../class-pics/mike.jpg';
+import mike from '../class-pics/mikenormal.jpg';
 import meg from '../class-pics/meg.jpg';
 import melissa from '../class-pics/melissa.jpg';
 import million from '../class-pics/million.jpg';
@@ -50,7 +50,7 @@ let classList = [
         github_url: "https://github.com/amberjsharpe",
         linkedin_url: "https://www.linkedin.com/in/amber-sharpe/",
         email: "amberjsharpe@gmail.com",
-        site_url: "",
+        site_url: "http://www.amberjsharpe.com",
         bio: "I'm a Designer and Developer with a curious mind and a passion for create meaningful user experiences. I love waking up knowing that my day will be filled with problem - solving, learning, and interacting with people. And as an added bonus, I make excellent coffee.",
         quote: "It's all happening"
 
@@ -180,10 +180,10 @@ let classList = [
         pic: mike,
         silly: sillymike,
         link: "/mike",
-        github_url: "",
-        linkedin_url: "",
-        email: "",
-        site_url: "",
+        github_url: "https://github.com/MKAVARTS",
+        linkedin_url: "https://www.linkedin.com/in/mike-kluge/",
+        email: "mkavarts@gmail.com",
+        site_url: "https://mkavarts.github.io/portfolio/",
         bio: "Cohort 24 UX/UI Dev and Design",
         quote: "It's gonna be a bloodbath"
     },
