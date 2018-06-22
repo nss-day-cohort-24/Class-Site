@@ -214,14 +214,14 @@ let classList = [
     {
         name: "Million Asseghegn",
         pic: million,
-        silly: sillymillion,
+        silly: million,
         link: "/million",
         github_url: "https://github.com/MillionInfinity",
         linkedin_url: "https://www.linkedin.com/in/millionasseghegn/",
         email: "milly7989@gmail.com",
-        site_url: "",
+        site_url: "https://millioninfinity.github.io/Personal-Site/",
         bio: "Cohort 24 UX/UI Dev and Design",
-        quote: "I am Million, but I can't defined by a million codes."
+        quote: "I am Million, But I can not be defined by a 1,000,000 lines of JavaScript code."
     },
     {
         name: "Phonethip Hobson",
