@@ -37,7 +37,7 @@
     transition: .3s ease-in-out;
     background-color: transparent;
     border: 5px solid #141414;
-    color:  #141414;
+    color:  #141414 !important;
  }
 
  .button a {
